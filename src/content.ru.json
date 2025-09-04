@@ -1,0 +1,1479 @@
+{
+  "links": {
+    "logo": {
+      "src": "/images/logo/puzzle.png",
+      "alt": "Лого",
+      "link": "/",
+      "text": "Компания"
+    },
+    "phone": {
+      "text": "+7 (999) 123-4567",
+      "url": "tel:+79991234567"
+    },
+    "email": {
+      "text": "info@webapphorizon.com",
+      "url": "mailto:info@webapphorizon.com"
+    },
+    "address": {
+      "text": "123317, Москва, Пресненская наб., 12, ММДЦ «Москва-Сити»",
+      "mapUrl": "https://maps.google.com/?q=Пресненская+набережная+12+Москва"
+    },
+    "socials": {
+      "twitterUrl": "https://twitter.com/webapphorizon",
+      "facebookUrl": "https://www.facebook.com/webapphorizon",
+      "vkUrl": "https://vk.com/webapphorizon",
+      "yandexMapsUrl": "https://yandex.ru/maps/?ll=37.618423%2C55.755826&z=17",
+      "googleMapsUrl": "https://maps.google.com/?q=Пресненская+набережная+12+Москва",
+      "instagramUrl": "https://www.instagram.com/webapphorizon",
+      "linkedinUrl": "https://www.linkedin.com/company/webapphorizon",
+      "telegramUrl": "https://t.me/webapphorizon",
+      "whatsappUrl": "https://wa.me/webapphorizon",
+      "youtubeUrl": "https://www.youtube.com/webapphorizon",
+      "tiktokUrl": "https://www.tiktok.com/webapphorizon",
+      "pinterestUrl": "https://www.pinterest.com/webapphorizon",
+      "snapchatUrl": "https://www.snapchat.com/webapphorizon",
+      "vimeoUrl": "https://www.vimeo.com/webapphorizon",
+      "soundcloudUrl": "https://www.soundcloud.com/webapphorizon",
+      "spotifyUrl": "https://www.spotify.com/webapphorizon",
+      "appleMusicUrl": "https://www.applemusic.com/webapphorizon",
+      "amazonMusicUrl": "https://www.amazonmusic.com/webapphorizon",
+      "deezerUrl": "https://www.deezer.com/webapphorizon",
+      "bandcampUrl": "https://www.bandcamp.com/webapphorizon",
+      "mixcloudUrl": "https://www.mixcloud.com/webapphorizon",
+      "soundcloudUrl": "https://www.soundcloud.com/webapphorizon",
+      "spotifyUrl": "https://www.spotify.com/webapphorizon",
+      "appleMusicUrl": "https://www.applemusic.com/webapphorizon",
+      "amazonMusicUrl": "https://www.amazonmusic.com/webapphorizon",
+      "deezerUrl": "https://www.deezer.com/webapphorizon"
+    }
+  },
+  "header": {
+    "navigation": [
+      { "text": "Главная", "url": "/" },
+      { "text": "О нас", "url": "#about" },
+      { "text": "Услуги", "url": "#services" },
+      { "text": "Отзывы", "url": "#testimonials" },
+      { "text": "FAQ", "url": "#faq" },
+      { "text": "Контакты", "url": "#contacts" }
+    ],
+    "cta": { "text": "Скачать", "url": "/#contacts" }
+  },
+  "hero": {
+    "title": "Инновационные решения для вашего бизнеса",
+    "description": "Мы предоставляем комплексные бизнес-решения, которые помогают компаниям развиваться и достигать новых высот. Наш опыт и профессионализм - ваше конкурентное преимущество в современном мире.",
+    "cta": { "text": "Скачать", "url": "/#contacts" },
+    "secondaryCta": { "text": "Больше опций для скачивания", "url": "/#about" },
+    "testimonialText": "Более 40,000+ владельцев бизнеса уже изменили подход к привлечению клиентов вместе с нами...",
+    "image": {
+      "src": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDnR96DrTv7mOfTZSWq1sNtGuAReiVwzLynP2c",
+      "alt": "Главная"
+    },
+    "gradientBadge": "Революционный подход",
+    "gradientTitle": "FPTN Project",
+    "gradientDescription": "FPTN — это некоммерческий VPN, волонтерский проект для обхода цензуры. VPN-клиент — мобильное приложение или миниатюрная программа для компьютера, интерфейс которой размещается в трее. Здесь нет процесса регистрации! Мы пришлем токен доступа через бота в Telegram",
+    "gradientImage": {
+      "src": "/fptn.webp",
+      "alt": "Инновационные бизнес-решения"
+    },
+    "tabsBadge": "Новинка 2025",
+    "tabsTitle": "Откройте новые возможности",
+    "tabsDescription": "Исследуйте наши передовые решения для каждого аспекта вашего бизнеса. От автоматизации рутинных задач до глубокой аналитики - мы предлагаем полный спектр инструментов для вашего роста.",
+    "tabs": [
+      {
+        "id": "feature1",
+        "title": "Аналитика",
+        "description": "Получите глубокие инсайты о вашем бизнесе с помощью наших аналитических инструментов.",
+        "image": {
+          "src": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDeYb7A08uRAkV4gQjlmxr5EiSUzeqF8BdbMYv",
+          "alt": "Аналитика"
+        }
+      },
+      {
+        "id": "feature2",
+        "title": "Автоматизация",
+        "description": "Автоматизируйте рутинные процессы и освободите время для стратегических задач.",
+        "image": {
+          "src": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDan7xkAOFka019tyi7IlvN6rSVo3xfwmADE2T",
+          "alt": "Автоматизация"
+        }
+      },
+      {
+        "id": "feature3",
+        "title": "Интеграция",
+        "description": "Объедините все ваши системы и инструменты в единую экосистему.",
+        "image": {
+          "src": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD7zEPZCbE9LQ0VMs5dBNACDFGycK7Sv3YnJPw",
+          "alt": "Интеграция"
+        }
+      }
+    ],
+    "splitBadge": "Эффективность & Скорость",
+    "splitTitle": "Трансформируйте бизнес-процессы с нашими решениями",
+    "splitDescription": "Наш подход сочетает инновации, опыт и глубокое понимание потребностей современного бизнеса. Мы помогаем компаниям адаптироваться к быстро меняющемуся миру.",
+    "splitImage": {
+      "src": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDsl9CD8S1k3RZh9JcKn0xtINSGOEvpT4yiLAe",
+      "alt": "Бизнес-трансформация"
+    },
+    "features": [
+      "Высокая производительность",
+      "Безопасность данных",
+      "Облачные решения",
+      "Интеграция с CRM"
+    ],
+    "cardBasedBadge": "Пакетные решения",
+    "cardBasedTitle": "Выберите идеальное решение для вашего бизнеса",
+    "cardBasedDescription": "Мы предлагаем различные пакеты услуг, разработанные с учетом потребностей компаний разного масштаба. Каждое решение можно адаптировать под ваши уникальные задачи.",
+    "cards": [
+      {
+        "icon": "ArrowRight",
+        "title": "Стартап",
+        "description": "Идеальное решение для молодых компаний, которые только начинают свой путь и нуждаются в базовой автоматизации.",
+        "linkText": "Узнать больше",
+        "linkUrl": "/#services"
+      },
+      {
+        "icon": "Heart",
+        "title": "Бизнес",
+        "description": "Комплексный подход для растущих компаний, включающий аналитику, автоматизацию и интеграцию систем.",
+        "linkText": "Узнать больше",
+        "linkUrl": "/#services"
+      },
+      {
+        "icon": "CheckCircle",
+        "title": "Корпорация",
+        "description": "Полномасштабные решения для крупных предприятий с индивидуальной настройкой и поддержкой 24/7.",
+        "linkText": "Узнать больше",
+        "linkUrl": "/#services"
+      }
+    ],
+    "collageTitle": "Визуализируйте ваш успех",
+    "collageDescription": "Создайте привлекательное визуальное представление вашего бренда с помощью наших инструментов для дизайна и маркетинга. Мы поможем вам выделиться среди конкурентов.",
+    "collageImages": [
+      {
+        "src": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDLFxA3eUSV4FvuNmqdszpjxc8ETB9KUJg1kPH",
+        "alt": "Современный офис"
+      },
+      {
+        "src": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDsWtyYYS1k3RZh9JcKn0xtINSGOEvpT4yiLAe",
+        "alt": "Конференция"
+      },
+      {
+        "src": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDbrUMHtvFxOzW5JtZAUwc2qu3pMKT0GSlrPgR",
+        "alt": "Команда"
+      },
+      {
+        "src": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDKiePuoBc3G74oQiAy2daJsZFMDpft5gSYmjx",
+        "alt": "Презентация"
+      }
+    ],
+    "galleryTitle": "Наши проекты",
+    "galleryDescription": "Исследуйте портфолио наших успешных кейсов и проектов, реализованных для клиентов из различных отраслей. Каждый проект - это уникальное решение конкретных бизнес-задач.",
+    "galleryImages": [
+      {
+        "src": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDLFxA3eUSV4FvuNmqdszpjxc8ETB9KUJg1kPH",
+        "alt": "Проект 1"
+      },
+      {
+        "src": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDsWtyYYS1k3RZh9JcKn0xtINSGOEvpT4yiLAe",
+        "alt": "Проект 2"
+      },
+      {
+        "src": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDbrUMHtvFxOzW5JtZAUwc2qu3pMKT0GSlrPgR",
+        "alt": "Проект 3"
+      },
+      {
+        "src": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDKiePuoBc3G74oQiAy2daJsZFMDpft5gSYmjx",
+        "alt": "Проект 4"
+      },
+      {
+        "src": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD4F09NookHCEIM3kgoVcGYLdTRQDJNjh6pWi1",
+        "alt": "Проект 5"
+      },
+      {
+        "src": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDHWI1T0el4q5fpS9Z3G2xYOFJUaWyAQjuMwnT",
+        "alt": "Проект 6"
+      }
+    ],
+    "reviewsTitle": "Нам доверяют клиенты",
+    "reviewsDescription": "Узнайте, что говорят о нас клиенты, которые уже воспользовались нашими услугами и улучшили свой бизнес с помощью наших решений.",
+    "reviewsTrust": "Более 100 довольных клиентов уже оценили наши услуги и рекомендуют нас партнерам.",
+    "reviews": [
+      {
+        "id": "1",
+        "author": "Анна Иванова",
+        "platform": "Google Reviews",
+        "rating": 5.0,
+        "text": "Одна из лучших компаний, с которыми мы сотрудничали. Профессиональный подход к решению задач и внимание к деталям."
+      },
+      {
+        "id": "2",
+        "author": "Михаил Петров",
+        "platform": "Trustpilot",
+        "rating": 4.8,
+        "text": "Отличный сервис и поддержка. Решили все наши проблемы в кратчайшие сроки. Определенно рекомендую!"
+      },
+      {
+        "id": "3",
+        "author": "Елена Смирнова",
+        "platform": "Facebook",
+        "rating": 4.7,
+        "text": "Качественная работа, выполненная в срок. Команда всегда на связи и готова помочь с любыми вопросами."
+      },
+      {
+        "id": "4",
+        "author": "Дмитрий Козлов",
+        "platform": "Yandex",
+        "rating": 5.0,
+        "text": "Превосходный результат, который превзошел все наши ожидания. Будем продолжать сотрудничество."
+      }
+    ],
+    "avatars": {
+      "length": 7,
+      "images": [
+        "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDPM9HItJAkL4ENs8Kbu2DpHmxRAvq6jl1tTMF",
+        "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDBfGsbrm7iFdU4tY5EAnrxbD8cgPzhRQoHL0S",
+        "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD7dAxQ6bE9LQ0VMs5dBNACDFGycK7Sv3YnJPw",
+        "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDPBTUMpAkL4ENs8Kbu2DpHmxRAvq6jl1tTMFC",
+        "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDKgIRbaBc3G74oQiAy2daJsZFMDpft5gSYmjx",
+        "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD53KpnOL0jtKAdR4scw9mL75HN6YXyoUO8JbF",
+        "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD5ibtJUL0jtKAdR4scw9mL75HN6YXyoUO8JbF"
+      ],
+      "fallbacks": ["АИ", "МС", "ЕП", "ДК", "ОЛ", "ВН", "РМ"],
+      "alts": [
+        "Анна Иванова",
+        "Михаил Смирнов",
+        "Елена Петрова",
+        "Дмитрий Козлов",
+        "Ольга Лебедева",
+        "Виктор Николаев",
+        "Роман Морозов"
+      ]
+    },
+    "platforms": [
+      {
+        "rating": 4.9,
+        "link": "/#contacts",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD5agJdNbL0jtKAdR4scw9mL75HN6YXyoUO8Jb",
+        "title": "Facebook",
+        "linkText": "Смотреть все отзывы"
+      },
+      {
+        "rating": 4.8,
+        "link": "/#contacts",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD9g48c9hQ8blvnW4XY2ugMLfZ05UxcEJsPme7",
+        "title": "Google",
+        "linkText": "Смотреть все отзывы"
+      },
+      {
+        "rating": 4.7,
+        "link": "/#contacts",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDTebFvqktvWdkOg1qNn3L4op5zuZKVH7s06QX",
+        "title": "Yandex",
+        "linkText": "Смотреть все отзывы"
+      },
+      {
+        "rating": 4.9,
+        "link": "/#contacts",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDB9G7265m7iFdU4tY5EAnrxbD8cgPzhRQoHL0",
+        "title": "VK",
+        "linkText": "Смотреть все отзывы"
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Почему выбирают нас",
+    "description": "Мы предоставляем исключительные результаты благодаря нашим комплексным бизнес-решениям.",
+    "cards": [
+      {
+        "title": "Быстрое внедрение",
+        "description": "Оперативное развертывание решений с минимальными помехами для работы вашего бизнеса.",
+        "icon": "Zap",
+        "iconColor": "blue-400"
+      },
+      {
+        "title": "Аналитика данных",
+        "description": "Преобразование данных в действенные инсайты с помощью наших мощных аналитических инструментов.",
+        "icon": "BarChart",
+        "iconColor": "orange-400"
+      },
+      {
+        "title": "Поддержка 24/7",
+        "description": "Наша команда поддержки доступна круглосуточно, чтобы помочь вам с любыми вопросами.",
+        "icon": "HeadphonesIcon",
+        "iconColor": "rose-400"
+      },
+      {
+        "title": "Безопасность",
+        "description": "Передовые меры безопасности для защиты ваших данных и конфиденциальности.",
+        "icon": "Shield",
+        "iconColor": "green-400"
+      }
+    ]
+  },
+  "about": {
+    "title": "О нашей компании",
+    "description": [
+      "Мы - команда профессионалов, стремящихся к инновациям и совершенству в каждом проекте. Наш опыт и знания позволяют нам предоставлять решения, которые действительно работают.",
+      "С момента основания мы помогли сотням компаний трансформировать их бизнес и достичь впечатляющих результатов. Наш подход основан на глубоком понимании потребностей клиентов и современных технологических трендов."
+    ],
+    "image": {
+      "src": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDsl9CD8S1k3RZh9JcKn0xtINSGOEvpT4yiLAe",
+      "alt": "О нас"
+    },
+    "statistics": [
+      { "title": "100+", "description": "Довольных клиентов" },
+      { "title": "98%", "description": "Удовлетворенность" },
+      { "title": "12+", "description": "Лет опыта" },
+      { "title": "50+", "description": "Специалистов" }
+    ],
+    "quiz": {
+      "title": "Пройдите тест и узнайте, какие услуги вам подходят",
+      "description": "Ответьте на несколько вопросов, чтобы мы могли порекомендовать оптимальное решение для вашего бизнеса",
+      "startButtonText": "Начать тест",
+      "nextButtonText": "Далее",
+      "prevButtonText": "Назад",
+      "resultButtonText": "Получить результат",
+      "resetButtonText": "Пройти еще раз",
+      "questions": [
+        {
+          "id": "business_size",
+          "text": "Какой размер вашего бизнеса?",
+          "options": [
+            { "id": "small", "text": "Малый бизнес (до 50 сотрудников)" },
+            { "id": "medium", "text": "Средний бизнес (50-250 сотрудников)" },
+            { "id": "large", "text": "Крупный бизнес (более 250 сотрудников)" }
+          ]
+        },
+        {
+          "id": "main_goal",
+          "text": "Какая основная цель на данный момент?",
+          "options": [
+            { "id": "growth", "text": "Развитие и масштабирование бизнеса" },
+            {
+              "id": "optimization",
+              "text": "Оптимизация процессов и сокращение расходов"
+            },
+            { "id": "digital", "text": "Цифровая трансформация" },
+            { "id": "marketing", "text": "Увеличение клиентской базы" }
+          ]
+        },
+        {
+          "id": "budget",
+          "text": "Какой у вас бюджет на развитие?",
+          "options": [
+            { "id": "small", "text": "До 500 тыс. руб." },
+            { "id": "medium", "text": "500 тыс. - 2 млн. руб." },
+            { "id": "large", "text": "Более 2 млн. руб." }
+          ]
+        },
+        {
+          "id": "timeline",
+          "text": "Какие у вас сроки на реализацию проекта?",
+          "options": [
+            { "id": "urgent", "text": "Срочно (до 1 месяца)" },
+            { "id": "normal", "text": "Средний приоритет (1-3 месяца)" },
+            {
+              "id": "longterm",
+              "text": "Долгосрочный проект (более 3 месяцев)"
+            }
+          ]
+        }
+      ],
+      "results": {
+        "default": {
+          "title": "Спасибо за ваши ответы!",
+          "description": "Наши специалисты подготовят для вас индивидуальное предложение. Оставьте контактные данные, и мы свяжемся с вами в ближайшее время.",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDVc5IxE9HhT2akm0S3v1y4lMgeGqBozDZrI7O",
+          "recommendedService": "Индивидуальное решение",
+          "contactButtonText": "Связаться с нами",
+          "contactButtonLink": "/#contacts"
+        },
+        "consulting": {
+          "title": "Вам подойдет Бизнес-консалтинг",
+          "description": "Наши консультанты помогут оптимизировать бизнес-процессы и разработать стратегию развития компании.",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDqS2I2qNGp9xAwZSUPLY2sMXBc5o3hvRitFnd",
+          "recommendedService": "Бизнес-консалтинг",
+          "contactButtonText": "Узнать больше",
+          "contactButtonLink": "/#contacts"
+        },
+        "marketing": {
+          "title": "Вам подойдет Цифровой маркетинг",
+          "description": "Наша маркетинговая команда поможет увеличить узнаваемость бренда и привлечь новых клиентов через цифровые каналы.",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDTEzeKNtvWdkOg1qNn3L4op5zuZKVH7s06QXb",
+          "recommendedService": "Цифровой маркетинг",
+          "contactButtonText": "Узнать больше",
+          "contactButtonLink": "/#contacts"
+        },
+        "development": {
+          "title": "Вам подойдет Разработка ПО",
+          "description": "Наши разработчики создадут программные решения, которые автоматизируют процессы и повысят эффективность вашего бизнеса.",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDvfoFaxdfV6EPN8BLqWb3xCR2rAp9IdgHeThG",
+          "recommendedService": "Разработка ПО",
+          "contactButtonText": "Узнать больше",
+          "contactButtonLink": "/#contacts"
+        }
+      }
+    }
+  },
+  "pricing": {
+    "title": "Тарифы",
+    "description": "Мы предлагаем различные варианты сотрудничества под ваши потребности.",
+    "calculator": {
+      "title": "Калькулятор стоимости",
+      "description": "Рассчитайте предварительную стоимость услуг, выбрав нужные параметры",
+      "buttonText": "Рассчитать",
+      "resultTitle": "Предварительная стоимость:",
+      "disclaimer": "Окончательная стоимость может отличаться и будет определена после детального анализа вашего проекта",
+      "contactUs": "Свяжитесь с нами для получения точного расчета",
+      "fields": {
+        "service": {
+          "label": "Услуга",
+          "placeholder": "Выберите услугу",
+          "options": [
+            {
+              "value": "consulting",
+              "label": "Бизнес-консалтинг",
+              "basePrice": 150000
+            },
+            {
+              "value": "marketing",
+              "label": "Цифровой маркетинг",
+              "basePrice": 100000
+            },
+            {
+              "value": "development",
+              "label": "Разработка ПО",
+              "basePrice": 500000
+            }
+          ]
+        },
+        "duration": {
+          "label": "Длительность",
+          "placeholder": "Выберите длительность",
+          "options": [
+            { "value": "1", "label": "1 месяц", "multiplier": 1 },
+            { "value": "3", "label": "3 месяца", "multiplier": 2.7 },
+            { "value": "6", "label": "6 месяцев", "multiplier": 5 },
+            { "value": "12", "label": "12 месяцев", "multiplier": 9 }
+          ]
+        },
+        "complexity": {
+          "label": "Сложность проекта",
+          "placeholder": "Выберите сложность",
+          "options": [
+            { "value": "simple", "label": "Простой", "multiplier": 0.8 },
+            { "value": "medium", "label": "Средний", "multiplier": 1 },
+            { "value": "complex", "label": "Сложный", "multiplier": 1.5 }
+          ]
+        },
+        "urgency": {
+          "label": "Срочность",
+          "placeholder": "Выберите срочность",
+          "options": [
+            { "value": "normal", "label": "Стандартная", "multiplier": 1 },
+            { "value": "high", "label": "Высокая", "multiplier": 1.3 },
+            { "value": "urgent", "label": "Срочная", "multiplier": 1.5 }
+          ]
+        }
+      }
+    },
+    "cards": [
+      {
+        "title": "Бизнес-консалтинг",
+        "description": "Комплексные стратегии для увеличения вашего присутствия онлайн и привлечения клиентов.",
+        "price": "От 150 000 ₽/месяц",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDqS2I2qNGp9xAwZSUPLY2sMXBc5o3hvRitFnd",
+        "buttonText": "Начать",
+        "buttonUrl": "/#contacts"
+      },
+      {
+        "title": "Цифровой маркетинг",
+        "description": "Комплексные маркетинговые стратегии для увеличения вашего присутствия онлайн и привлечения клиентов.",
+        "price": "От 100 000 ₽/месяц",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDTEzeKNtvWdkOg1qNn3L4op5zuZKVH7s06QXb",
+        "buttonText": "Начать",
+        "buttonUrl": "/#contacts"
+      },
+      {
+        "title": "Разработка ПО",
+        "description": "Комплексные решения для цифровой трансформации вашего бизнеса и автоматизации процессов.",
+        "price": "От 500 000 ₽/проект",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDvfoFaxdfV6EPN8BLqWb3xCR2rAp9IdgHeThG",
+        "buttonText": "Начать",
+        "buttonUrl": "/#contacts"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Что говорят клиенты",
+    "description": "Не верьте нам на слово - послушайте, что говорят наши клиенты.",
+    "loading": "Загрузка отзывов...",
+    "error": "Ошибка при загрузке отзывов. Пожалуйста, попробуйте позже.",
+    "items": [
+      {
+        "name": "Иван Петров",
+        "jobTitle": "CEO",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDPM9HItJAkL4ENs8Kbu2DpHmxRAvq6jl1tTMF",
+        "testimonial": "Этот продукт полностью изменил наш рабочий процесс. Он интуитивно понятен, мощный и приятный в использовании."
+      },
+      {
+        "name": "Анна Иванова",
+        "jobTitle": "CTO",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDBfGsbrm7iFdU4tY5EAnrxbD8cgPzhRQoHL0S",
+        "testimonial": "Улучшения производительности, которые мы увидели после внедрения этого решения, впечатляют."
+      },
+      {
+        "name": "Мария Козлова",
+        "jobTitle": "Продакт-менеджер",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD7dAxQ6bE9LQ0VMs5dBNACDFGycK7Sv3YnJPw",
+        "testimonial": "Наша команда стала намного эффективнее после внедрения этой платформы. Очень рекомендую!"
+      },
+      {
+        "name": "Дмитрий Николаев",
+        "jobTitle": "Ведущий разработчик",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDPBTUMpAkL4ENs8Kbu2DpHmxRAvq6jl1tTMFC",
+        "testimonial": "Возможности интеграции превосходны. Система отлично работает со всеми нашими существующими инструментами."
+      },
+      {
+        "name": "Ольга Лебедева",
+        "jobTitle": "Директор по маркетингу",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDKgIRbaBc3G74oQiAy2daJsZFMDpft5gSYmjx",
+        "testimonial": "Аналитические функции дали нам инсайты, которых у нас никогда не было раньше. Это изменило нашу стратегию."
+      }
+    ]
+  },
+  "partners": {
+    "title": "Наши партнеры",
+    "description": "Мы гордимся сотрудничеством с ведущими компаниями в различных отраслях. Вместе мы создаем инновационные решения для наших клиентов.",
+    "items": [
+      {
+        "id": 1,
+        "name": "Microsoft",
+        "logo": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDHlzZb6sel4q5fpS9Z3G2xYOFJUaWyAQjuMwn"
+      },
+      {
+        "id": 2,
+        "name": "Google",
+        "logo": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDeYb7A08uRAkV4gQjlmxr5EiSUzeqF8BdbMYv"
+      },
+      {
+        "id": 3,
+        "name": "Amazon",
+        "logo": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDan7xkAOFka019tyi7IlvN6rSVo3xfwmADE2T"
+      },
+      {
+        "id": 4,
+        "name": "PayPal",
+        "logo": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD7zEPZCbE9LQ0VMs5dBNACDFGycK7Sv3YnJPw"
+      },
+      {
+        "id": 5,
+        "name": "Shopify",
+        "logo": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDzJEEavx7TL3KFjhDr21asZIJz6Cw4kg8VoRX"
+      },
+      {
+        "id": 6,
+        "name": "SpaceX",
+        "logo": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD8w5wjzlNalKbzIqgXsrVyULnSBQP05fiOw7v"
+      },
+      {
+        "id": 7,
+        "name": "Twitch",
+        "logo": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDlW8Ue379KvN78dXLe4HM6DIJfbZpOm0azytE"
+      },
+      {
+        "id": 8,
+        "name": "Asana",
+        "logo": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDX7VXrCMpWevFUaN6xZlmMiIyudBTPfrtwR85"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Галерея",
+    "description": "Фотографии из жизни нашей компании: офисы, события, команда и продукты",
+    "emptyFilterMessage": "Нет изображений, соответствующих выбранным критериям",
+    "categories": [
+      { "id": "all", "name": "Все" },
+      { "id": "offices", "name": "Офисы" },
+      { "id": "events", "name": "События" },
+      { "id": "team", "name": "Команда" },
+      { "id": "products", "name": "Продукты" }
+    ],
+    "items": [
+      {
+        "id": "1",
+        "title": "Современный офис",
+        "description": "Наш главный офис в Москве, спроектированный с учетом современных требований комфорта.",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDLFxA3eUSV4FvuNmqdszpjxc8ETB9KUJg1kPH",
+        "category": "offices"
+      },
+      {
+        "id": "2",
+        "title": "Конференция по инновациям",
+        "description": "Ежегодная конференция с участием ведущих экспертов индустрии.",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDsWtyYYS1k3RZh9JcKn0xtINSGOEvpT4yiLAe",
+        "category": "events"
+      },
+      {
+        "id": "3",
+        "title": "Командная работа",
+        "description": "Наша команда разработчиков обсуждает новые идеи для проекта.",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDbrUMHtvFxOzW5JtZAUwc2qu3pMKT0GSlrPgR",
+        "category": "team"
+      },
+      {
+        "id": "4",
+        "title": "Продуктовая презентация",
+        "description": "Запуск нового продукта на международной выставке технологий.",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDKiePuoBc3G74oQiAy2daJsZFMDpft5gSYmjx",
+        "category": "products"
+      },
+      {
+        "id": "5",
+        "title": "Рабочее пространство",
+        "description": "Эргономичные рабочие места для комфортной работы.",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD4F09NookHCEIM3kgoVcGYLdTRQDJNjh6pWi1",
+        "category": "offices"
+      },
+      {
+        "id": "6",
+        "title": "Разработка интерфейса",
+        "description": "Процесс создания пользовательского интерфейса нашего продукта.",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDHWI1T0el4q5fpS9Z3G2xYOFJUaWyAQjuMwnT",
+        "category": "products"
+      },
+      {
+        "id": "7",
+        "title": "Хакатон",
+        "description": "48-часовой хакатон с участием наших сотрудников и приглашенных специалистов.",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDhShufzgo7wR3ZiehxQmTUYSb0XB5OEGtNcMa",
+        "category": "events"
+      },
+      {
+        "id": "8",
+        "title": "Команда поддержки",
+        "description": "Наши специалисты всегда готовы помочь клиентам с любыми вопросами.",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDTkvegItvWdkOg1qNn3L4op5zuZKVH7s06QXb",
+        "category": "team"
+      },
+      {
+        "id": "9",
+        "title": "Мобильное приложение",
+        "description": "Разработка мобильной версии нашего сервиса для iOS и Android.",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDtw82YDHvWNLgyxqAbeQEiS4rRuFKnwMBfzXV",
+        "category": "products"
+      }
+    ]
+  },
+  "team": {
+    "title": "Наша команда",
+    "description": "Познакомьтесь с профессионалами, которые делают нашу компанию особенной. Вместе мы создаем продукты, которыми гордимся.",
+    "members": [
+      {
+        "id": 1,
+        "name": "Александр Иванов",
+        "position": "CEO & Founder",
+        "bio": "Более 10 лет опыта в индустрии. Специалист по стратегическому планированию.",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDpjYvJRdzDMoRIXu8n2PJF5gYSOvUryChZ6AW",
+        "social": {
+          "linkedin": "#",
+          "twitter": "#",
+          "facebook": "#",
+          "instagram": "#"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Екатерина Смирнова",
+        "position": "CTO",
+        "bio": "Отвечает за технологическую стратегию и внедрение инновационных решений.",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDYXWLYViNMPHarF4K5yX8z6nTO7uc2twJSZLU",
+        "social": {
+          "linkedin": "#",
+          "twitter": "#",
+          "facebook": "#",
+          "instagram": "#"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Дмитрий Петров",
+        "position": "Lead Designer",
+        "bio": "Создает неповторимый визуальный стиль продуктов компании.",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDLR0DNnUSV4FvuNmqdszpjxc8ETB9KUJg1kPH",
+        "social": {
+          "linkedin": "#",
+          "twitter": "#",
+          "facebook": "#"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Мария Козлова",
+        "position": "Marketing Director",
+        "bio": "Разрабатывает и реализует маркетинговые стратегии для привлечения клиентов.",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD7BVBTPbE9LQ0VMs5dBNACDFGycK7Sv3YnJPw",
+        "social": {
+          "linkedin": "#",
+          "instagram": "#"
+        }
+      }
+    ]
+  },
+  "beforeAfter": {
+    "title": "Результаты наших студентов",
+    "description": "Реальные истории успеха и достижения наших учеников до и после обучения на курсах",
+    "labels": {
+      "before": "До",
+      "after": "После"
+    },
+    "items": [
+      {
+        "title": "Александр, 28 лет",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDLR0DNnUSV4FvuNmqdszpjxc8ETB9KUJg1kPH",
+        "before": "A1 Beginner",
+        "after": "B2 Upper-Intermediate",
+        "description": "Всего за 8 месяцев смог прокачать свой английский с базового до уровня, позволяющего свободно общаться на работе"
+      },
+      {
+        "title": "Мария, 35 лет",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD7BVBTPbE9LQ0VMs5dBNACDFGycK7Sv3YnJPw",
+        "before": "A2 Elementary",
+        "after": "C1 Advanced",
+        "description": "Выучила язык для переезда в другую страну. Теперь успешно работает в международной компании"
+      },
+      {
+        "title": "Дмитрий, 42 года",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDYXWLYViNMPHarF4K5yX8z6nTO7uc2twJSZLU",
+        "before": "B1 Intermediate",
+        "after": "C1 Advanced",
+        "description": "Улучшил деловой английский за 6 месяцев. Получил повышение благодаря уверенному общению с зарубежными партнерами"
+      },
+      {
+        "title": "Екатерина, 19 лет",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD7BVBTPbE9LQ0VMs5dBNACDFGycK7Sv3YnJPw",
+        "before": "A1 Beginner",
+        "after": "B2 Upper-Intermediate",
+        "description": "Поступила в зарубежный университет после годового курса подготовки к языковым экзаменам"
+      },
+      {
+        "title": "Сергей, 31 год",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDt8dd4FXHvWNLgyxqAbeQEiS4rRuFKnwMBfzX",
+        "before": "A2 Elementary",
+        "after": "B2 Upper-Intermediate",
+        "description": "Самостоятельно изучал язык годами без результата. На наших курсах достиг цели за 10 месяцев"
+      },
+      {
+        "title": "Анна, 25 лет",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDVc5IxE9HhT2akm0S3v1y4lMgeGqBozDZrI7O",
+        "before": "B1 Intermediate",
+        "after": "C2 Proficiency",
+        "description": "Стала профессиональным переводчиком после углубленного курса и подготовки к международным экзаменам"
+      }
+    ],
+    "cta": {
+      "text": "Начать обучение",
+      "url": "/#contacts"
+    }
+  },
+  "steps": {
+    "title": "Как начать",
+    "description": "Мы предоставляем исключительные результаты через комплексный подход к решению задач.",
+    "items": [
+      {
+        "title": "Анализ и планирование",
+        "description": [
+          "На первом этапе мы тщательно анализируем ваш бизнес, цели и потребности. Это позволяет нам разработать оптимальную стратегию развития.",
+          "Мы определяем ключевые показатели эффективности и составляем детальный план действий, учитывающий все аспекты вашего бизнеса."
+        ],
+        "number": 1,
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDeGPw4K8uRAkV4gQjlmxr5EiSUzeqF8BdbMYv",
+        "reverse": false
+      },
+      {
+        "title": "Разработка решения",
+        "description": [
+          "После утверждения стратегии мы приступаем к разработке индивидуального решения, полностью соответствующего вашим требованиям.",
+          "Наша команда использует передовые технологии и методологии для создания эффективных и масштабируемых решений."
+        ],
+        "number": 2,
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD0ctbjqpGogSTdPjE52zpHbq3mCFiR8wUL9sG",
+        "reverse": true
+      },
+      {
+        "title": "Внедрение",
+        "description": [
+          "Процесс внедрения проходит поэтапно, чтобы минимизировать влияние на текущие бизнес-процессы.",
+          "Мы обеспечиваем плавный переход и проводим обучение вашей команды для максимально эффективного использования новых инструментов."
+        ],
+        "number": 3,
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDt8dd4FXHvWNLgyxqAbeQEiS4rRuFKnwMBfzX",
+        "reverse": false
+      },
+      {
+        "title": "Поддержка и развитие",
+        "description": [
+          "После запуска мы продолжаем поддерживать и развивать решение, адаптируя его под меняющиеся потребности вашего бизнеса.",
+          "Регулярный анализ и оптимизация помогают достигать максимальной эффективности и результативности."
+        ],
+        "number": 4,
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDVc5IxE9HhT2akm0S3v1y4lMgeGqBozDZrI7O",
+        "reverse": true
+      }
+    ]
+  },
+  "faq": {
+    "title": "Частые вопросы",
+    "description": "Ответы на популярные вопросы о наших услугах и подходе к работе.",
+    "questions": [
+      {
+        "question": "Сколько времени занимает внедрение?",
+        "answer": "Сроки внедрения зависят от сложности проекта и обычно составляют от 2 до 8 недель."
+      },
+      {
+        "question": "Предлагаете ли вы индивидуальные решения?",
+        "answer": "Да, мы разрабатываем решения с учетом специфики вашего бизнеса и уникальных потребностей."
+      },
+      {
+        "question": "С какими отраслями вы работаете?",
+        "answer": "Мы работаем с компаниями из различных отраслей, включая retail, финансы, производство и IT."
+      },
+      {
+        "question": "Как вы измеряете успех?",
+        "answer": "Мы используем согласованные KPI и регулярно отслеживаем прогресс по ключевым метрикам."
+      },
+      {
+        "question": "Какую поддержку вы оказываете после внедрения?",
+        "answer": "Мы предоставляем техническую поддержку 24/7 и регулярные консультации по развитию."
+      }
+    ],
+    "callToAction": {
+      "text": "Не нашли ответ на свой вопрос? Свяжитесь с нашим сообществом напрямую, и мы будем рады помочь!",
+      "button": { "text": "Связаться с нами в телеграмме", "url": "/#contacts" }
+    }
+  },
+  "contacts": {
+    "title": "Свяжитесь с нами",
+    "description": "Есть вопросы или готовы начать? Свяжитесь с нами для бесплатной консультации.",
+    "booking": {
+      "title": "Запись онлайн",
+      "description": "Выберите удобное время для консультации или встречи с нашим специалистом",
+      "widgetType": "yclients"
+    },
+    "form": {
+      "title": "Отправить сообщение",
+      "description": "Заполните форму ниже, и мы свяжемся с вами в ближайшее время.",
+      "fields": {
+        "name": {
+          "label": "Имя",
+          "placeholder": "Ваше имя",
+          "error": "Имя должно содержать минимум 2 символа"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Ваш email",
+          "error": "Пожалуйста, введите корректный email"
+        },
+        "message": {
+          "label": "Сообщение",
+          "placeholder": "Ваше сообщение",
+          "error": "Сообщение должно содержать минимум 10 символов"
+        }
+      },
+      "button": {
+        "default": "Отправить сообщение",
+        "loading": "Отправка..."
+      },
+      "success": "Форма успешно отправлена!",
+      "error": "Произошла ошибка при отправке формы",
+      "formcarryError": "Ошибка сервера при отправке формы",
+      "missingApiKey": "API ключ для отправки формы не настроен"
+    },
+    "beforeAfter": {
+      "title": "Результаты наших студентов",
+      "description": "Реальные истории успеха и достижения наших учеников до и после обучения на курсах",
+      "items": [
+        {
+          "title": "Александр, 28 лет",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDLR0DNnUSV4FvuNmqdszpjxc8ETB9KUJg1kPH",
+          "before": "A1 Beginner",
+          "after": "B2 Upper-Intermediate",
+          "description": "Всего за 8 месяцев смог прокачать свой английский с базового до уровня, позволяющего свободно общаться на работе"
+        },
+        {
+          "title": "Мария, 35 лет",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD7BVBTPbE9LQ0VMs5dBNACDFGycK7Sv3YnJPw",
+          "before": "A2 Elementary",
+          "after": "C1 Advanced",
+          "description": "Выучила язык для переезда в другую страну. Теперь успешно работает в международной компании"
+        },
+        {
+          "title": "Дмитрий, 42 года",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDYXWLYViNMPHarF4K5yX8z6nTO7uc2twJSZLU",
+          "before": "B1 Intermediate",
+          "after": "C1 Advanced",
+          "description": "Улучшил деловой английский за 6 месяцев. Получил повышение благодаря уверенному общению с зарубежными партнерами"
+        },
+        {
+          "title": "Екатерина, 19 лет",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD7BVBTPbE9LQ0VMs5dBNACDFGycK7Sv3YnJPw",
+          "before": "A1 Beginner",
+          "after": "B2 Upper-Intermediate",
+          "description": "Поступила в зарубежный университет после годового курса подготовки к языковым экзаменам"
+        },
+        {
+          "title": "Сергей, 31 год",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDt8dd4FXHvWNLgyxqAbeQEiS4rRuFKnwMBfzX",
+          "before": "A2 Elementary",
+          "after": "B2 Upper-Intermediate",
+          "description": "Самостоятельно изучал язык годами без результата. На наших курсах достиг цели за 10 месяцев"
+        },
+        {
+          "title": "Анна, 25 лет",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDVc5IxE9HhT2akm0S3v1y4lMgeGqBozDZrI7O",
+          "before": "B1 Intermediate",
+          "after": "C2 Proficiency",
+          "description": "Стала профессиональным переводчиком после углубленного курса и подготовки к международным экзаменам"
+        }
+      ],
+      "cta": {
+        "text": "Начать обучение",
+        "url": "/#contacts"
+      }
+    },
+    "contactInfo": {
+      "title": "Контактная информация",
+      "items": [
+        {
+          "type": "phone",
+          "label": "Телефон"
+        },
+        {
+          "type": "email",
+          "label": "Почта"
+        },
+        {
+          "type": "address",
+          "label": "Адрес"
+        }
+      ]
+    },
+    "info": {
+      "title": "Преимущества обратной связи",
+      "items": [
+        "Быстрый ответ в течение 24 часов",
+        "Индивидуальный подход к каждому клиенту",
+        "Бесплатная консультация по вашему запросу",
+        "Подбор оптимального решения для ваших задач"
+      ]
+    },
+    "mapLocation": {
+      "coordinates": [55.7495, 37.5396],
+      "zoom": 15
+    }
+  },
+  "footer": {
+    "description": "Мы предоставляем инновационные решения для развития вашего бизнеса",
+    "quickLinks": {
+      "title": "Быстрые ссылки",
+      "items": [
+        { "text": "Главная", "url": "/" },
+        { "text": "О нас", "url": "/#about" },
+        { "text": "Услуги", "url": "/#services" },
+        { "text": "Отзывы", "url": "/#testimonials" },
+        { "text": "Цены", "url": "/#price" },
+        { "text": "Этапы", "url": "/#steps" }
+      ]
+    },
+    "services": {
+      "title": "Услуги",
+      "items": [
+        { "text": "Консалтинг", "url": "/#services" },
+        { "text": "Разработка", "url": "/#services" },
+        { "text": "Маркетинг", "url": "/#services" },
+        { "text": "Поддержка", "url": "/#services" }
+      ]
+    },
+    "contactInfo": {
+      "title": "Контакты"
+    },
+    "newsletter": {
+      "title": "Подписка на новости",
+      "description": "Подпишитесь на нашу рассылку, чтобы получать последние новости и обновления",
+      "email": {
+        "label": "Email",
+        "placeholder": "Ваш email",
+        "error": "Пожалуйста, введите корректный email"
+      },
+      "button": "Подписаться",
+      "loading": "Отправка...",
+      "success": "Вы успешно подписались на рассылку!",
+      "error": "Произошла ошибка при отправке формы",
+      "formcarryError": "Ошибка сервера при подписке на рассылку",
+      "missingApiKey": "API ключ для подписки не настроен"
+    },
+    "copyright": "© 2025 Все права защищены",
+    "legalLinks": [
+      { "text": "Условия использования", "url": "/terms-of-service" },
+      { "text": "Политика конфиденциальности", "url": "/privacy-policy" },
+      {
+        "text": "Политика использования файлов cookie",
+        "url": "/cookie-policy"
+      }
+    ]
+  },
+  "events": {
+    "title": "Мероприятия и события",
+    "description": "Образовательные и нетворкинг-мероприятия, которые помогут вам развить профессиональные навыки и расширить круг знакомств",
+    "allEventsText": "Все события",
+    "featuredLabel": "Рекомендуем",
+    "speakersLabel": "Спикеры:",
+    "attendeesLabel": "участников",
+    "freeLabel": "Бесплатно",
+    "registerButtonText": "Зарегистрироваться",
+    "emptyFilterMessage": "Нет событий, соответствующих выбранным критериям",
+    "filters": {
+      "all": "Все события",
+      "upcoming": "Предстоящие",
+      "past": "Прошедшие",
+      "free": "Бесплатные",
+      "paid": "Платные",
+      "online": "Онлайн",
+      "offline": "Офлайн"
+    },
+    "eventTypes": {
+      "conference": "Конференции",
+      "webinar": "Вебинары",
+      "workshop": "Воркшопы",
+      "meetup": "Митапы",
+      "hackathon": "Хакатоны"
+    },
+    "items": [
+      {
+        "id": "1",
+        "title": "Конференция по современной веб-разработке",
+        "description": "Ежегодная конференция для веб-разработчиков с докладами от ведущих специалистов отрасли.",
+        "date": "15 августа 2024",
+        "time": "10:00 - 18:00",
+        "location": "Москва, Технопарк «Сколково»",
+        "isOnline": false,
+        "type": "conference",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDsWtyYYS1k3RZh9JcKn0xtINSGOEvpT4yiLAe",
+        "speakers": [
+          {
+            "name": "Александр Иванов",
+            "position": "Tech Lead, Google",
+            "avatar": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDpjYvJRdzDMoRIXu8n2PJF5gYSOvUryChZ6AW"
+          },
+          {
+            "name": "Мария Петрова",
+            "position": "CTO, Startup XYZ",
+            "avatar": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDYXWLYViNMPHarF4K5yX8z6nTO7uc2twJSZLU"
+          }
+        ],
+        "attendees": 500,
+        "isFree": false,
+        "price": "от 5 000 ₽",
+        "slug": "web-development-conference-2024",
+        "isFeatured": true,
+        "isUpcoming": true
+      },
+      {
+        "id": "2",
+        "title": "Вебинар: Оптимизация React-приложений",
+        "description": "Практические приемы оптимизации производительности React-приложений и улучшения пользовательского опыта.",
+        "date": "20 июля 2024",
+        "time": "14:00 - 16:00",
+        "location": "Онлайн (Zoom)",
+        "isOnline": true,
+        "type": "webinar",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDKiePuoBc3G74oQiAy2daJsZFMDpft5gSYmjx",
+        "speakers": [
+          {
+            "name": "Дмитрий Сидоров",
+            "position": "Senior Frontend Developer",
+            "avatar": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDLR0DNnUSV4FvuNmqdszpjxc8ETB9KUJg1kPH"
+          }
+        ],
+        "attendees": 300,
+        "isFree": true,
+        "slug": "react-optimization-webinar",
+        "isFeatured": false,
+        "isUpcoming": true
+      },
+      {
+        "id": "3",
+        "title": "Воркшоп: Разработка с использованием Next.js",
+        "description": "Интенсивный практический воркшоп по созданию fullstack-приложений с использованием Next.js и современных инструментов.",
+        "date": "5 августа 2024",
+        "time": "11:00 - 17:00",
+        "location": "Санкт-Петербург, Коворкинг «Простор»",
+        "isOnline": false,
+        "type": "workshop",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD4F09NookHCEIM3kgoVcGYLdTRQDJNjh6pWi1",
+        "speakers": [
+          {
+            "name": "Ольга Козлова",
+            "position": "Solution Architect",
+            "avatar": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDYXWLYViNMPHarF4K5yX8z6nTO7uc2twJSZLU"
+          }
+        ],
+        "attendees": 50,
+        "isFree": false,
+        "price": "12 000 ₽",
+        "slug": "nextjs-workshop-2024",
+        "isFeatured": true,
+        "isUpcoming": true
+      },
+      {
+        "id": "4",
+        "title": "Митап: Микросервисная архитектура",
+        "description": "Обсуждение преимуществ и недостатков микросервисной архитектуры, обмен опытом и нетворкинг.",
+        "date": "10 июля 2024",
+        "time": "19:00 - 21:30",
+        "location": "Москва, Офис компании",
+        "isOnline": false,
+        "type": "meetup",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDKiePuoBc3G74oQiAy2daJsZFMDpft5gSYmjx",
+        "speakers": [
+          {
+            "name": "Антон Смирнов",
+            "position": "DevOps Engineer",
+            "avatar": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDpjYvJRdzDMoRIXu8n2PJF5gYSOvUryChZ6AW"
+          }
+        ],
+        "attendees": 80,
+        "isFree": true,
+        "slug": "microservices-meetup",
+        "isFeatured": false,
+        "isUpcoming": true
+      },
+      {
+        "id": "5",
+        "title": "Хакатон: Создание AI-решений",
+        "description": "48-часовой хакатон по разработке инновационных решений с использованием искусственного интеллекта и машинного обучения.",
+        "date": "25-27 сентября 2024",
+        "time": "Начало в 10:00",
+        "location": "Казань, IT-парк",
+        "isOnline": false,
+        "type": "hackathon",
+        "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDhShufzgo7wR3ZiehxQmTUYSb0XB5OEGtNcMa",
+        "speakers": [],
+        "attendees": 200,
+        "isFree": false,
+        "price": "3 000 ₽ с команды",
+        "slug": "ai-solutions-hackathon",
+        "isFeatured": true,
+        "isUpcoming": true
+      }
+    ],
+    "cta": {
+      "title": "Хотите увидеть все наши мероприятия?",
+      "buttonText": "Перейти к календарю событий",
+      "buttonLink": "/#contacts"
+    },
+    "newsletter": {
+      "title": "Не пропустите новые события",
+      "description": "Подпишитесь на уведомления о новых мероприятиях и получайте информацию о них первыми."
+    }
+  },
+  "careers": {
+    "title": "Карьера в компании",
+    "description": "Присоединяйтесь к нашей команде профессионалов и работайте над интересными проектами в дружественной атмосфере",
+    "vacancies": [
+      {
+        "id": "1",
+        "title": "Frontend-разработчик (React)",
+        "department": "Инженерия",
+        "location": "Москва",
+        "type": "Полная занятость",
+        "salary": "от 150 000 ₽",
+        "description": "Разработка и поддержка пользовательских интерфейсов наших продуктов с использованием React и TypeScript.",
+        "requirements": [
+          "Опыт коммерческой разработки от 2 лет",
+          "Глубокие знания React и экосистемы",
+          "Опыт работы с TypeScript",
+          "Понимание принципов UI/UX"
+        ],
+        "featured": true,
+        "slug": ""
+      },
+      {
+        "id": "2",
+        "title": "Backend-разработчик (Node.js)",
+        "department": "Инженерия",
+        "location": "Санкт-Петербург",
+        "type": "Полная занятость",
+        "salary": "от 170 000 ₽",
+        "description": "Разработка серверной части наших приложений, работа с базами данных и API.",
+        "requirements": [
+          "Опыт работы с Node.js от 3 лет",
+          "Знание SQL и NoSQL баз данных",
+          "Опыт создания и поддержки REST API",
+          "Навыки работы с микросервисами"
+        ],
+        "featured": true,
+        "slug": ""
+      },
+      {
+        "id": "3",
+        "title": "UI/UX Дизайнер",
+        "department": "Инженерия",
+        "location": "Удаленная работа",
+        "type": "Полная занятость",
+        "salary": "от 130 000 ₽",
+        "description": "Создание интерфейсов и улучшение пользовательского опыта наших продуктов.",
+        "requirements": [
+          "Опыт работы в UI/UX дизайне от 2 лет",
+          "Портфолио выполненных проектов",
+          "Знание Figma, Adobe XD",
+          "Понимание принципов доступности и юзабилити"
+        ],
+        "featured": false,
+        "slug": ""
+      },
+      {
+        "id": "4",
+        "title": "DevOps Инженер",
+        "department": "Инженерия",
+        "location": "Москва",
+        "type": "Полная занятость",
+        "salary": "от 200 000 ₽",
+        "description": "Разработка и поддержка инфраструктуры, автоматизация процессов развертывания и тестирования.",
+        "requirements": [
+          "Опыт работы с контейнеризацией (Docker, Kubernetes)",
+          "Знание CI/CD инструментов",
+          "Опыт работы с облачными платформами (AWS, GCP)",
+          "Навыки автоматизации и скриптинга"
+        ],
+        "featured": false,
+        "slug": "devops-engineer"
+      },
+      {
+        "id": "5",
+        "title": "Менеджер проектов",
+        "department": "Инженерия",
+        "location": "Санкт-Петербург",
+        "type": "Полная занятость",
+        "salary": "от 180 000 ₽",
+        "description": "Управление проектами разработки, координация работы команд и коммуникация с клиентами.",
+        "requirements": [
+          "Опыт управления IT-проектами от 3 лет",
+          "Сертификаты PMI, Agile, Scrum (преимущество)",
+          "Навыки работы с системами управления проектами",
+          "Умение эффективно коммуницировать с командой и клиентами"
+        ],
+        "featured": false,
+        "slug": "project-manager"
+      },
+      {
+        "id": "6",
+        "title": "Стажер-разработчик",
+        "department": "Инженерия",
+        "location": "Москва",
+        "type": "Стажировка",
+        "salary": "от 50 000 ₽",
+        "description": "Участие в разработке реальных проектов под руководством опытных наставников.",
+        "requirements": [
+          "Базовые знания JavaScript, HTML, CSS",
+          "Желание учиться и развиваться",
+          "Студенты старших курсов технических специальностей",
+          "Возможность работать минимум 30 часов в неделю"
+        ],
+        "featured": true,
+        "slug": "intern-developer"
+      }
+    ],
+    "employmentTypes": [
+      "Полная занятость",
+      "Частичная занятость",
+      "Удаленная работа",
+      "Стажировка"
+    ],
+    "labels": {
+      "featuredBadge": "Горячая вакансия",
+      "viewMoreButton": "Подробнее",
+      "noMatchingVacanciesTitle": "Не нашли подходящую вакансию?",
+      "noMatchingVacanciesDescription": "Мы всегда в поиске талантливых специалистов! Отправьте нам свое резюме, и мы свяжемся с вами, когда появится подходящая позиция.",
+      "sendResumeButton": "Отправить резюме"
+    },
+    "contactFormUrl": "/#contacts"
+  },
+  "achievements": {
+    "title": "Наши достижения",
+    "description": "История нашего роста и развития. Ключевые моменты, которые сформировали нашу компанию.",
+    "items": [
+      {
+        "id": 1,
+        "year": "2018",
+        "title": "Основание компании",
+        "description": "Начало нашего пути. Небольшая команда энтузиастов с большими планами и идеями."
+      },
+      {
+        "id": 2,
+        "year": "2019",
+        "title": "Первый продукт",
+        "description": "Запуск первой версии нашего основного продукта, который привлек внимание первых клиентов."
+      },
+      {
+        "id": 3,
+        "year": "2020",
+        "title": "Привлечение инвестиций",
+        "description": "Успешный раунд финансирования от ведущих венчурных фондов, которые поверили в нашу идею."
+      },
+      {
+        "id": 4,
+        "year": "2021",
+        "title": "Расширение команды",
+        "description": "Наша команда выросла до 50 человек, мы открыли офисы в трех городах."
+      },
+      {
+        "id": 5,
+        "year": "2022",
+        "title": "Международный выход",
+        "description": "Начало работы на международном рынке, первые клиенты в Европе и Азии."
+      },
+      {
+        "id": 6,
+        "year": "2023",
+        "title": "Премия за инновации",
+        "description": "Получение престижной отраслевой награды за инновационные технологии и вклад в развитие индустрии."
+      },
+      {
+        "id": 7,
+        "year": "2024",
+        "title": "Сегодня",
+        "description": "Более 1000 компаний используют наши решения по всему миру. И это только начало."
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Сравнение тарифных планов",
+    "description": "Выберите оптимальный тариф для вашего бизнеса с необходимыми функциями.",
+    "labels": {
+      "showDetails": "Показать детали",
+      "popularChoice": "Популярно"
+    },
+    "plans": [
+      {
+        "id": "basic",
+        "title": "Базовый",
+        "price": "€9",
+        "period": "мес",
+        "description": "Для небольших команд и стартапов.",
+        "buttonText": "Выбрать",
+        "buttonUrl": "/#contacts",
+        "popular": false
+      },
+      {
+        "id": "pro",
+        "title": "Профессиональный",
+        "price": "€29",
+        "period": "мес",
+        "description": "Для растущих компаний и команд.",
+        "buttonText": "Выбрать",
+        "buttonUrl": "/#contacts",
+        "popular": true
+      },
+      {
+        "id": "enterprise",
+        "title": "Корпоративный",
+        "price": "€99",
+        "period": "мес",
+        "description": "Для крупных предприятий с особыми требованиями.",
+        "buttonText": "Выбрать",
+        "buttonUrl": "/#contacts",
+        "popular": false
+      }
+    ],
+    "features": [
+      {
+        "id": "users",
+        "name": "Количество пользователей",
+        "values": {
+          "basic": "До 5",
+          "pro": "До 20",
+          "enterprise": "Неограниченно"
+        }
+      },
+      {
+        "id": "storage",
+        "name": "Объем хранилища",
+        "values": {
+          "basic": "10 ГБ",
+          "pro": "100 ГБ",
+          "enterprise": "1 ТБ"
+        }
+      },
+      {
+        "id": "support",
+        "name": "Поддержка",
+        "values": {
+          "basic": "Email",
+          "pro": "Email & Телефон",
+          "enterprise": "Персональный менеджер"
+        }
+      },
+      {
+        "id": "api",
+        "name": "Доступ к API",
+        "values": {
+          "basic": false,
+          "pro": true,
+          "enterprise": true
+        }
+      },
+      {
+        "id": "customization",
+        "name": "Настройка интерфейса",
+        "values": {
+          "basic": false,
+          "pro": "Базовая",
+          "enterprise": "Расширенная"
+        }
+      },
+      {
+        "id": "analytics",
+        "name": "Расширенная аналитика",
+        "values": {
+          "basic": false,
+          "pro": true,
+          "enterprise": true
+        }
+      },
+      {
+        "id": "integration",
+        "name": "Интеграции с сервисами",
+        "values": {
+          "basic": "5 интеграций",
+          "pro": "15 интеграций",
+          "enterprise": "Неограниченно"
+        }
+      },
+      {
+        "id": "backups",
+        "name": "Автоматические резервные копии",
+        "values": {
+          "basic": "Еженедельно",
+          "pro": "Ежедневно",
+          "enterprise": "В реальном времени"
+        }
+      },
+      {
+        "id": "export",
+        "name": "Экспорт данных",
+        "values": {
+          "basic": "CSV",
+          "pro": "CSV, Excel, PDF",
+          "enterprise": "Все форматы"
+        }
+      }
+    ]
+  },
+  "video": {
+    "title": "Как наш продукт меняет бизнес",
+    "description": "Посмотрите короткое видео о том, как наш продукт помогает компаниям автоматизировать процессы и увеличивать прибыль.",
+    "thumbnail": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDlvJHZPG79KvN78dXLe4HM6DIJfbZpOm0azyt",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  }
+}
