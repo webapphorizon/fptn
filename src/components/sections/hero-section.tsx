@@ -10,6 +10,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs";
 import { contentData } from "~/lib/content-data";
 import AvatarStack from "../patterns/avatar-stack";
 import PlatformCardStack from "../patterns/platform-card-stack";
+import CustomLink from "../ui/custom-link";
 
 type HeroSectionProps = {
   variant?:
@@ -116,24 +117,30 @@ const GradientHero = () => {
             </Badge> */}
             <h1>{extendedHeroData.gradientTitle}</h1>
             <p>{extendedHeroData.gradientDescription}</p>
-            <div className="flex flex-col gap-4 sm:flex-row">
-              <Button
-                asChild
-                size="lg"
-                className="bg-white text-indigo-600 hover:bg-white/90"
-              >
-                <Link href={contentData.hero.cta.url}>
-                  {contentData.hero.cta.text}
-                </Link>
-              </Button>
-
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white bg-transparent text-white hover:bg-white/20 hover:text-white"
-              >
-                {extendedHeroData.secondaryCta.text}
-              </Button>
+            <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-4 sm:flex-row">
+                {" "}
+                <Button
+                  asChild
+                  size="lg"
+                  className="bg-white text-indigo-600 hover:bg-white/90"
+                >
+                  <Link href={contentData.hero.cta.url}>
+                    {contentData.hero.cta.text}
+                  </Link>
+                </Button>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-white bg-transparent text-white hover:bg-white/20 hover:text-white"
+                >
+                  {extendedHeroData.secondaryCta.text}
+                </Button>
+              </div>
+              <div className="flex flex-col ">
+                <span>Version: 0.3.23</span>
+                <CustomLink href="https://github.com/FPTN-Project/FPTN/releases/tag/v0.3.23" className="text-secondary">Читать описание релиза</CustomLink>
+              </div>
             </div>
           </div>
           <div className="relative hidden aspect-square w-full max-w-md shrink-0 overflow-hidden rounded-lg backdrop-blur-2xl lg:block">

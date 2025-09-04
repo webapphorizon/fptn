@@ -4,21 +4,21 @@ import { contentData } from "~/lib/content-data";
 const StepsSection = () => {
   return (
     <section className="flex flex-col" id="steps">
-      <div className="flex w-full justify-between">
+      <div className="bold mx-auto flex w-full max-w-2xl justify-between text-2xl">
         <div>
-          <p>Android</p>
+          <span>Android</span>
         </div>
         <div>
-          <p>Windows</p>
+          <span>Windows</span>
         </div>
         <div>
-          <p>Linux</p>
+          <span>Linux</span>
         </div>
         <div>
-          <p>MacOS</p>
+          <span>macOS</span>
         </div>
       </div>
-      <div className="pb-6"/>
+      <div className="pb-6" />
       <div className="flex flex-col items-center justify-center gap-2 pb-8">
         <h2>{contentData.steps.title}</h2>
         <p className="text-muted-foreground text-center">
