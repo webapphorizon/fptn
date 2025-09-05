@@ -18,6 +18,10 @@ import { contentData } from "~/lib/content-data";
 import { cn } from "~/lib/utils";
 import madeby from "~/madeby.json";
 import CustomLink from "../ui/custom-link";
+import Github from "../icons/github";
+import Telegram from "../icons/telegram";
+import { FaGithub, FaTelegram } from "react-icons/fa6";
+// import Logo from "~/components/icons/logo"
 
 const Header = () => {
   const isVisible = useScrollDirection();
@@ -29,19 +33,12 @@ const Header = () => {
         !isVisible && "-translate-y-full",
       )}
     >
-      <div className="ml-4 flex max-w-[102rem] items-center justify-between px-0 py-0 md:ml-0 md:pl-6 lg:mx-auto lg:px-8 xl:py-5">
+      <div className="ml-4 flex max-w-[94rem] items-center justify-between px-0 py-0 md:ml-0 md:pl-6 lg:mx-auto lg:px-8 xl:py-5">
         <div className="">
           <Logo />
         </div>
-        <div className="text-muted-foreground flex flex-1 items-center justify-center gap-8 max-2xl:hidden">
-          <Link href={`${contentData.links.phone.url}`}>
-            {contentData.links.phone.text}
-          </Link>
-          <Link href={`${contentData.links.email.url}`}>
-            {contentData.links.email.text}
-          </Link>
-        </div>
-        <div className="hidden items-center justify-between gap-8 xl:flex 2xl:flex-1">
+
+        <div className="hidden items-center gap-8 xl:flex">
           <nav className="flex items-center gap-9 text-nowrap">
             {contentData.header.navigation?.map((item) => (
               <CustomLink
@@ -53,6 +50,20 @@ const Header = () => {
               </CustomLink>
             ))}
           </nav>
+          <div className="text-muted-foreground flex flex-1 items-center justify-center gap-8 max-2xl:hidden">
+            <CustomLink
+              href={contentData.links.socials.githubUrl}
+              className="text-foreground hover:text-muted-foreground transition-colors"
+            >
+              <FaGithub className="size-8" />
+            </CustomLink>
+            <CustomLink
+              href={contentData.links.socials.telegramUrl}
+              className="text-foreground hover:text-muted-foreground transition-colors"
+            >
+              <FaTelegram className="size-8" />
+            </CustomLink>
+          </div>
           <Link href={contentData.header.cta.url}>
             <Button className="min-w-40 flex-1 text-nowrap">
               {contentData.header.cta.text}

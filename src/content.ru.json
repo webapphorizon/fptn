@@ -44,17 +44,14 @@
       "spotifyUrl": "https://www.spotify.com/webapphorizon",
       "appleMusicUrl": "https://www.applemusic.com/webapphorizon",
       "amazonMusicUrl": "https://www.amazonmusic.com/webapphorizon",
-      "deezerUrl": "https://www.deezer.com/webapphorizon"
+      "deezerUrl": "https://www.deezer.com/webapphorizon",
+      "githubUrl": "https://www.github.com/webapphorizon"
     }
   },
   "header": {
     "navigation": [
-      { "text": "Главная", "url": "/" },
-      { "text": "О нас", "url": "#about" },
-      { "text": "Услуги", "url": "#services" },
-      { "text": "Отзывы", "url": "#testimonials" },
-      { "text": "FAQ", "url": "#faq" },
-      { "text": "Контакты", "url": "#contacts" }
+      { "text": "Как начать", "url": "#how-to-start" },
+      { "text": "FAQ", "url": "#faq" }
     ],
     "cta": { "text": "Скачать", "url": "/#contacts" }
   },
@@ -778,7 +775,7 @@
   },
   "steps": {
     "title": "Как начать",
-    "description": "Мы предоставляем исключительные результаты через комплексный подход к решению задач.",
+    "description": "Ниже предоставлена инструкция для Android.",
     "items": [
       {
         "title": "Анализ и планирование",
@@ -982,7 +979,7 @@
         { "text": "Услуги", "url": "/#services" },
         { "text": "Отзывы", "url": "/#testimonials" },
         { "text": "Цены", "url": "/#price" },
-        { "text": "Этапы", "url": "/#steps" }
+        { "text": "Как начать", "url": "/#how-to-start" }
       ]
     },
     "services": {
@@ -1012,7 +1009,7 @@
       "formcarryError": "Ошибка сервера при подписке на рассылку",
       "missingApiKey": "API ключ для подписки не настроен"
     },
-    "copyright": "© 2025 Все права защищены",
+    "copyright": "© 2025 FPTN Project",
     "legalLinks": [
       { "text": "Условия использования", "url": "/terms-of-service" },
       { "text": "Политика конфиденциальности", "url": "/privacy-policy" },
