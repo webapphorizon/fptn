@@ -6,19 +6,19 @@ const StepsSection = () => {
   return (
     <section className="flex flex-col" id="steps">
       <div className="bold mx-auto flex w-full max-w-2xl justify-between text-2xl">
-        <div className="flex items-center gap-2">
+        <div className="flex items-center md:text-2xl text-sm gap-2 ">
           <FaAndroid />
           <span>Android</span>
         </div>
-        <div className="text-muted-foreground hover:text-foreground flex items-center gap-2">
+        <div className="text-muted-foreground hover:text-foreground flex items-center md:text-2xl text-sm gap-2">
           <FaWindows />
           <span>Windows</span>
         </div>
-        <div className="flex items-center gap-2 text-muted-foreground hover:text-foreground">
+        <div className="flex items-center md:text-2xl text-sm gap-2 text-muted-foreground hover:text-foreground">
           <FaLinux />
           <span>Linux</span>
         </div>
-        <div className="flex items-center gap-2 text-muted-foreground hover:text-foreground">
+        <div className="flex items-center md:text-2xl text-sm gap-2 text-muted-foreground hover:text-foreground">
           <FaApple />
           <span>macOS</span>
         </div>
