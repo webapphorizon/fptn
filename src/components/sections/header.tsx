@@ -20,7 +20,7 @@ import madeby from "~/madeby.json";
 import CustomLink from "../ui/custom-link";
 import Github from "../icons/github";
 import Telegram from "../icons/telegram";
-import { FaGithub, FaTelegram } from "react-icons/fa6";
+import { FaGithub, FaGooglePlay, FaTelegram } from "react-icons/fa6";
 // import Logo from "~/components/icons/logo"
 
 const Header = () => {
@@ -66,7 +66,8 @@ const Header = () => {
           </div>
           <Link href={contentData.header.cta.url}>
             <Button className="min-w-40 flex-1 text-nowrap">
-              {contentData.header.cta.text}
+              {`${contentData.header.cta.text} Android`}
+              <FaGooglePlay />
             </Button>
           </Link>
         </div>

@@ -1,3 +1,4 @@
+import { FaAndroid, FaApple, FaLinux, FaUbuntu, FaWindows } from "react-icons/fa6";
 import StepsCardBlock from "~/components/block/steps-card-block";
 import { contentData } from "~/lib/content-data";
 
@@ -5,16 +6,20 @@ const StepsSection = () => {
   return (
     <section className="flex flex-col" id="steps">
       <div className="bold mx-auto flex w-full max-w-2xl justify-between text-2xl">
-        <div>
+        <div className="flex items-center gap-2">
+          <FaAndroid />
           <span>Android</span>
         </div>
-        <div>
+        <div className="text-muted-foreground hover:text-foreground flex items-center gap-2">
+          <FaWindows />
           <span>Windows</span>
         </div>
-        <div>
+        <div className="flex items-center gap-2 text-muted-foreground hover:text-foreground">
+          <FaLinux />
           <span>Linux</span>
         </div>
-        <div>
+        <div className="flex items-center gap-2 text-muted-foreground hover:text-foreground">
+          <FaApple />
           <span>macOS</span>
         </div>
       </div>

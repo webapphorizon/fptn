@@ -11,6 +11,7 @@ import { contentData } from "~/lib/content-data";
 import AvatarStack from "../patterns/avatar-stack";
 import PlatformCardStack from "../patterns/platform-card-stack";
 import CustomLink from "../ui/custom-link";
+import { FaAnchor, FaGooglePlay } from "react-icons/fa6";
 
 type HeroSectionProps = {
   variant?:
@@ -126,7 +127,8 @@ const GradientHero = () => {
                   className="bg-white text-indigo-600 hover:bg-white/90"
                 >
                   <Link href={contentData.hero.cta.url}>
-                    {contentData.hero.cta.text}
+                    {`${contentData.hero.cta.text} Android из Google Play`}
+                    <FaGooglePlay/>
                   </Link>
                 </Button>
                 <Button
@@ -137,9 +139,14 @@ const GradientHero = () => {
                   {extendedHeroData.secondaryCta.text}
                 </Button>
               </div>
-              <div className="flex flex-col ">
+              <div className="flex flex-col">
                 <span>Version: 0.3.23</span>
-                <CustomLink href="https://github.com/FPTN-Project/FPTN/releases/tag/v0.3.23" className="text-secondary">Читать описание релиза</CustomLink>
+                <CustomLink
+                  href="https://github.com/FPTN-Project/FPTN/releases/tag/v0.3.23"
+                  className="text-secondary"
+                >
+                  Читать описание релиза
+                </CustomLink>
               </div>
             </div>
           </div>

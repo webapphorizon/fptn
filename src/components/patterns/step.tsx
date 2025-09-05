@@ -26,22 +26,22 @@ const Step = ({
       )}
     >
       <div className={cn("flex w-full flex-1 flex-col gap-2 max-md:hidden")}>
-        <div className="relative mt-1 mb-10 aspect-video w-full">
+        <div className="relative mt-1 mb-10 flex aspect-video w-full justify-end">
           <Image
             src={image}
-            className="rounded-lg object-cover"
+            className="rounded-lg object-contain"
             alt="Step"
-            fill
-            sizes="(max-width: 48rem) 100vw, 50vw"
+            width={300}
+            height={300}
           />
         </div>
       </div>
       <div className="flex w-fit">
         <div className="flex h-full flex-col items-center gap-3 md:gap-5">
-          <div className="flex h-7 w-7 items-center justify-center rounded-full border  bg-transparent md:h-12 md:w-12">
+          <div className="flex h-7 w-7 items-center justify-center rounded-full border bg-transparent md:h-12 md:w-12">
             <h3>{number}</h3>
           </div>
-          <Separator className="flex-1 " orientation="vertical" />
+          <Separator className="flex-1" orientation="vertical" />
         </div>
       </div>
       <div
@@ -57,10 +57,10 @@ const Step = ({
         <div className="relative aspect-video w-full md:hidden">
           <Image
             src={image}
-            className="rounded-lg object-cover"
+            className="rounded-lg object-contain"
             alt="Step"
-            fill
-            sizes="100vw"
+            width={300}
+            height={300}
           />
         </div>
       </div>
