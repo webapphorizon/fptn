@@ -29,7 +29,7 @@ const Header = () => {
   return (
     <header
       className={cn(
-        "bg-background/80 fixed top-0 right-0 left-0 z-50 border-b shadow-sm backdrop-blur-sm transition-transform duration-300",
+        "bg-background/80 fixed top-0 right-0 left-0 z-100 border-b shadow-sm backdrop-blur-sm transition-transform duration-300",
         !isVisible && "-translate-y-full",
       )}
     >
@@ -66,8 +66,7 @@ const Header = () => {
           </div>
           <Link href={contentData.header.cta.url}>
             <Button className="min-w-40 flex-1 text-nowrap">
-              {`${contentData.header.cta.text} Android`}
-              <FaGooglePlay />
+              {`${contentData.header.cta.text}`}
             </Button>
           </Link>
         </div>

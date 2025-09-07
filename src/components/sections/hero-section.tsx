@@ -12,6 +12,8 @@ import AvatarStack from "../patterns/avatar-stack";
 import PlatformCardStack from "../patterns/platform-card-stack";
 import CustomLink from "../ui/custom-link";
 import { FaAnchor, FaGooglePlay } from "react-icons/fa6";
+import { DownloadButton } from "../ui/download-button";
+
 
 type HeroSectionProps = {
   variant?:
@@ -121,7 +123,7 @@ const GradientHero = () => {
             <div className="flex flex-col gap-2">
               <div className="flex flex-col gap-4 sm:flex-row">
                 {" "}
-                <Button
+                {/* <Button
                   asChild
                   size="lg"
                   className="bg-white text-indigo-600 hover:bg-white/90"
@@ -130,7 +132,8 @@ const GradientHero = () => {
                     {`${contentData.hero.cta.text} Android из Google Play`}
                     <FaGooglePlay/>
                   </Link>
-                </Button>
+                </Button> */}
+                <DownloadButton/>
                 <Button
                   size="lg"
                   variant="outline"
