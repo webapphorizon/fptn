@@ -50,7 +50,7 @@
   },
   "header": {
     "navigation": [
-      { "text": "Как начать", "url": "#how-to-start" },
+      { "text": "Как начать", "url": "#steps" },
       { "text": "FAQ", "url": "#faq" }
     ],
     "cta": { "text": "Скачать", "url": "/#contacts" }
@@ -774,49 +774,252 @@
     }
   },
   "steps": {
-    "title": "Как начать",
-    "description": "Ниже предоставлена инструкция для Android.",
-    "items": [
-      {
-        "title": "Шаг первый",
-        "description": [
-          "Перейдите в Telegram-бот и сгенерируйте токен командой /token, затем скопируйте его."
-        ],
-        "number": 1,
-        "image": "/images/telegram-token-ru.webp",
-        "reverse": false
-      },
-      {
-        "title": "Шаг второй",
-        "description": ["Вставьте токен в соответствующее поле."],
-        "number": 2,
-        "image": "/images/android/ru/step-1-for-android.webp",
-        "reverse": false
-      },
-      {
-        "title": "Шаг третий",
-        "description": ["Войдите в приложение, используя полученный токен."],
-        "number": 3,
-        "image": "/images/android/ru/step-2-for-android.webp",
-        "reverse": false
-      },
-      {
-        "title": "Шаг четвертый",
-        "description": [
-          "Выберите VPN-сервер из списка доступных (Режим \"Авто\" подберет наиболее оптимальный сервер или можете выбрать сервер из списка доступных). Для включения VPN-сервиса нажмите на кнопку в центре экрана, которая активирует подключение к выбранному серверу."
-        ],
-        "number": 4,
-        "image": "/images/android/ru/step-3-for-android.webp",
-        "reverse": false
-      },
-      {
-        "title": "Готово!",
-        "description": [],
-        "number": 5,
-        "image": "/images/android/ru/step-4-for-android.webp",
-        "reverse": false
-      }
-    ]
+    "android": {
+      "title": "Как начать",
+      "items": [
+        {
+          "title": "Шаг первый",
+          "description": [
+            "Перейдите в Telegram-бот и сгенерируйте токен командой /token, затем скопируйте его."
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-ru.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг второй",
+          "description": ["Вставьте токен в соответствующее поле."],
+          "number": 2,
+          "image": "/images/android/ru/step-1-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг третий",
+          "description": ["Войдите в приложение, используя полученный токен."],
+          "number": 3,
+          "image": "/images/android/ru/step-2-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг четвертый",
+          "description": [
+            "Выберите VPN-сервер из списка доступных (Режим \"Авто\" подберет наиболее оптимальный сервер или можете выбрать сервер из списка доступных). Для включения VPN-сервиса нажмите на кнопку в центре экрана, которая активирует подключение к выбранному серверу."
+          ],
+          "number": 4,
+          "image": "/images/steps/android/ru/step-3-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "Готово!",
+          "description": [],
+          "number": 5,
+          "image": "/images/steps/android/ru/step-4-for-android.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "windows": {
+      "title": "Как начать",
+      "items": [
+        {
+          "title": "Шаг первый",
+          "description": [
+            "Перейдите в Telegram-бот и сгенерируйте токен командой /token, затем скопируйте его."
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-ru.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг второй",
+          "description": [
+            "Скачайте и запустите установщик. При запуске установщика, Windows покажет окно с предупреждением, нажмите \"подробнее\".."
+          ],
+          "number": 2,
+          "image": "/images/steps/windows/ru/1-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг третий",
+          "description": [" И нажмите на кнопку \"Запустить в любом случае\"."],
+          "number": 3,
+          "image": "/images/steps/windows/ru/2-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг четвертый",
+          "description": ["После чего подтвердите запуск установщика."],
+          "number": 4,
+          "image": "/images/steps/windows/ru/3-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг пятый",
+          "description": [
+            "После завершения установки нажмите кнопку завершить и приложение запустится автоматически."
+          ],
+          "number": 5,
+          "image": "/images/steps/windows/ru/4-launch.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг шестой",
+          "description": [
+            "После запуска клиента в системном трее появится иконка приложения. Кликните по иконке и откройте настройки."
+          ],
+          "number": 6,
+          "image": "/images/steps/windows/ru/5-tray.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг седьмой",
+          "description": ["Нажмите кнопку \"Добавить токен\"."],
+          "number": 7,
+          "image": "/images/steps/windows/ru/7-load-config.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг восьмой",
+          "description": ["Вставьте сюда токен из Telegram-бота и сохраните"],
+          "number": 8,
+          "image": "/images/steps/windows/ru/8-select-file.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг девятый",
+          "description": [
+            "После открытия появится список доступных серверов, далее нужно просто закрыть окно настроек."
+          ],
+          "number": 9,
+          "image": "/images/steps/windows/ru/9-save.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг десятый",
+          "description": [
+            "В системном трее кликните по иконке приложения и выберите \"Умное подключение\". \"Умное подключение\" подберет наиболее оптимальный сервер."
+          ],
+          "number": 10,
+          "image": "/images/steps/windows/ru/10-run.webp",
+          "reverse": false
+        },
+        {
+          "title": "Готово!",
+          "description": [],
+          "number": 11,
+          "image": "/images/steps/windows/ru/11-running.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "linux": {
+      "title": "Как начать",
+      "items": [
+        {
+          "title": "Шаг первый",
+          "description": [
+            "Перейдите в Telegram-бот и сгенерируйте токен командой /token, затем скопируйте его."
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-ru.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг второй",
+          "description": ["Запустите FPTN-клиент."],
+          "number": 2,
+          "image": "/images/steps/linux/ru/1-icon.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг третий",
+          "description": [
+            "Нажмите на иконку FPTN-клиента в системном трее, чтобы открыть контекстное меню."
+          ],
+          "number": 3,
+          "image": "/images/steps/linux/ru/2-tray.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг четвертый",
+          "description": [
+            "Откройте настройки FPTN-клиента и нажмите кнопку \"Добавить токен\"."
+          ],
+          "number": 4,
+          "image": "/images/steps/linux/ru/3-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг четвертый",
+          "description": [
+            "Вставьте сюда токен из Telegram-бота и сохраните."
+          ],
+          "number": 5,
+          "image": "/images/steps/linux/ru/4-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг пятый",
+          "description": ["Закройте окно настроек."],
+          "number": 6,
+          "image": "/images/steps/linux/ru/5-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг шестой",
+          "description": [
+            "В системном трее кликните по иконке приложения и выберите \"Умное подключение\". Эта функция автоматически подберет наиболее оптимальный сервер."
+          ],
+          "number": 7,
+          "image": "/images/steps/linux/ru/7-running-client.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "macos": {
+      "title": "Как начать",
+      "items": [
+        {
+          "title": "Шаг первый",
+          "description": [
+            "Перейдите в Telegram-бот и сгенерируйте токен командой /token, затем скопируйте его."
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-ru.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг второй",
+          "description": [
+            "После запуска приложения нажмите на иконку в системном трее чтобы открыть контекстное меню."
+          ],
+          "number": 2,
+          "image": "/images/steps/macos/ru/client.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг третий",
+          "description": ["Вставьте сюда токен из Telegram-бота."],
+          "number": 3,
+          "image": "/images/steps/macos/ru/running-client.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг четвертый",
+          "description": ["Сохраните токен."],
+          "number": 4,
+          "image": "/images/steps/macos/ru/settings-2.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг пятый",
+          "description": ["Закройте окно настроек и попробуйте подключиться."],
+          "number": 5,
+          "image": "/images/steps/macos/ru/settings-3.webp",
+          "reverse": false
+        }
+      ]
+    }
   },
   "faq": {
     "title": "Частые вопросы",
@@ -1006,7 +1209,7 @@
         { "text": "Услуги", "url": "/#services" },
         { "text": "Отзывы", "url": "/#testimonials" },
         { "text": "Цены", "url": "/#price" },
-        { "text": "Как начать", "url": "/#how-to-start" }
+        { "text": "Как начать", "url": "/#steps" }
       ]
     },
     "services": {

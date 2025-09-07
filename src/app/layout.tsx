@@ -2,6 +2,7 @@ import "~/styles/globals.css";
 
 import { type Metadata } from "next";
 import { Roboto } from "next/font/google";
+import { PlatformProvider } from "~/context/platform-selector-context";
 
 export const metadata: Metadata = {
   title: "webapphorizon",
@@ -20,7 +21,10 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${roboto.variable}`}>
-      <body className="mt-[4.5rem]">{children}</body>
+      <body className="mt-[4.5rem]">
+        {" "}
+        <PlatformProvider>{children}</PlatformProvider>
+      </body>
     </html>
   );
 }
