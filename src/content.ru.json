@@ -790,14 +790,14 @@
           "title": "Шаг второй",
           "description": ["Вставьте токен в соответствующее поле."],
           "number": 2,
-          "image": "/images/android/ru/step-1-for-android.webp",
+          "image": "/images/steps/android/ru/step-1-for-android.webp",
           "reverse": false
         },
         {
           "title": "Шаг третий",
           "description": ["Войдите в приложение, используя полученный токен."],
           "number": 3,
-          "image": "/images/android/ru/step-2-for-android.webp",
+          "image": "/images/steps/android/ru/step-2-for-android.webp",
           "reverse": false
         },
         {
