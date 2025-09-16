@@ -912,6 +912,83 @@
         }
       ]
     },
+    "raspberryPi": {
+      "title": "Настройка WiFi-VPN точки доступа на Raspberry Pi",
+      "items": [
+        {
+          "title": "Шаг 1",
+          "description": [
+            "Скачайте клиентскую версию VPN клиента для ARM и настройте его по инструкции: https://github.com/batchar2/fptn?tab=readme-ov-file#fptn-client-installation-and-configuration"
+          ],
+          "number": 1
+        },
+        {
+          "title": "Шаг 2",
+          "description": [
+            "Установите пакеты hostapd и dnsmasq командой:",
+            "sudo apt install hostapd dnsmasq"
+          ],
+          "number": 2
+        },
+        {
+          "title": "Шаг 3",
+          "description": [
+            "Остановите и отключите службы hostapd и dnsmasq:",
+            "sudo systemctl stop hostapd && sudo systemctl disable hostapd",
+            "sudo systemctl stop dnsmasq && sudo systemctl disable dnsmasq"
+          ],
+          "number": 3
+        },
+        {
+          "title": "Шаг 4",
+          "description": [
+            "Для Ubuntu 24.04/22.04: откройте /etc/systemd/resolved.conf, установите DNSStubListener=no, перезапустите службу systemd-resolved и перезагрузите систему"
+          ],
+          "number": 4
+        },
+        {
+          "title": "Шаг 5",
+          "description": [
+            "Скопируйте hostapd/fptn-hostapd.conf и hostapd/fptn-hostapd.service в нужные директории",
+            "Отредактируйте /etc/fptn-hostapd.conf, указав WiFi интерфейс, SSID и пароль"
+          ],
+          "number": 5
+        },
+        {
+          "title": "Шаг 6",
+          "description": [
+            "Скопируйте hostapd/fptn-dnsmasq.conf и hostapd/fptn-dnsmasq.service в нужные директории"
+          ],
+          "number": 6
+        },
+        {
+          "title": "Шаг 7",
+          "description": [
+            "Скопируйте fptn-setup-network.service в /etc/systemd/system и fptn-setup-network.sh в /usr/sbin/",
+            "Отредактируйте fptn-setup-network.sh, указав интерфейсы WiFi и Ethernet"
+          ],
+          "number": 7
+        },
+        {
+          "title": "Шаг 8",
+          "description": [
+            "sudo systemctl daemon-reload",
+            "sudo systemctl enable/restart fptn-hostapd.service",
+            "sudo systemctl enable/restart fptn-dnsmasq.service",
+            "sudo systemctl enable/start fptn-setup-network.service",
+            "sudo systemctl enable/start fptn-client.service"
+          ],
+          "number": 8
+        },
+        {
+          "title": "Готово!",
+          "description": [
+            "После этих шагов ваш Raspberry Pi будет работать как WiFi точка доступа с VPN"
+          ],
+          "number": 9
+        }
+      ]
+    },
     "linux": {
       "title": "Как начать",
       "items": [
@@ -951,9 +1028,7 @@
         },
         {
           "title": "Шаг четвертый",
-          "description": [
-            "Вставьте сюда токен из Telegram-бота и сохраните."
-          ],
+          "description": ["Вставьте сюда токен из Telegram-бота и сохраните."],
           "number": 5,
           "image": "/images/steps/linux/ru/4-settings.webp",
           "reverse": false
@@ -1017,6 +1092,11 @@
           "number": 5,
           "image": "/images/steps/macos/ru/settings-3.webp",
           "reverse": false
+        },
+        {
+          "title": "Шаг шестой",
+          "description": ["Если не удалось, то вам может понадобиться более детальная инструкция для решения проблем с драйверами https://github.com/batchar2/fptn/blob/master/docs/macos/README.md"],
+          "number": 6
         }
       ]
     }

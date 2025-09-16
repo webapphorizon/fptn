@@ -134,13 +134,13 @@ const GradientHero = () => {
                   </Link>
                 </Button> */}
                 <DownloadButton/>
-                <Button
+                {/* <Button
                   size="lg"
                   variant="outline"
                   className="border-white bg-transparent text-white hover:bg-white/20 hover:text-white"
                 >
                   {extendedHeroData.secondaryCta.text}
-                </Button>
+                </Button> */}
               </div>
               <div className="flex flex-col">
                 <span>Version: 0.3.23</span>

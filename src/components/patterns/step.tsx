@@ -4,7 +4,7 @@ import { Separator } from "~/components/ui/separator";
 import { cn } from "~/lib/utils";
 
 interface StepProps {
-  image: string;
+  image?: string;
   title: string;
   description: ReactNode;
   number: number;
@@ -27,13 +27,15 @@ const Step = ({
     >
       <div className={cn("flex w-full flex-1 flex-col gap-2 max-md:hidden")}>
         <div className="relative mt-1 mb-10 flex aspect-video w-full justify-end">
-          <Image
-            src={image}
-            className="rounded-lg object-contain"
-            alt="Step"
-            width={300}
-            height={300}
-          />
+          {image && (
+            <Image
+              src={image}
+              className="rounded-lg object-contain"
+              alt="Step"
+              width={300}
+              height={300}
+            />
+          )}
         </div>
       </div>
       <div className="flex w-fit">
@@ -55,13 +57,15 @@ const Step = ({
           <div className="text-muted-foreground">{description}</div>
         </div>
         <div className="relative aspect-video w-full md:hidden">
-          <Image
-            src={image}
-            className="rounded-lg object-contain"
-            alt="Step"
-            width={300}
-            height={300}
-          />
+          {image && (
+            <Image
+              src={image}
+              className="rounded-lg object-contain"
+              alt="Step"
+              width={300}
+              height={300}
+            />
+          )}
         </div>
       </div>
     </div>
