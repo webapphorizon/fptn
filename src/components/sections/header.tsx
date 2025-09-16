@@ -70,7 +70,7 @@ const Header = () => {
             </Button>
           </Link>
         </div>
-        <div className="xl:hidden">
+        <div className="xl:hidden ">
           <Sheet>
             <SheetTrigger asChild className="">
               <Button
@@ -82,7 +82,7 @@ const Header = () => {
                 <Menu className="size-7" />
               </Button>
             </SheetTrigger>
-            <SheetContent>
+            <SheetContent className="z-100">
               <SheetHeader>
                 <SheetTitle className="text-3xl font-bold">
                   {contentData.links.logo.text}
@@ -100,14 +100,14 @@ const Header = () => {
                 ))}
               </nav>
               <div className="text-md text-muted-foreground flex flex-col gap-8 p-4">
-                <div className="flex flex-col gap-2">
+                {/* <div className="flex flex-col gap-2">
                   <Link href={contentData.links.phone.url}>
                     {contentData.links.phone.text}
                   </Link>
                   <Link href={contentData.links.email.url}>
                     {contentData.links.email.text}
                   </Link>
-                </div>
+                </div> */}
                 <SocialIcons />
               </div>
               <SheetFooter>
