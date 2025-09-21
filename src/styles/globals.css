@@ -22,6 +22,8 @@ html {
 
 @theme {
   --font-sans: var(--font-roboto-sans);
+  --font-serif: var(--font-noto-sans);
+  --font-mono: var(--font-ubuntu);
 }
 
 :root {
@@ -149,7 +151,7 @@ html {
   }
   /* Адаптивные заголовки */
   h1 {
-    @apply text-[2.25rem] leading-none font-black text-pretty md:text-[4rem];
+    @apply text-[2.25rem] leading-none font-black text-pretty md:text-[4rem] font-mono font-[700];
   }
 
   h2 {
@@ -164,11 +166,19 @@ html {
     @apply text-[1rem] leading-tight font-semibold md:text-[1.25rem];
   }
 
+  h1,h2,h3,h4,h5,h6 {
+    @apply font-mono font-[700];
+  }
+
+  p {
+    @apply font-serif font-[400] opacity-90;
+  }
+
   /* Адаптивный основной текст */
   body,
   blockquote,
   p {
-    @apply text-[.875rem] leading-normal md:text-[1rem];
+    @apply text-[.875rem] leading-normal md:text-[1rem] font-serif font-[400];
   }
 
   small {
