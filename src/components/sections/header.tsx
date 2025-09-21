@@ -62,13 +62,13 @@ const Header = () => {
             >
               <FaTelegram className="size-8" />
             </CustomLink>
-            <ThemeToggle />
           </div>
           <Link href={contentData.header.cta.url}>
             <Button className="min-w-40 flex-1 text-nowrap">
               {`${contentData.header.cta.text}`}
             </Button>
           </Link>
+          <ThemeToggle />
         </div>
         <div className="xl:hidden">
           <Sheet>

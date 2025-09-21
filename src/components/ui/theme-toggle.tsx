@@ -2,6 +2,7 @@
 
 import { Monitor, Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 import { Button } from "~/components/ui/button";
 import {
   DropdownMenu,
@@ -13,6 +14,21 @@ import { contentData } from "~/lib/content-data";
 
 export function ThemeToggle() {
   const { setTheme, theme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  // Prevent hydration mismatch by only rendering after mount
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return (
+      <Button variant="ghost" size="icon" className="size-9">
+        <Sun className="size-[1.2rem]" />
+        <span className="sr-only">{contentData.theme.toggle.title}</span>
+      </Button>
+    );
+  }
 
   return (
     <DropdownMenu>
@@ -23,7 +39,7 @@ export function ThemeToggle() {
           <span className="sr-only">{contentData.theme.toggle.title}</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="center" className="z-150">
+      <DropdownMenuContent align="start" className="z-150">
         <DropdownMenuItem
           onClick={() => setTheme(`light`)}
           className="cursor-pointer"
