@@ -2,8 +2,6 @@
 
 import { Mail, MapPin, Phone } from "lucide-react";
 import Link from "next/link";
-import YandexMap from "~/components/block/yandex-map";
-import FormCard from "~/components/ui/form-card";
 import { contentData } from "~/lib/content-data";
 
 const ContactsInfoBlockText = () => {
@@ -64,7 +62,6 @@ const ContactsInfoBlock = () => {
   return (
     <div >
       <ContactsInfoBlockText />
-      <YandexMap />
     </div>
   );
 };
@@ -72,9 +69,6 @@ const ContactsInfoBlock = () => {
 const ContactsBlock = () => {
   return (
     <div className="flex w-full flex-col gap-8 lg:flex-row">
-      <div className="w-full lg:w-1/2">
-        <FormCard />
-      </div>
       <div className="w-full lg:w-1/2">
         <ContactsInfoBlock />
       </div>

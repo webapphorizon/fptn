@@ -1,5 +1,4 @@
 import Link from "next/link";
-import NewsletterForm from "~/components/forms/newsletter-form";
 import CustomLink from "~/components/ui/custom-link";
 import Logo from "~/components/ui/logo";
 import { Separator } from "~/components/ui/separator";

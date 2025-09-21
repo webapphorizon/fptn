@@ -9,7 +9,7 @@ export default function HomePage() {
     <>
       <Header />
       <main className="mx-auto flex max-w-[94rem] flex-col gap-20 px-4 pt-5 pb-30 md:pt-10 md:pb-40 lg:gap-10 lg:px-8">
-        <HeroSection variant="gradient" />
+        <HeroSection />
         <StepsSection />
         <FAQSection />
       </main>
