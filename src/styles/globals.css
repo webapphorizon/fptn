@@ -143,6 +143,9 @@ html {
   }
   body {
     @apply bg-background text-foreground text-pretty;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
   }
   /* Адаптивные заголовки */
   h1 {

@@ -2,6 +2,7 @@
 
 import { Menu } from "lucide-react";
 import Link from "next/link";
+import { FaGithub, FaTelegram } from "react-icons/fa6";
 import { Button } from "~/components/ui/button";
 import Logo from "~/components/ui/logo";
 import {
@@ -18,9 +19,7 @@ import { contentData } from "~/lib/content-data";
 import { cn } from "~/lib/utils";
 import madeby from "~/madeby.json";
 import CustomLink from "../ui/custom-link";
-import Github from "../icons/github";
-import Telegram from "../icons/telegram";
-import { FaGithub, FaGooglePlay, FaTelegram } from "react-icons/fa6";
+import { ThemeToggle } from "../ui/theme-toggle";
 // import Logo from "~/components/icons/logo"
 
 const Header = () => {
@@ -63,6 +62,7 @@ const Header = () => {
             >
               <FaTelegram className="size-8" />
             </CustomLink>
+            <ThemeToggle />
           </div>
           <Link href={contentData.header.cta.url}>
             <Button className="min-w-40 flex-1 text-nowrap">
@@ -70,7 +70,7 @@ const Header = () => {
             </Button>
           </Link>
         </div>
-        <div className="xl:hidden ">
+        <div className="xl:hidden">
           <Sheet>
             <SheetTrigger asChild className="">
               <Button
@@ -108,7 +108,10 @@ const Header = () => {
                     {contentData.links.email.text}
                   </Link>
                 </div> */}
-                <SocialIcons />
+                <div className="flex items-center justify-between">
+                  <SocialIcons />
+                  <ThemeToggle />
+                </div>
               </div>
               <SheetFooter>
                 <Button className="w-full">

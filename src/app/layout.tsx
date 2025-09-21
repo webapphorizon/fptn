@@ -1,6 +1,7 @@
 import "~/styles/globals.css";
 
 import { type Metadata } from "next";
+import { ThemeProvider } from "next-themes";
 import { Roboto } from "next/font/google";
 import { PlatformProvider } from "~/context/platform-selector-context";
 
@@ -20,10 +21,16 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${roboto.variable}`}>
+    <html lang="en" className={`${roboto.variable}`} suppressHydrationWarning>
       <body className="mt-[4.5rem]">
-        {" "}
-        <PlatformProvider>{children}</PlatformProvider>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <PlatformProvider>{children}</PlatformProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
