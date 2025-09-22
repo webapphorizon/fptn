@@ -16,11 +16,11 @@
       { "text": "How to Start", "url": "#steps" },
       { "text": "FAQ", "url": "#faq" }
     ],
-    "cta": { "text": "Download", "url": "/#contacts" }
+    "cta": { "text": "Read", "url": "/#contacts" }
   },
   "hero": {
     "gradientTitle": "FPTN Project",
-    "gradientDescription": "FPTN is a non-profit VPN, a volunteer project to bypass censorship. The VPN client is a mobile app or a lightweight program for computers, with an interface located in the system tray. No registration is required! We will send you an access token via a Telegram bot. FPTN operates through the HTTPS protocol, effectively masking traffic and allowing you to bypass censorship restrictions. The project's source code is available on GitHub.",
+    "gradientDescription": "FPTN is a non-profit VPN, a volunteer project to bypass censorship. The VPN client is a mobile app or a lightweight program for computers, with an interface located in the system tray.<br></br><br></br> No registration is required! We will send you an access token via a <telegram>Telegram bot</telegram>. FPTN operates through the HTTPS protocol, effectively masking traffic and allowing you to bypass censorship restrictions. <br></br><br></br>The project's source code is available on <github>GitHub</github>.",
     "gradientImage": {
       "src": "/fptn.webp",
       "alt": "FPTN Project"
@@ -33,7 +33,7 @@
         {
           "title": "Step One",
           "description": [
-            "Go to the Telegram bot and generate a token with the /token command, then copy it."
+            "Go to the <telegram>Telegram bot</telegram> and generate a token with the /token command, then copy it."
           ],
           "number": 1,
           "image": "/images/telegram-token-en.webp",

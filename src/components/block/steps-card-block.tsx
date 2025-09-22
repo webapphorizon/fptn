@@ -3,8 +3,8 @@ import { useTranslations } from "next-intl";
 import { type ReactElement } from "react";
 import Step from "~/components/patterns/step";
 import { usePlatform } from "~/context/platform-selector-context";
+import CustomLink from "~/components/ui/custom-link";
 
-// Define the expected shape
 interface StepItem {
   number: number;
   title: string;
@@ -30,7 +30,21 @@ const StepsCardBlock = (): ReactElement => {
           description={
             <span className="flex flex-col gap-2">
               {step.description.map((paragraph, pIndex) => (
-                <p key={pIndex}>{paragraph}</p>
+                <p key={pIndex}>
+                  {t.rich(
+                    `${selectedPlatform}.items.${step.number - 1}.description.${pIndex}`,
+                    {
+                      telegram: (chunks) => (
+                        <CustomLink
+                          href="https://t.me/fptn_project"
+                          className="text-blue-400 underline"
+                        >
+                          {chunks}
+                        </CustomLink>
+                      ),
+                    },
+                  )}
+                </p>
               ))}
             </span>
           }

@@ -11,7 +11,7 @@ const HeroSection = () => {
   return (
     <section className="mx-auto w-full" id="hero">
       <div className="relative overflow-hidden rounded-xl p-8 md:p-12 lg:p-16">
-        {/* Фон-картинка */}
+        {/* Фон */}
         <Image
           src="/images/background.webp"
           alt="Background"
@@ -20,23 +20,39 @@ const HeroSection = () => {
           sizes="100vw"
           priority
         />
-        {/* Полупрозрачный оверлей, чтобы текст был читаемым */}
         <div className="absolute inset-0 -z-10 bg-black/80 backdrop-blur-xl" />
 
         <div className="relative z-10 flex flex-col items-center gap-8 text-white lg:flex-row lg:justify-between">
           <div className="flex max-w-2xl flex-col gap-6">
             <h1>{t("hero.gradientTitle")}</h1>
-            <p>{t("hero.gradientDescription")}</p>
+            <p>
+              {t.rich("hero.gradientDescription", {
+                br: () => <br />,
+                telegram: (chunks) => (
+                  <CustomLink
+                    href="https://t.me/fptn_project"
+                    className="text-blue-400 underline"
+                  >
+                    {chunks}
+                  </CustomLink>
+                ),
+                github: (chunks) => (
+                  <CustomLink
+                    href="https://github.com/batchar2/fptn"
+                    className="text-blue-400 underline"
+                  >
+                    {chunks}
+                  </CustomLink>
+                ),
+              })}
+            </p>
             <div className="flex flex-col gap-2">
               <div className="flex flex-col gap-4 sm:flex-row">
                 <DownloadButton />
               </div>
               <div className="flex flex-col">
                 <span>Version: 0.3.23</span>
-                <CustomLink
-                  href="https://github.com/FPTN-Project/FPTN/releases/tag/v0.3.23"
-                  className=""
-                >
+                <CustomLink href="https://github.com/FPTN-Project/FPTN/releases/tag/v0.3.23" className="text-blue-400 underline">
                   {t("header.cta.text")} - Release Notes
                 </CustomLink>
               </div>
