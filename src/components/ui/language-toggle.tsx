@@ -3,7 +3,7 @@
 import { Languages } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Button } from "~/components/ui/button";
 import {
   DropdownMenu,
@@ -25,6 +25,19 @@ export function LanguageToggle() {
   const params = useParams();
   const redirectedRef = useRef(false);
   const t = useTranslations("ui");
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Определяем размер экрана для условного modal поведения
+  useEffect(() => {
+    const checkIsMobile = () => {
+      setIsMobile(window.innerWidth < 1280); // xl breakpoint
+    };
+
+    checkIsMobile();
+    window.addEventListener("resize", checkIsMobile);
+
+    return () => window.removeEventListener("resize", checkIsMobile);
+  }, []);
 
   // При монтировании компонента проверяем, соответствует ли текущий язык сохраненному в cookie
   useEffect(() => {
@@ -99,14 +112,14 @@ export function LanguageToggle() {
   };
 
   return (
-    <DropdownMenu>
+    <DropdownMenu modal={isMobile}>
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="icon" aria-label={t("language.toggle")}>
           <Languages className="h-[1.2rem] w-[1.2rem]" />
           <span className="sr-only">{t("language.toggle")}</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="start" className="z-150">
+      <DropdownMenuContent align="start" className="z-200">
         {languages.map((language) => (
           <DropdownMenuItem
             key={language.code}

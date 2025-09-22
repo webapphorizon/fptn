@@ -8,8 +8,8 @@ import { Noto_Sans, Roboto, Ubuntu } from "next/font/google";
 import { PlatformProvider } from "~/context/platform-selector-context";
 
 export const metadata: Metadata = {
-  title: "webapphorizon",
-  description: "webapphorizon",
+  title: "FPTN Project",
+  description: "FPTN Project",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 

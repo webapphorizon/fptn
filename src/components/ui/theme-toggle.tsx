@@ -13,13 +13,26 @@ import {
 } from "~/components/ui/dropdown-menu";
 
 export function ThemeToggle() {
-  const { setTheme, theme } = useTheme();
+  const { setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const t = useTranslations("theme");
 
   // Prevent hydration mismatch by only rendering after mount
   useEffect(() => {
     setMounted(true);
+  }, []);
+
+  // Определяем размер экрана для условного modal поведения
+  useEffect(() => {
+    const checkIsMobile = () => {
+      setIsMobile(window.innerWidth < 1280); // xl breakpoint
+    };
+
+    checkIsMobile();
+    window.addEventListener("resize", checkIsMobile);
+
+    return () => window.removeEventListener("resize", checkIsMobile);
   }, []);
 
   if (!mounted) {
@@ -32,7 +45,7 @@ export function ThemeToggle() {
   }
 
   return (
-    <DropdownMenu>
+    <DropdownMenu modal={isMobile}>
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="icon" className="size-9">
           <Sun className="size-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
@@ -40,7 +53,7 @@ export function ThemeToggle() {
           <span className="sr-only">{t("toggle.title")}</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="start" className="z-150">
+      <DropdownMenuContent align="start" className="z-200">
         <DropdownMenuItem
           onClick={() => setTheme(`light`)}
           className="cursor-pointer"
