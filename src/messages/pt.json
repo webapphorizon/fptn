@@ -8,7 +8,7 @@
     },
     "socials": {
       "telegramBotUrl": "https://t.me/@fptn_bot",
-      "telegramChannelUrl": "https://t.me/fptn_channel",
+      "telegramChannelUrl": "https://t.me/fptn_project",
       "githubUrl": "https://github.com/batchar2/fptn"
     }
   },
@@ -99,7 +99,9 @@
         },
         {
           "title": "Passo Três",
-          "description": ["Em seguida, clique no botão 'Executar mesmo assim'."],
+          "description": [
+            "Em seguida, clique no botão 'Executar mesmo assim'."
+          ],
           "number": 3,
           "image": "/images/steps/windows/en/2-protect.webp",
           "reverse": false
@@ -336,7 +338,9 @@
         },
         {
           "title": "Passo Três",
-          "description": ["Cole o token do <telegramBot>bot do Telegram</telegramBot> aqui."],
+          "description": [
+            "Cole o token do <telegramBot>bot do Telegram</telegramBot> aqui."
+          ],
           "number": 3,
           "image": "/images/steps/macos/en/running-client.webp",
           "reverse": false
@@ -350,7 +354,9 @@
         },
         {
           "title": "Passo Cinco",
-          "description": ["Feche a janela de configurações e tente se conectar."],
+          "description": [
+            "Feche a janela de configurações e tente se conectar."
+          ],
           "number": 5,
           "image": "/images/steps/macos/en/settings-3.webp",
           "reverse": false

@@ -8,7 +8,7 @@
     },
     "socials": {
       "telegramBotUrl": "https://t.me/@fptn_bot",
-      "telegramChannelUrl": "https://t.me/fptn_channel",
+      "telegramChannelUrl": "https://t.me/fptn_project",
       "githubUrl": "https://github.com/batchar2/fptn"
     }
   },
@@ -185,7 +185,7 @@
         {
           "title": "Step 2",
           "description": [
-            "Install the hostapd and dnsmasq packages with the command:", 
+            "Install the hostapd and dnsmasq packages with the command:",
             "sudo apt install hostapd dnsmasq"
           ],
           "number": 2
@@ -336,7 +336,9 @@
         },
         {
           "title": "Step Three",
-          "description": ["Paste the token from the <telegramBot>Telegram bot</telegramBot> here."],
+          "description": [
+            "Paste the token from the <telegramBot>Telegram bot</telegramBot> here."
+          ],
           "number": 3,
           "image": "/images/steps/macos/en/running-client.webp",
           "reverse": false

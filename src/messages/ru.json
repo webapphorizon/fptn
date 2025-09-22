@@ -8,7 +8,7 @@
     },
     "socials": {
       "telegramBotUrl": "https://t.me/@fptn_bot",
-      "telegramChannelUrl": "https://t.me/fptn_channel",
+      "telegramChannelUrl": "https://t.me/fptn_project",
       "githubUrl": "https://github.com/batchar2/fptn"
     }
   },
@@ -138,7 +138,9 @@
         },
         {
           "title": "Шаг восьмой",
-          "description": ["Вставьте сюда токен из <telegramBot>Telegram-бот</telegramBot>а и сохраните"],
+          "description": [
+            "Вставьте сюда токен из <telegramBot>Telegram-бот</telegramBot>а и сохраните"
+          ],
           "number": 8,
           "image": "/images/steps/windows/ru/8-select-file.webp",
           "reverse": false
@@ -286,7 +288,9 @@
         },
         {
           "title": "Шаг четвертый",
-          "description": ["Вставьте сюда токен из <telegramBot>Telegram-бот</telegramBot>а и сохраните."],
+          "description": [
+            "Вставьте сюда токен из <telegramBot>Telegram-бот</telegramBot>а и сохраните."
+          ],
           "number": 5,
           "image": "/images/steps/linux/ru/4-settings.webp",
           "reverse": false
@@ -332,7 +336,9 @@
         },
         {
           "title": "Шаг третий",
-          "description": ["Вставьте сюда токен из <telegramBot>Telegram-бота</telegramBot>."],
+          "description": [
+            "Вставьте сюда токен из <telegramBot>Telegram-бота</telegramBot>."
+          ],
           "number": 3,
           "image": "/images/steps/macos/ru/running-client.webp",
           "reverse": false
@@ -416,7 +422,10 @@
     ],
     "callToAction": {
       "text": "Не нашли ответ на свой вопрос? Свяжитесь с нашим сообществом напрямую, и мы будем рады помочь!",
-      "button": { "text": "Связаться с нами", "url": "https://t.me/fptn_project" }
+      "button": {
+        "text": "Связаться с нами",
+        "url": "https://t.me/fptn_project"
+      }
     }
   },
   "footer": {
