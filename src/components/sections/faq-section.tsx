@@ -17,7 +17,7 @@ const FAQSection = () => {
       <FAQAccordionBlock />
       <div className="flex flex-col items-center gap-5 pt-10">
         <h3 className="text-center">{t("callToAction.text")}</h3>
-        <Button asChild variant="cta" size="lg" className="shadow-lg">
+        <Button asChild variant="cta" size="lg" className="shadow-lg ">
           <Link href={t("callToAction.button.url")}>
             {t("callToAction.button.text")}
           </Link>

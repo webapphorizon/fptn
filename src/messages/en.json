@@ -6,41 +6,9 @@
       "link": "/",
       "text": "FPTN Project"
     },
-    "phone": {
-      "text": "+7 (999) 123-4567",
-      "url": "tel:+79991234567"
-    },
-    "email": {
-      "text": "info@webapphorizon.com",
-      "url": "mailto:info@webapphorizon.com"
-    },
-    "address": {
-      "text": "123317, Moscow, Presnenskaya Emb., 12, MMDC «Moscow-City»",
-      "mapUrl": "https://maps.google.com/?q=Presnenskaya+Embankment+12+Moscow"
-    },
     "socials": {
-      "twitterUrl": "https://twitter.com/fptn",
-      "facebookUrl": "https://www.facebook.com/fptn",
-      "vkUrl": "https://vk.com/fptn",
-      "yandexMapsUrl": "https://yandex.ru/maps/?ll=37.618423%2C55.755826&z=17",
-      "googleMapsUrl": "https://maps.google.com/?q=Presnenskaya+Embankment+12+Moscow",
-      "instagramUrl": "https://www.instagram.com/fptn",
-      "linkedinUrl": "https://www.linkedin.com/company/fptn",
-      "telegramUrl": "https://t.me/fptn",
-      "whatsappUrl": "https://wa.me/fptn",
-      "youtubeUrl": "https://www.youtube.com/fptn",
-      "tiktokUrl": "https://www.tiktok.com/fptn",
-      "pinterestUrl": "https://www.pinterest.com/fptn",
-      "snapchatUrl": "https://www.snapchat.com/fptn",
-      "vimeoUrl": "https://www.vimeo.com/fptn",
-      "soundcloudUrl": "https://www.soundcloud.com/fptn",
-      "spotifyUrl": "https://www.spotify.com/fptn",
-      "appleMusicUrl": "https://www.applemusic.com/fptn",
-      "amazonMusicUrl": "https://www.amazonmusic.com/fptn",
-      "deezerUrl": "https://www.deezer.com/fptn",
-      "bandcampUrl": "https://www.bandcamp.com/fptn",
-      "mixcloudUrl": "https://www.mixcloud.com/fptn",
-      "githubUrl": "https://www.github.com/fptn"
+      "telegramUrl": "https://t.me/fptn_project",
+      "githubUrl": "https://github.com/batchar2/fptn"
     }
   },
   "header": {
@@ -447,98 +415,10 @@
     ],
     "callToAction": {
       "text": "Didn’t find the answer to your question? Contact our community directly, and we’ll be happy to help!",
-      "button": { "text": "Contact Us", "url": "/#contacts" }
+      "button": { "text": "Contact Us", "url": "https://t.me/fptn_project" }
     }
   },
   "contacts": {
-    "title": "Contact Us",
-    "description": "Have questions or ready to get started? Contact us for a free consultation.",
-    "booking": {
-      "title": "Online Booking",
-      "description": "Choose a convenient time for a consultation or meeting with our specialist.",
-      "widgetType": "yclients"
-    },
-    "form": {
-      "title": "Send a Message",
-      "description": "Fill out the form below, and we’ll get back to you as soon as possible.",
-      "fields": {
-        "name": {
-          "label": "Name",
-          "placeholder": "Your name",
-          "error": "Name must contain at least 2 characters"
-        },
-        "email": {
-          "label": "Email",
-          "placeholder": "Your email",
-          "error": "Please enter a valid email"
-        },
-        "message": {
-          "label": "Message",
-          "placeholder": "Your message",
-          "error": "Message must contain at least 10 characters"
-        }
-      },
-      "button": {
-        "default": "Send Message",
-        "loading": "Sending..."
-      },
-      "success": "Form successfully submitted!",
-      "error": "An error occurred while submitting the form",
-      "formcarryError": "Server error while submitting the form",
-      "missingApiKey": "API key for form submission is not configured"
-    },
-    "beforeAfter": {
-      "title": "Our Students’ Results",
-      "description": "Real success stories and achievements of our students before and after taking our courses",
-      "items": [
-        {
-          "title": "Alexander, 28 years old",
-          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDLR0DNnUSV4FvuNmqdszpjxc8ETB9KUJg1kPH",
-          "before": "A1 Beginner",
-          "after": "B2 Upper-Intermediate",
-          "description": "In just 8 months, improved English from basic to a level enabling fluent communication at work."
-        },
-        {
-          "title": "Maria, 35 years old",
-          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD7BVBTPbE9LQ0VMs5dBNACDFGycK7Sv3YnJPw",
-          "before": "A2 Elementary",
-          "after": "C1 Advanced",
-          "description": "Learned the language for relocation to another country. Now successfully works in an international company."
-        },
-        {
-          "title": "Dmitry, 42 years old",
-          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDYXWLYViNMPHarF4K5yX8z6nTO7uc2twJSZLU",
-          "before": "B1 Intermediate",
-          "after": "C1 Advanced",
-          "description": "Improved business English in 6 months. Got a promotion thanks to confident communication with international partners."
-        },
-        {
-          "title": "Ekaterina, 19 years old",
-          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD7BVBTPbE9LQ0VMs5dBNACDFGycK7Sv3YnJPw",
-          "before": "A1 Beginner",
-          "after": "B2 Upper-Intermediate",
-          "description": "Enrolled in a foreign university after a year-long course preparing for language exams."
-        },
-        {
-          "title": "Sergey, 31 years old",
-          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDt8dd4FXHvWNLgyxqAbeQEiS4rRuFKnwMBfzX",
-          "before": "A2 Elementary",
-          "after": "B2 Upper-Intermediate",
-          "description": "Studied the language independently for years without results. Achieved the goal in 10 months with our courses."
-        },
-        {
-          "title": "Anna, 25 years old",
-          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDVc5IxE9HhT2akm0S3v1y4lMgeGqBozDZrI7O",
-          "before": "B1 Intermediate",
-          "after": "C2 Proficiency",
-          "description": "Became a professional translator after an advanced course and preparation for international exams."
-        }
-      ],
-      "cta": {
-        "text": "Start Learning",
-        "url": "/#contacts"
-      }
-    },
     "contactInfo": {
       "title": "Contact Information",
       "items": [

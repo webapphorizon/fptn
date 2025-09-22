@@ -9,7 +9,7 @@ const HeroSection = () => {
   const t = useTranslations();
 
   return (
-    <section className="mx-auto w-full">
+    <section className="mx-auto w-full" id="hero">
       <div className="relative overflow-hidden rounded-xl p-8 md:p-12 lg:p-16">
         {/* Фон-картинка */}
         <Image

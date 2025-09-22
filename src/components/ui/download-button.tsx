@@ -29,7 +29,7 @@ const downloadOptionsConfig: DownloadOption[] = [
   {
     id: "android-play",
     icon: <Smartphone className="h-4 w-4" />,
-    url: "https://play.google.com/store/apps/details?id=your.app.id",
+    url: "https://play.google.com/store/apps/details?id=org.fptn.vpn&pli=1",
   },
   {
     id: "android-direct",
@@ -39,27 +39,27 @@ const downloadOptionsConfig: DownloadOption[] = [
   {
     id: "windows",
     icon: <Monitor className="h-4 w-4" />,
-    url: "/downloads/app-windows-x64.exe",
+    url: "https://github.com/batchar2/fptn/releases/download/0.3.23/FptnClientInstaller-0.3.23-windows-x64_x86.zip",
   },
   {
     id: "macos-silicon",
     icon: <Apple className="h-4 w-4" />,
-    url: "/downloads/app-macos-arm64.dmg",
+    url: "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-apple-silicon.pkg",
   },
   {
     id: "macos-intel",
     icon: <Apple className="h-4 w-4" />,
-    url: "/downloads/app-macos-x64.dmg",
+    url: "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-intel.pkg",
   },
   {
     id: "linux-x64",
     icon: <Monitor className="h-4 w-4" />,
-    url: "/downloads/app-linux-x64.AppImage",
+    url: "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-ubuntu22.04-amd64.deb",
   },
   {
     id: "linux-arm",
     icon: <Monitor className="h-4 w-4" />,
-    url: "/downloads/app-linux-arm64.AppImage",
+    url: "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-ubuntu22.04-arm64.deb",
   },
 ];
 

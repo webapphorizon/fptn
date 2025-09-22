@@ -6,46 +6,9 @@
       "link": "/",
       "text": "FPTN Project"
     },
-    "phone": {
-      "text": "+7 (999) 123-4567",
-      "url": "tel:+79991234567"
-    },
-    "email": {
-      "text": "info@webapphorizon.com",
-      "url": "mailto:info@webapphorizon.com"
-    },
-    "address": {
-      "text": "123317, Москва, Пресненская наб., 12, ММДЦ «Москва-Сити»",
-      "mapUrl": "https://maps.google.com/?q=Пресненская+набережная+12+Москва"
-    },
     "socials": {
-      "twitterUrl": "https://twitter.com/fptn",
-      "facebookUrl": "https://www.facebook.com/fptn",
-      "vkUrl": "https://vk.com/fptn",
-      "yandexMapsUrl": "https://yandex.ru/maps/?ll=37.618423%2C55.755826&z=17",
-      "googleMapsUrl": "https://maps.google.com/?q=Пресненская+набережная+12+Москва",
-      "instagramUrl": "https://www.instagram.com/fptn",
-      "linkedinUrl": "https://www.linkedin.com/company/fptn",
-      "telegramUrl": "https://t.me/fptn",
-      "whatsappUrl": "https://wa.me/fptn",
-      "youtubeUrl": "https://www.youtube.com/fptn",
-      "tiktokUrl": "https://www.tiktok.com/fptn",
-      "pinterestUrl": "https://www.pinterest.com/fptn",
-      "snapchatUrl": "https://www.snapchat.com/fptn",
-      "vimeoUrl": "https://www.vimeo.com/fptn",
-      "soundcloudUrl": "https://www.soundcloud.com/fptn",
-      "spotifyUrl": "https://www.spotify.com/fptn",
-      "appleMusicUrl": "https://www.applemusic.com/fptn",
-      "amazonMusicUrl": "https://www.amazonmusic.com/fptn",
-      "deezerUrl": "https://www.deezer.com/fptn",
-      "bandcampUrl": "https://www.bandcamp.com/fptn",
-      "mixcloudUrl": "https://www.mixcloud.com/fptn",
-      "soundcloudUrl": "https://www.soundcloud.com/fptn",
-      "spotifyUrl": "https://www.spotify.com/fptn",
-      "appleMusicUrl": "https://www.applemusic.com/fptn",
-      "amazonMusicUrl": "https://www.amazonmusic.com/fptn",
-      "deezerUrl": "https://www.deezer.com/fptn",
-      "githubUrl": "https://www.github.com/fptn"
+      "telegramUrl": "https://t.me/fptn_project",
+      "githubUrl": "https://github.com/batchar2/fptn"
     }
   },
   "header": {
@@ -53,7 +16,7 @@
       { "text": "Как начать", "url": "#steps" },
       { "text": "FAQ", "url": "#faq" }
     ],
-    "cta": { "text": "Скачать", "url": "/#contacts" }
+    "cta": { "text": "Скачать", "url": "/#hero" }
   },
   "hero": {
     "gradientTitle": "FPTN Project",
@@ -448,127 +411,7 @@
     ],
     "callToAction": {
       "text": "Не нашли ответ на свой вопрос? Свяжитесь с нашим сообществом напрямую, и мы будем рады помочь!",
-      "button": { "text": "Связаться с нами", "url": "/#contacts" }
-    }
-  },
-  "contacts": {
-    "title": "Свяжитесь с нами",
-    "description": "Есть вопросы или готовы начать? Свяжитесь с нами для бесплатной консультации.",
-    "booking": {
-      "title": "Запись онлайн",
-      "description": "Выберите удобное время для консультации или встречи с нашим специалистом",
-      "widgetType": "yclients"
-    },
-    "form": {
-      "title": "Отправить сообщение",
-      "description": "Заполните форму ниже, и мы свяжемся с вами в ближайшее время.",
-      "fields": {
-        "name": {
-          "label": "Имя",
-          "placeholder": "Ваше имя",
-          "error": "Имя должно содержать минимум 2 символа"
-        },
-        "email": {
-          "label": "Email",
-          "placeholder": "Ваш email",
-          "error": "Пожалуйста, введите корректный email"
-        },
-        "message": {
-          "label": "Сообщение",
-          "placeholder": "Ваше сообщение",
-          "error": "Сообщение должно содержать минимум 10 символов"
-        }
-      },
-      "button": {
-        "default": "Отправить сообщение",
-        "loading": "Отправка..."
-      },
-      "success": "Форма успешно отправлена!",
-      "error": "Произошла ошибка при отправке формы",
-      "formcarryError": "Ошибка сервера при отправке формы",
-      "missingApiKey": "API ключ для отправки формы не настроен"
-    },
-    "beforeAfter": {
-      "title": "Результаты наших студентов",
-      "description": "Реальные истории успеха и достижения наших учеников до и после обучения на курсах",
-      "items": [
-        {
-          "title": "Александр, 28 лет",
-          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDLR0DNnUSV4FvuNmqdszpjxc8ETB9KUJg1kPH",
-          "before": "A1 Beginner",
-          "after": "B2 Upper-Intermediate",
-          "description": "Всего за 8 месяцев смог прокачать свой английский с базового до уровня, позволяющего свободно общаться на работе"
-        },
-        {
-          "title": "Мария, 35 лет",
-          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD7BVBTPbE9LQ0VMs5dBNACDFGycK7Sv3YnJPw",
-          "before": "A2 Elementary",
-          "after": "C1 Advanced",
-          "description": "Выучила язык для переезда в другую страну. Теперь успешно работает в международной компании"
-        },
-        {
-          "title": "Дмитрий, 42 года",
-          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDYXWLYViNMPHarF4K5yX8z6nTO7uc2twJSZLU",
-          "before": "B1 Intermediate",
-          "after": "C1 Advanced",
-          "description": "Улучшил деловой английский за 6 месяцев. Получил повышение благодаря уверенному общению с зарубежными партнерами"
-        },
-        {
-          "title": "Екатерина, 19 лет",
-          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD7BVBTPbE9LQ0VMs5dBNACDFGycK7Sv3YnJPw",
-          "before": "A1 Beginner",
-          "after": "B2 Upper-Intermediate",
-          "description": "Поступила в зарубежный университет после годового курса подготовки к языковым экзаменам"
-        },
-        {
-          "title": "Сергей, 31 год",
-          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDt8dd4FXHvWNLgyxqAbeQEiS4rRuFKnwMBfzX",
-          "before": "A2 Elementary",
-          "after": "B2 Upper-Intermediate",
-          "description": "Самостоятельно изучал язык годами без результата. На наших курсах достиг цели за 10 месяцев"
-        },
-        {
-          "title": "Анна, 25 лет",
-          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDVc5IxE9HhT2akm0S3v1y4lMgeGqBozDZrI7O",
-          "before": "B1 Intermediate",
-          "after": "C2 Proficiency",
-          "description": "Стала профессиональным переводчиком после углубленного курса и подготовки к международным экзаменам"
-        }
-      ],
-      "cta": {
-        "text": "Начать обучение",
-        "url": "/#contacts"
-      }
-    },
-    "contactInfo": {
-      "title": "Контактная информация",
-      "items": [
-        {
-          "type": "phone",
-          "label": "Телефон"
-        },
-        {
-          "type": "email",
-          "label": "Почта"
-        },
-        {
-          "type": "address",
-          "label": "Адрес"
-        }
-      ]
-    },
-    "info": {
-      "title": "Преимущества обратной связи",
-      "items": [
-        "Быстрый ответ в течение 24 часов",
-        "Индивидуальный подход к каждому клиенту",
-        "Бесплатная консультация по вашему запросу",
-        "Подбор оптимального решения для ваших задач"
-      ]
-    },
-    "mapLocation": {
-      "coordinates": [55.7495, 37.5396],
-      "zoom": 15
+      "button": { "text": "Связаться с нами", "url": "https://t.me/fptn_project" }
     }
   },
   "footer": {
