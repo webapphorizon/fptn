@@ -24,7 +24,18 @@ const HeroSection = () => {
 
         <div className="relative z-10 flex flex-col items-center gap-8 text-white lg:flex-row lg:justify-between">
           <div className="flex max-w-2xl flex-col gap-6">
-            <h1>{t("hero.gradientTitle")}</h1>
+            <div className="flex items-center gap-8">
+              <Image
+                src={t("hero.gradientImage.src")}
+                alt={t("hero.gradientImage.alt")}
+                className="rounded-full object-cover opacity-90 lg:hidden block"
+                width={100}
+                height={100}
+                quality={90}
+                priority
+              />
+              <h1>{t("hero.gradientTitle")}</h1>
+            </div>
             <p>
               {t.rich("hero.gradientDescription", {
                 br: () => <br />,
@@ -52,7 +63,10 @@ const HeroSection = () => {
               </div>
               <div className="flex flex-col">
                 <span>Version: 0.3.23</span>
-                <CustomLink href={t("hero.releaseNotes.url")} className="text-blue-400 underline">
+                <CustomLink
+                  href={t("hero.releaseNotes.url")}
+                  className="text-blue-400 underline"
+                >
                   {t("hero.releaseNotes.text")}
                 </CustomLink>
               </div>

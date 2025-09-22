@@ -1,7 +1,5 @@
 "use client";
 
-import type React from "react";
-
 import {
   Apple,
   ChevronDown,
@@ -11,7 +9,8 @@ import {
   Terminal,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { useState } from "react";
+import type React from "react";
+import { useEffect, useState } from "react";
 import { Button } from "~/components/ui/button";
 import {
   DropdownMenu,
@@ -69,28 +68,73 @@ const downloadOptionsConfig: DownloadOption[] = [
   },
 ];
 
+function detectPlatform(): DownloadOption {
+  if (typeof navigator === "undefined") return downloadOptionsConfig[0]!;
+
+  const ua = navigator.userAgent;
+
+  if (/android/i.test(ua)) {
+    return (
+      downloadOptionsConfig.find((o) => o.id === "android-play") ??
+      downloadOptionsConfig[0]!
+    );
+  }
+  if (/iPad|iPhone|iPod/i.test(ua)) {
+    return (
+      downloadOptionsConfig.find((o) => o.id === "android-play") ??
+      downloadOptionsConfig[0]!
+    );
+  }
+  if (/Win/i.test(ua)) {
+    return (
+      downloadOptionsConfig.find((o) => o.id === "windows") ??
+      downloadOptionsConfig[0]!
+    );
+  }
+  if (/Mac/i.test(ua)) {
+    if (
+      navigator.userAgent.includes("ARM") ||
+      (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)
+    ) {
+      return (
+        downloadOptionsConfig.find((o) => o.id === "macos-silicon") ??
+        downloadOptionsConfig[0]!
+      );
+    }
+    return (
+      downloadOptionsConfig.find((o) => o.id === "macos-intel") ??
+      downloadOptionsConfig[0]!
+    );
+  }
+  if (/Linux/i.test(ua)) {
+    return (
+      downloadOptionsConfig.find((o) => o.id === "linux-x64") ??
+      downloadOptionsConfig[0]!
+    );
+  }
+
+  return downloadOptionsConfig[0]!;
+}
+
 export function DownloadButton() {
   const t = useTranslations("download");
 
-  // Safe initialization with fallback
-  const [selectedOption, setSelectedOption] = useState<DownloadOption>(() => {
-    return (
-      downloadOptionsConfig[0] ?? {
-        id: "default",
-        icon: <Download className="h-4 w-4" />,
-        url: "#",
-      }
-    );
-  });
+  const [selectedOption, setSelectedOption] = useState<DownloadOption>(() => ({
+    id: "android-play",
+    icon: <Download className="h-4 w-4" />,
+    url: "#",
+  }));
+
+  useEffect(() => {
+    setSelectedOption(detectPlatform());
+  }, []);
 
   const handleDownload = (option: DownloadOption) => {
     setSelectedOption(option);
 
-    // For external links (like Play Store), open in new tab
     if (option.url.startsWith("http")) {
-      window.open(option.url, "_blank", "noopener,noreferrer");
+      window.open(option.url, "_self", "noopener,noreferrer");
     } else {
-      // For direct file downloads, trigger download
       const link = document.createElement("a");
       link.href = option.url;
       link.download = "";
@@ -102,10 +146,9 @@ export function DownloadButton() {
 
   return (
     <div className="flex items-center gap-0">
-      {/* Main download button */}
       <Button
         size="lg"
-        className="w-full max-w-[15rem] overflow-hidden rounded-r-none border-r border-indigo-200 bg-white text-black hover:bg-white/90 md:w-[23.125rem] md:max-w-none"
+        className="w-full max-w-[15rem] overflow-hidden rounded-r-none border-r border-indigo-200 bg-white text-black hover:bg-white/90 md:w-[26.25rem] md:max-w-none"
         onClick={() => handleDownload(selectedOption)}
       >
         <Download className="h-8 w-8" />
@@ -114,7 +157,6 @@ export function DownloadButton() {
         </p>
       </Button>
 
-      {/* Dropdown menu for platform selection */}
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button
