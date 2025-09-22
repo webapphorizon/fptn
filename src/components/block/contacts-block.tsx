@@ -1,25 +1,25 @@
 "use client";
 
 import { Mail, MapPin, Phone } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
-import { contentData } from "~/lib/content-data";
 
 const ContactsInfoBlockText = () => {
+  const tContacts = useTranslations("contacts");
+  const tLinks = useTranslations("links");
+
   return (
-    <div >
-      <h3 className="mb-4">{contentData.contacts.title}</h3>
+    <div>
+      <h3 className="mb-4">{tContacts("title")}</h3>
       <div className="flex flex-col gap-6">
         <div className="flex items-start gap-4">
           <Phone className="mt-1 h-6 w-6" />
           <div className="flex flex-col">
             <p className="font-medium">
-              {contentData.contacts.contactInfo?.items?.[0]?.label}
+              {tContacts("contactInfo.items.0.label")}
             </p>
-            <Link
-              href={contentData.links.phone.url}
-              className="text-muted-foreground"
-            >
-              {contentData.links.phone.text}
+            <Link href={tLinks("phone.url")} className="text-muted-foreground">
+              {tLinks("phone.text")}
             </Link>
           </div>
         </div>
@@ -27,13 +27,10 @@ const ContactsInfoBlockText = () => {
           <Mail className="mt-1 h-6 w-6" />
           <div className="flex flex-col">
             <p className="font-medium">
-              {contentData.contacts.contactInfo?.items?.[1]?.label}
+              {tContacts("contactInfo.items.1.label")}
             </p>
-            <Link
-              href={contentData.links.email.url}
-              className="text-muted-foreground"
-            >
-              {contentData.links.email.text}
+            <Link href={tLinks("email.url")} className="text-muted-foreground">
+              {tLinks("email.text")}
             </Link>
           </div>
         </div>
@@ -41,15 +38,15 @@ const ContactsInfoBlockText = () => {
           <MapPin className="mt-1 h-6 w-6" />
           <div className="flex flex-col">
             <p className="font-medium">
-              {contentData.contacts.contactInfo?.items?.[2]?.label}
+              {tContacts("contactInfo.items.2.label")}
             </p>
             <Link
-              href={contentData.links.address.mapUrl}
+              href={tLinks("address.mapUrl")}
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground"
             >
-              {contentData.links.address.text}
+              {tLinks("address.text")}
             </Link>
           </div>
         </div>
@@ -60,7 +57,7 @@ const ContactsInfoBlockText = () => {
 
 const ContactsInfoBlock = () => {
   return (
-    <div >
+    <div>
       <ContactsInfoBlockText />
     </div>
   );
