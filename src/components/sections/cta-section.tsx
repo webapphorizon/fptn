@@ -1,19 +1,22 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { Button } from "~/components/ui/button";
 
 const CTASection = () => {
-  // Пример данных для CTA секции
+  const t = useTranslations("cta");
+
   const ctaData = {
-    title: "Готовы начать прямо сейчас?",
-    description:
-      "Начните бесплатный пробный период на 14 дней и откройте для себя все возможности нашей платформы. Никаких кредитных карт. Никаких обязательств.",
+    title: t("title"),
+    description: t("description"),
     primaryButton: {
-      text: "Начать бесплатно",
-      url: "/signup",
+      text: t("primaryButton.text"),
+      url: t("primaryButton.url"),
     },
     secondaryButton: {
-      text: "Связаться с нами",
-      url: "/contacts",
+      text: t("secondaryButton.text"),
+      url: t("secondaryButton.url"),
     },
     background: "bg-gradient-to-r from-primary/80 via-primary to-primary/80",
   };

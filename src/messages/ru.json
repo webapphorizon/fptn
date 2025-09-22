@@ -62,7 +62,8 @@
       "src": "/fptn.webp",
       "alt": "FPTN Project"
     }
-  },  "steps": {
+  },
+  "steps": {
     "android": {
       "title": "Как начать",
       "items": [
@@ -626,6 +627,41 @@
       "light": "Светлая",
       "dark": "Темная",
       "system": "Системная"
+    }
+  },
+  "cta": {
+    "title": "Готовы начать прямо сейчас?",
+    "description": "Начните бесплатный пробный период на 14 дней и откройте для себя все возможности нашей платформы. Никаких кредитных карт. Никаких обязательств.",
+    "primaryButton": {
+      "text": "Начать бесплатно",
+      "url": "/signup"
+    },
+    "secondaryButton": {
+      "text": "Связаться с нами",
+      "url": "/contacts"
+    }
+  },
+  "ui": {
+    "language": {
+      "toggle": "Переключить язык"
+    },
+    "menu": {
+      "open": "Открыть меню"
+    }
+  },
+  "download": {
+    "button": {
+      "text": "Скачать для {platform}",
+      "selectPlatform": "Выбрать другую платформу для скачивания"
+    },
+    "platforms": {
+      "android-play": "Android из Google Play",
+      "android-direct": "Android напрямую с сайта",
+      "windows": "Windows (Windows 10/11 x86_64)",
+      "macos-silicon": "macOS (Apple Silicon)",
+      "macos-intel": "macOS (Intel)",
+      "linux-x64": "Linux (Ubuntu x86_64)",
+      "linux-arm": "Linux (Ubuntu ARM64)"
     }
   }
 }

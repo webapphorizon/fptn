@@ -627,5 +627,40 @@
       "dark": "Dark",
       "system": "System"
     }
+  },
+  "cta": {
+    "title": "Ready to start right now?",
+    "description": "Start a free 14-day trial and discover all the possibilities of our platform. No credit cards. No obligations.",
+    "primaryButton": {
+      "text": "Start for free",
+      "url": "/signup"
+    },
+    "secondaryButton": {
+      "text": "Contact us",
+      "url": "/contacts"
+    }
+  },
+  "ui": {
+    "language": {
+      "toggle": "Switch language"
+    },
+    "menu": {
+      "open": "Open menu"
+    }
+  },
+  "download": {
+    "button": {
+      "text": "Download for {platform}",
+      "selectPlatform": "Select another platform for download"
+    },
+    "platforms": {
+      "android-play": "Android from Google Play",
+      "android-direct": "Android directly from website",
+      "windows": "Windows (Windows 10/11 x86_64)",
+      "macos-silicon": "macOS (Apple Silicon)",
+      "macos-intel": "macOS (Intel)",
+      "linux-x64": "Linux (Ubuntu x86_64)",
+      "linux-arm": "Linux (Ubuntu ARM64)"
+    }
   }
 }

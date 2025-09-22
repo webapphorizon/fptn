@@ -1,7 +1,7 @@
 "use client";
 
 import { Languages } from "lucide-react";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Button } from "~/components/ui/button";
 import {
   DropdownMenu,
@@ -20,6 +20,7 @@ export function LanguageToggle() {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
+  const t = useTranslations("ui");
 
   const handleLanguageChange = (newLocale: string) => {
     // Используем встроенную навигацию next-intl для переключения языка
@@ -30,9 +31,9 @@ export function LanguageToggle() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" aria-label="Переключить язык">
+        <Button variant="ghost" size="icon" aria-label={t("language.toggle")}>
           <Languages className="h-[1.2rem] w-[1.2rem]" />
-          <span className="sr-only">Переключить язык</span>
+          <span className="sr-only">{t("language.toggle")}</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="start" className="z-150">

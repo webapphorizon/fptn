@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { useState } from "react";
 import {
   Accordion,
@@ -7,7 +8,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "~/components/ui/accordion";
-import { contentData } from "~/lib/content-data";
 
 interface FAQItem {
   question: string;
@@ -19,7 +19,8 @@ interface FAQAccordionBlockProps {
 }
 
 const FAQAccordionBlock = ({ questions }: FAQAccordionBlockProps) => {
-  const faqItems = questions ?? contentData.faq.questions;
+  const t = useTranslations("faq");
+  const faqItems = questions ?? (t.raw("questions") as FAQItem[]);
   const [openItem, setOpenItem] = useState<string | undefined>(undefined);
 
   if (!faqItems?.length) {
@@ -27,7 +28,7 @@ const FAQAccordionBlock = ({ questions }: FAQAccordionBlockProps) => {
   }
 
   return (
-    <div className="flex flex-col gap-5 xl:min-w-3xl lg:min-w-2xl w-full">
+    <div className="flex w-full flex-col gap-5 lg:min-w-2xl xl:min-w-3xl">
       {faqItems.map((item, index) => (
         <Accordion
           key={`faq-${index}`}

@@ -1,6 +1,7 @@
 "use client";
 
 import { Menu } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { FaGithub, FaTelegram } from "react-icons/fa6";
 import { Button } from "~/components/ui/button";
@@ -15,16 +16,22 @@ import {
 } from "~/components/ui/sheet";
 import SocialIcons from "~/components/ui/social-icons";
 import { useScrollDirection } from "~/hooks/useScrollDirection";
-import { contentData } from "~/lib/content-data";
 import { cn } from "~/lib/utils";
 import madeby from "~/madeby.json";
 import CustomLink from "../ui/custom-link";
 import { LanguageToggle } from "../ui/language-toggle";
 import { ThemeToggle } from "../ui/theme-toggle";
-// import Logo from "~/components/icons/logo"
+
+interface NavigationItem {
+  text: string;
+  url: string;
+}
 
 const Header = () => {
   const isVisible = useScrollDirection();
+  const tUi = useTranslations("ui");
+  const tHeader = useTranslations("header");
+  const tLinks = useTranslations("links");
 
   return (
     <header
@@ -40,7 +47,7 @@ const Header = () => {
 
         <div className="hidden items-center gap-8 xl:flex">
           <nav className="flex items-center gap-9 text-nowrap">
-            {contentData.header.navigation?.map((item) => (
+            {(tHeader.raw("navigation") as NavigationItem[])?.map((item) => (
               <CustomLink
                 key={item.url}
                 href={item.url}
@@ -52,21 +59,21 @@ const Header = () => {
           </nav>
           <div className="text-muted-foreground flex flex-1 items-center justify-center gap-8 max-2xl:hidden">
             <CustomLink
-              href={contentData.links.socials.githubUrl}
+              href={tLinks("socials.githubUrl")}
               className="text-foreground hover:text-muted-foreground transition-colors"
             >
               <FaGithub className="size-8" />
             </CustomLink>
             <CustomLink
-              href={contentData.links.socials.telegramUrl}
+              href={tLinks("socials.telegramUrl")}
               className="text-foreground hover:text-muted-foreground transition-colors"
             >
               <FaTelegram className="size-8" />
             </CustomLink>
           </div>
-          <Link href={contentData.header.cta.url}>
+          <Link href={tHeader("cta.url")}>
             <Button className="min-w-40 flex-1 text-nowrap">
-              {`${contentData.header.cta.text}`}
+              {tHeader("cta.text")}
             </Button>
           </Link>
           <LanguageToggle />
@@ -79,7 +86,7 @@ const Header = () => {
                 variant="ghost"
                 size="icon"
                 className="h-16 w-16"
-                aria-label="Открыть меню"
+                aria-label={tUi("menu.open")}
               >
                 <Menu className="size-7" />
               </Button>
@@ -87,19 +94,21 @@ const Header = () => {
             <SheetContent className="z-100">
               <SheetHeader>
                 <SheetTitle className="text-3xl font-bold">
-                  {contentData.links.logo.text}
+                  {tLinks("logo.text")}
                 </SheetTitle>
               </SheetHeader>
               <nav className="text-primary flex flex-col items-start space-y-5 p-4 text-xl">
-                {contentData.header.navigation?.map((item) => (
-                  <CustomLink
-                    key={item.url}
-                    href={item.url}
-                    className="text-accent-foreground"
-                  >
-                    {item.text}
-                  </CustomLink>
-                ))}
+                {(tHeader.raw("navigation") as NavigationItem[])?.map(
+                  (item) => (
+                    <CustomLink
+                      key={item.url}
+                      href={item.url}
+                      className="text-accent-foreground"
+                    >
+                      {item.text}
+                    </CustomLink>
+                  ),
+                )}
               </nav>
               <div className="text-md text-muted-foreground flex flex-col gap-8 p-4">
                 {/* <div className="flex flex-col gap-2">
@@ -119,9 +128,7 @@ const Header = () => {
                 </div>
               </div>
               <SheetFooter>
-                <Button className="w-full">
-                  {contentData.header.cta.text}
-                </Button>
+                <Button className="w-full">{tHeader("cta.text")}</Button>
                 <Link
                   href={madeby.url}
                   className="mt-5 flex flex-col items-center justify-center gap-4 text-[.6rem] uppercase md:text-[.8rem]"
