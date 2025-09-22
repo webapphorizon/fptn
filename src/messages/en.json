@@ -662,5 +662,10 @@
       "linux-x64": "Linux (Ubuntu x86_64)",
       "linux-arm": "Linux (Ubuntu ARM64)"
     }
+  },
+  "notFoundPage": {
+    "errorCode": "404 - Page Not Found",
+    "message": "The page you are looking for does not exist.",
+    "returnText": "Back to Home"
   }
 }

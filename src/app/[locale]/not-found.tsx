@@ -1,22 +1,35 @@
-import { Button } from "~/components/ui/button";
-import { ArrowLeft } from "lucide-react";
-import Link from "next/link";
+"use client";
 
-export default function NotFound() {
+import {
+  NotFoundProvider,
+  useNotFoundContext,
+} from "~/context/not-found-context";
+import CustomLink from "~/components/ui/custom-link";
+
+// Внутренний компонент страницы not-found
+const NotFoundContent = () => {
+  const { errors } = useNotFoundContext();
+
   return (
-    <div className="bg-background flex min-h-screen flex-col items-center justify-center gap-12 -mt-[4.5rem]">
+    <div className="bg-background -mt-[4.5rem] flex min-h-screen flex-col items-center justify-center gap-12">
       <div className="flex flex-col items-center gap-4 text-center">
-        <h1 className="">404 - Страница не найдена</h1>
+        <h1 className="text-primary font-bold">
+          {errors("notFoundPage.errorCode")}
+        </h1>
         <p className="text-muted-foreground">
-          Страница, которую вы ищете, не существует.
+          {errors("notFoundPage.message")}
         </p>
       </div>
-      <Link href="/">
-        <Button variant="cta" >
-          <ArrowLeft className="mr-2 h-4 w-4" />
-          Вернуться на главную
-        </Button>
-      </Link>
+      <CustomLink href="/">{errors("notFoundPage.returnText")}</CustomLink>
     </div>
+  );
+};
+
+// Основной компонент страницы not-found
+export default function NotFound() {
+  return (
+    <NotFoundProvider>
+      <NotFoundContent />
+    </NotFoundProvider>
   );
 }

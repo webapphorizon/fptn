@@ -1,5 +1,5 @@
 import createMiddleware from "next-intl/middleware";
-import { type NextRequest } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
 
 // Создаем middleware для интернационализации с настройками для корневого пути
 const intlMiddleware = createMiddleware({
@@ -15,7 +15,17 @@ const intlMiddleware = createMiddleware({
 
 // Экспортируем middleware
 export default function middleware(request: NextRequest) {
-  // Используем стандартный next-intl middleware для всех путей
+  // Обработка корневого пути для определения языка по кукам или геолокации
+  if (request.nextUrl.pathname === "/") {
+    const locale = request.cookies.get("NEXT_LOCALE")?.value;
+
+    // Если в куки установлен русский язык, перенаправляем на /ru
+    if (locale === "ru") {
+      return NextResponse.redirect(new URL("/ru", request.url));
+    }
+  }
+
+  // Для всех остальных путей используем next-intl
   return intlMiddleware(request);
 }
 

@@ -663,5 +663,10 @@
       "linux-x64": "Linux (Ubuntu x86_64)",
       "linux-arm": "Linux (Ubuntu ARM64)"
     }
+  },
+  "notFoundPage": {
+    "errorCode": "404 - Страница не найдена",
+    "message": "Страница, которую вы ищете, не существует.",
+    "returnText": "Вернуться на главную"
   }
 }
