@@ -8,6 +8,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "~/components/ui/accordion";
+import CustomLink from "~/components/ui/custom-link";
 
 interface FAQItem {
   question: string;
@@ -20,6 +21,7 @@ interface FAQAccordionBlockProps {
 
 const FAQAccordionBlock = ({ questions }: FAQAccordionBlockProps) => {
   const t = useTranslations("faq");
+  const tLinks = useTranslations("links");
   const faqItems = questions ?? (t.raw("questions") as FAQItem[]);
   const [openItem, setOpenItem] = useState<string | undefined>(undefined);
 
@@ -43,7 +45,34 @@ const FAQAccordionBlock = ({ questions }: FAQAccordionBlockProps) => {
               <p>{item.question}</p>
             </AccordionTrigger>
             <AccordionContent>
-              <p className="text-muted-foreground">{item.answer}</p>
+              <p className="text-muted-foreground">
+                {t.rich(`questions.${index}.answer`, {
+                  telegramBot: (chunks) => (
+                    <CustomLink
+                      href={tLinks("socials.telegramBotUrl")}
+                      className="text-blue-400 underline"
+                    >
+                      {chunks}
+                    </CustomLink>
+                  ),
+                  telegramChannel: (chunks) => (
+                    <CustomLink
+                      href={tLinks("socials.telegramChannelUrl")}
+                      className="text-blue-400 underline"
+                    >
+                      {chunks}
+                    </CustomLink>
+                  ),
+                  github: (chunks) => (
+                    <CustomLink
+                      href={tLinks("socials.githubUrl")}
+                      className="text-blue-400 underline"
+                    >
+                      {chunks}
+                    </CustomLink>
+                  ),
+                })}
+              </p>
             </AccordionContent>
           </AccordionItem>
         </Accordion>

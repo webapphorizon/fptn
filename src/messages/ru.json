@@ -7,7 +7,8 @@
       "text": "FPTN Project"
     },
     "socials": {
-      "telegramUrl": "https://t.me/fptn_project",
+      "telegramBotUrl": "https://t.me/@fptn_bot",
+      "telegramChannelUrl": "https://t.me/fptn_channel",
       "githubUrl": "https://github.com/batchar2/fptn"
     }
   },
@@ -20,7 +21,7 @@
   },
   "hero": {
     "gradientTitle": "FPTN Project",
-    "gradientDescription": "FPTN — это некоммерческий VPN, волонтерский проект для обхода цензуры. VPN-клиент — мобильное приложение или миниатюрная программа для компьютера, интерфейс которой размещается в трее.<br></br><br></br> Здесь нет процесса регистрации! Мы пришлем токен доступа через бота в <telegram>Telegram</telegram>. FPTN работает через протокол HTTPS, эффективно маскируя трафик и позволяя обходить ограничения цензуры. <br></br><br></br>Исходный код проекта доступен на <github>Github</github>.",
+    "gradientDescription": "FPTN — это некоммерческий VPN, волонтерский проект для обхода цензуры. VPN-клиент — мобильное приложение или миниатюрная программа для компьютера, интерфейс которой размещается в трее. FPTN работает через протокол HTTPS, эффективно маскируя трафик и позволяя обходить ограничения цензуры.<br></br><br></br> Здесь нет процесса регистрации! Мы пришлем токен доступа через <telegramBot>бота в Telegram</telegramBot>. <br></br><br></br>Исходный код проекта доступен на <github>Github</github>.",
     "gradientImage": {
       "src": "/fptn.webp",
       "alt": "FPTN Project"
@@ -33,7 +34,7 @@
         {
           "title": "Шаг первый",
           "description": [
-            "Перейдите в <telegram>Telegram бот</telegram> и сгенерируйте токен командой /token, затем скопируйте его."
+            "Перейдите в <telegramBot>Telegram-бот</telegramBot> и сгенерируйте токен командой /token, затем скопируйте его."
           ],
           "number": 1,
           "image": "/images/telegram-token-ru.webp",
@@ -77,7 +78,7 @@
         {
           "title": "Шаг первый",
           "description": [
-            "Перейдите в Telegram-бот и сгенерируйте токен командой /token, затем скопируйте его."
+            "Перейдите в <telegramBot>Telegram-бот</telegramBot> и сгенерируйте токен командой /token, затем скопируйте его."
           ],
           "number": 1,
           "image": "/images/telegram-token-ru.webp",
@@ -133,7 +134,7 @@
         },
         {
           "title": "Шаг восьмой",
-          "description": ["Вставьте сюда токен из Telegram-бота и сохраните"],
+          "description": ["Вставьте сюда токен из <telegramBot>Telegram-бот</telegramBot>а и сохраните"],
           "number": 8,
           "image": "/images/steps/windows/ru/8-select-file.webp",
           "reverse": false
@@ -248,7 +249,7 @@
         {
           "title": "Шаг первый",
           "description": [
-            "Перейдите в Telegram-бот и сгенерируйте токен командой /token, затем скопируйте его."
+            "Перейдите в <telegramBot>Telegram-бот</telegramBot> и сгенерируйте токен командой /token, затем скопируйте его."
           ],
           "number": 1,
           "image": "/images/telegram-token-ru.webp",
@@ -281,7 +282,7 @@
         },
         {
           "title": "Шаг четвертый",
-          "description": ["Вставьте сюда токен из Telegram-бота и сохраните."],
+          "description": ["Вставьте сюда токен из <telegramBot>Telegram-бот</telegramBot>а и сохраните."],
           "number": 5,
           "image": "/images/steps/linux/ru/4-settings.webp",
           "reverse": false
@@ -310,7 +311,7 @@
         {
           "title": "Шаг первый",
           "description": [
-            "Перейдите в Telegram-бот и сгенерируйте токен командой /token, затем скопируйте его."
+            "Перейдите в <telegramBot>Telegram-бот</telegramBot> и сгенерируйте токен командой /token, затем скопируйте его."
           ],
           "number": 1,
           "image": "/images/telegram-token-ru.webp",
@@ -327,7 +328,7 @@
         },
         {
           "title": "Шаг третий",
-          "description": ["Вставьте сюда токен из Telegram-бота."],
+          "description": ["Вставьте сюда токен из <telegramBot>Telegram-бота</telegramBot>."],
           "number": 3,
           "image": "/images/steps/macos/ru/running-client.webp",
           "reverse": false
@@ -349,7 +350,7 @@
         {
           "title": "Шаг шестой",
           "description": [
-            "Если не удалось, то вам может понадобиться более детальная инструкция для решения проблем с драйверами https://github.com/batchar2/fptn/blob/master/docs/macos/README.md"
+            "Если не удалось, то вам может понадобиться более <detailedGuide>детальная инструкция</detailedGuide> для решения проблем с драйверами "
           ],
           "number": 6
         }
@@ -362,7 +363,7 @@
     "questions": [
       {
         "question": "Как получить доступ к FPTN?",
-        "answer": "Регистрация не требуется! Просто напишите нашему боту в Telegram, и мы пришлем вам токен доступа для подключения."
+        "answer": "Регистрация не требуется! Просто напишите нашему <telegramBot>боту в Telegram</telegramBot>, и мы пришлем вам токен доступа для подключения."
       },
       {
         "question": "FPTN бесплатный?",
@@ -378,7 +379,7 @@
       },
       {
         "question": "Можно ли доверять проекту?",
-        "answer": "Да, исходный код FPTN полностью открыт и доступен на GitHub. Вы можете самостоятельно изучить код и убедиться в отсутствии скрытых функций."
+        "answer": "Да, исходный код FPTN полностью открыт и доступен на <github>GitHub</github>. Вы можете самостоятельно изучить код и убедиться в отсутствии скрытых функций."
       },
       {
         "question": "Обнаружат ли провайдеры использование FPTN?",
@@ -394,15 +395,15 @@
       },
       {
         "question": "Что делать, если токен перестал работать?",
-        "answer": "Обратитесь к нашему боту в Telegram — мы быстро выдадим новый токен. Токены могут периодически обновляться по соображениям безопасности."
+        "answer": "Обратитесь к <telegramChannel>Telegram-канал</telegramChannel> — мы быстро выдадим новый токен. Токены могут периодически обновляться по соображениям безопасности."
       },
       {
         "question": "Можно ли помочь проекту?",
-        "answer": "Конечно! Вы можете внести вклад в разработку через GitHub, помочь с переводами, распространением информации или поддержать проект донатами."
+        "answer": "Конечно! Вы можете внести вклад в разработку через <github>GitHub</github>, помочь с переводами, распространением информации или поддержать проект донатами."
       },
       {
         "question": "В каких странах работает FPTN?",
-        "answer": "FPTN разработан для работы в регионах с интернет-цензурой. Актуальную информацию о поддерживаемых странах уточняйте у нашего Telegram-бота."
+        "answer": "FPTN разработан для работы в регионах с интернет-цензурой. Актуальную информацию о поддерживаемых странах уточняйте у нашего <telegramChannel>Telegram-канала</telegramChannel>."
       },
       {
         "question": "Требуется ли техническая настройка?",

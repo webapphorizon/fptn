@@ -16,7 +16,7 @@ const SocialIcons = () => {
         <FaGithub className="size-5" />
       </CustomLink>
       <CustomLink
-        href={t("socials.telegramUrl")}
+        href={t("socials.telegramChannelUrl")}
         className="text-muted-foreground hover:text-foreground transition-colors"
       >
         <FaTelegram className="size-5" />

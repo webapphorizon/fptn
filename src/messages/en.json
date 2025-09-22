@@ -7,7 +7,8 @@
       "text": "FPTN Project"
     },
     "socials": {
-      "telegramUrl": "https://t.me/fptn_project",
+      "telegramBotUrl": "https://t.me/@fptn_bot",
+      "telegramChannelUrl": "https://t.me/fptn_channel",
       "githubUrl": "https://github.com/batchar2/fptn"
     }
   },
@@ -20,7 +21,7 @@
   },
   "hero": {
     "gradientTitle": "FPTN Project",
-    "gradientDescription": "FPTN is a non-profit VPN, a volunteer project to bypass censorship. The VPN client is a mobile app or a lightweight program for computers, with an interface located in the system tray.<br></br><br></br> No registration is required! We will send you an access token via a <telegram>Telegram bot</telegram>. FPTN operates through the HTTPS protocol, effectively masking traffic and allowing you to bypass censorship restrictions. <br></br><br></br>The project's source code is available on <github>GitHub</github>.",
+    "gradientDescription": "FPTN is a non-profit VPN, a volunteer project to bypass censorship. The VPN client is a mobile app or a lightweight program for computers, with an interface located in the system tray.  FPTN operates through the HTTPS protocol, effectively masking traffic and allowing you to bypass censorship restrictions.<br></br><br></br> No registration is required! We will send you an access token via a <telegramBot>Telegram bot</telegramBot>. <br></br><br></br>The project's source code is available on <github>GitHub</github>.",
     "gradientImage": {
       "src": "/fptn.webp",
       "alt": "FPTN Project"
@@ -33,7 +34,7 @@
         {
           "title": "Step One",
           "description": [
-            "Go to the <telegram>Telegram bot</telegram> and generate a token with the /token command, then copy it."
+            "Go to the <telegramBot>Telegram bot</telegramBot> and generate a token with the /token command, then copy it."
           ],
           "number": 1,
           "image": "/images/telegram-token-en.webp",
@@ -77,7 +78,7 @@
         {
           "title": "Step One",
           "description": [
-            "Go to the Telegram bot and generate a token with the /token command, then copy it."
+            "Go to the <telegramBot>Telegram bot</telegramBot> and generate a token with the /token command, then copy it."
           ],
           "number": 1,
           "image": "/images/telegram-token-en.webp",
@@ -134,7 +135,7 @@
         {
           "title": "Step Eight",
           "description": [
-            "Paste the token from the Telegram bot here and save."
+            "Paste the token from the <telegramBot>Telegram bot</telegramBot> here and save."
           ],
           "number": 8,
           "image": "/images/steps/windows/en/8-select-file.webp",
@@ -250,7 +251,7 @@
         {
           "title": "Step One",
           "description": [
-            "Go to the Telegram bot and generate a token with the /token command, then copy it."
+            "Go to the <telegramBot>Telegram bot</telegramBot> and generate a token with the /token command, then copy it."
           ],
           "number": 1,
           "image": "/images/telegram-token-en.webp",
@@ -284,7 +285,7 @@
         {
           "title": "Step Five",
           "description": [
-            "Paste the token from the Telegram bot here and save."
+            "Paste the token from the <telegramBot>Telegram bot</telegramBot> here and save."
           ],
           "number": 5,
           "image": "/images/steps/linux/en/4-settings.webp",
@@ -314,7 +315,7 @@
         {
           "title": "Step One",
           "description": [
-            "Go to the Telegram bot and generate a token with the /token command, then copy it."
+            "Go to the <telegramBot>Telegram bot</telegramBot> and generate a token with the /token command, then copy it."
           ],
           "number": 1,
           "image": "/images/telegram-token-en.webp",
@@ -331,7 +332,7 @@
         },
         {
           "title": "Step Three",
-          "description": ["Paste the token from the Telegram bot here."],
+          "description": ["Paste the token from the <telegramBot>Telegram bot</telegramBot> here."],
           "number": 3,
           "image": "/images/steps/macos/en/running-client.webp",
           "reverse": false
@@ -353,7 +354,7 @@
         {
           "title": "Step Six",
           "description": [
-            "If the connection fails, you may need a more detailed guide to resolve driver issues: https://github.com/batchar2/fptn/blob/master/docs/macos/README.md"
+            "If the connection fails, you may need a more <detailedGuide>detailed guide</detailedGuide> to resolve driver issues"
           ],
           "number": 6
         }
@@ -366,7 +367,7 @@
     "questions": [
       {
         "question": "How do I get access to FPTN?",
-        "answer": "No registration is required! Just contact our Telegram bot, and we’ll send you an access token to connect."
+        "answer": "No registration is required! Just contact our <telegramBot>Telegram bot</telegramBot>, and we’ll send you an access token to connect."
       },
       {
         "question": "Is FPTN free?",
@@ -382,7 +383,7 @@
       },
       {
         "question": "Can I trust the project?",
-        "answer": "Yes, FPTN’s source code is fully open and available on GitHub. You can review the code yourself to ensure there are no hidden features."
+        "answer": "Yes, FPTN’s source code is fully open and available on <github>GitHub</github>. You can review the code yourself to ensure there are no hidden features."
       },
       {
         "question": "Will providers detect FPTN usage?",
@@ -398,15 +399,15 @@
       },
       {
         "question": "What if my token stops working?",
-        "answer": "Contact our Telegram bot—we’ll quickly issue a new token. Tokens may periodically be updated for security reasons."
+        "answer": "Contact our <telegramChannel>Telegram channel</telegramChannel>—we’ll quickly issue a new token. Tokens may periodically be updated for security reasons."
       },
       {
         "question": "Can I contribute to the project?",
-        "answer": "Absolutely! You can contribute to development via GitHub, help with translations, spread the word, or support the project with donations."
+        "answer": "Absolutely! You can contribute to development via <github>GitHub</github>, help with translations, spread the word, or support the project with donations."
       },
       {
         "question": "Which countries does FPTN support?",
-        "answer": "FPTN is designed to work in regions with internet censorship. Check with our Telegram bot for up-to-date information on supported countries."
+        "answer": "FPTN is designed to work in regions with internet censorship. Check with our <telegramChannel>Telegram channel</telegramChannel> for up-to-date information on supported countries."
       },
       {
         "question": "Is technical setup required?",

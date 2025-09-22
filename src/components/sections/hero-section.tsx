@@ -28,9 +28,9 @@ const HeroSection = () => {
             <p>
               {t.rich("hero.gradientDescription", {
                 br: () => <br />,
-                telegram: (chunks) => (
+                telegramBot: (chunks) => (
                   <CustomLink
-                    href="https://t.me/fptn_project"
+                    href={t("links.socials.telegramBotUrl")}
                     className="text-blue-400 underline"
                   >
                     {chunks}
@@ -38,7 +38,7 @@ const HeroSection = () => {
                 ),
                 github: (chunks) => (
                   <CustomLink
-                    href="https://github.com/batchar2/fptn"
+                    href={t("links.socials.githubUrl")}
                     className="text-blue-400 underline"
                   >
                     {chunks}

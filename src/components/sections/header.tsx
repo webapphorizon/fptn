@@ -65,7 +65,7 @@ const Header = () => {
               <FaGithub className="size-8" />
             </CustomLink>
             <CustomLink
-              href={tLinks("socials.telegramUrl")}
+              href={tLinks("socials.telegramChannelUrl")}
               className="text-foreground hover:text-muted-foreground transition-colors"
             >
               <FaTelegram className="size-8" />

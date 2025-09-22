@@ -2,8 +2,8 @@
 import { useTranslations } from "next-intl";
 import { type ReactElement } from "react";
 import Step from "~/components/patterns/step";
-import { usePlatform } from "~/context/platform-selector-context";
 import CustomLink from "~/components/ui/custom-link";
+import { usePlatform } from "~/context/platform-selector-context";
 
 interface StepItem {
   number: number;
@@ -16,6 +16,7 @@ interface StepItem {
 const StepsCardBlock = (): ReactElement => {
   const { selectedPlatform } = usePlatform();
   const t = useTranslations("steps");
+  const tLinks = useTranslations("links");
 
   const platformSteps =
     (t.raw(`${selectedPlatform}.items`) as StepItem[]) ?? [];
@@ -34,9 +35,19 @@ const StepsCardBlock = (): ReactElement => {
                   {t.rich(
                     `${selectedPlatform}.items.${step.number - 1}.description.${pIndex}`,
                     {
-                      telegram: (chunks) => (
+                      telegramBot: (chunks) => (
                         <CustomLink
-                          href="https://t.me/fptn_project"
+                          href={tLinks("socials.telegramBotUrl")}
+                          className="text-blue-400 underline"
+                        >
+                          {chunks}
+                        </CustomLink>
+                      ),
+                      detailedGuide: (chunks) => (
+                        <CustomLink
+                          href={
+                            " https://github.com/batchar2/fptn/blob/master/docs/macos/README.md"
+                          }
                           className="text-blue-400 underline"
                         >
                           {chunks}
