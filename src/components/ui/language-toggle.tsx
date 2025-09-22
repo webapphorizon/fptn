@@ -13,9 +13,20 @@ import {
 } from "~/components/ui/dropdown-menu";
 import { usePathname, useRouter } from "~/i18n/routing";
 
+// Поддерживаемые локали (должны соответствовать настройкам в routing.ts)
+const supportedLocales = ["en", "ru", "es", "de", "fr", "it", "pt", "zh", "ja", "ko"];
+
 const languages = [
   { code: "en", name: "English", flag: "🇺🇸" },
   { code: "ru", name: "Русский", flag: "🇷🇺" },
+  { code: "es", name: "Español", flag: "🇪🇸" },
+  { code: "de", name: "Deutsch", flag: "🇩🇪" },
+  { code: "fr", name: "Français", flag: "🇫🇷" },
+  { code: "it", name: "Italiano", flag: "🇮🇹" },
+  { code: "pt", name: "Português", flag: "🇵🇹" },
+  { code: "cn", name: "中文", flag: "🇨🇳" },
+  { code: "jp", name: "日本語", flag: "🇯🇵" },
+  { code: "kr", name: "한국어", flag: "🇰🇷" },
 ];
 
 export function LanguageToggle() {
@@ -57,7 +68,7 @@ export function LanguageToggle() {
       if (
         savedLocale &&
         savedLocale !== locale &&
-        (savedLocale === "ru" || savedLocale === "en")
+        supportedLocales.includes(savedLocale)
       ) {
         // Устанавливаем флаг перенаправления
         router.replace(
@@ -85,9 +96,15 @@ export function LanguageToggle() {
       // Определяем базовый путь (без локали)
       let basePath = pathname;
 
-      if (locale === "ru") {
-        // Если мы сейчас на русской странице, нужно удалить /ru из пути
-        basePath = pathname.replace(/^\/ru/, "");
+      // Удаляем префикс текущей локали из пути (если он есть)
+      for (const supportedLocale of supportedLocales) {
+        if (
+          supportedLocale !== "en" &&
+          pathname.startsWith(`/${supportedLocale}`)
+        ) {
+          basePath = pathname.replace(`/${supportedLocale}`, "");
+          break;
+        }
       }
 
       // Если получился пустой путь, делаем его корневым
@@ -100,8 +117,8 @@ export function LanguageToggle() {
         // Для английского используем путь без префикса
         newUrl = basePath;
       } else {
-        // Для русского добавляем префикс /ru
-        newUrl = `/ru${basePath === "/" ? "" : basePath}`;
+        // Для остальных языков добавляем префикс
+        newUrl = `/${nextLocale}${basePath === "/" ? "" : basePath}`;
       }
 
       // Полное обновление страницы по новому URL
@@ -115,7 +132,7 @@ export function LanguageToggle() {
     <DropdownMenu modal={isMobile}>
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="icon" aria-label={t("language.toggle")}>
-          <Languages className="h-[1.2rem] w-[1.2rem]" />
+          <Languages className="h-[19.2px] w-[19.2px]" />
           <span className="sr-only">{t("language.toggle")}</span>
         </Button>
       </DropdownMenuTrigger>

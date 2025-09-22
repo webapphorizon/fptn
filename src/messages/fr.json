@@ -1,0 +1,561 @@
+{
+  "links": {
+    "logo": {
+      "src": "/images/logo/puzzle.png",
+      "alt": "Logo",
+      "link": "/",
+      "text": "Projet FPTN"
+    },
+    "socials": {
+      "telegramBotUrl": "https://t.me/@fptn_bot",
+      "telegramChannelUrl": "https://t.me/fptn_channel",
+      "githubUrl": "https://github.com/batchar2/fptn"
+    }
+  },
+  "header": {
+    "navigation": [
+      { "text": "Comment commencer", "url": "#steps" },
+      { "text": "FAQ", "url": "#faq" }
+    ],
+    "cta": { "text": "Télécharger", "url": "/#contacts" }
+  },
+  "hero": {
+    "gradientTitle": "Projet FPTN",
+    "gradientDescription": "FPTN est un VPN à but non lucratif, un projet bénévole pour contourner la censure. Le client VPN est une application mobile ou un programme léger pour ordinateurs, avec une interface située dans la barre des tâches. FPTN fonctionne via le protocole HTTPS, masquant efficacement le trafic et permettant de contourner les restrictions de censure.<br></br><br></br> Aucune inscription n'est requise ! Nous vous enverrons un jeton d'accès via un <telegramBot>bot Telegram</telegramBot>. <br></br><br></br>Le code source du projet est disponible sur <github>GitHub</github>.",
+    "gradientImage": {
+      "src": "/fptn.webp",
+      "alt": "Projet FPTN"
+    },
+    "releaseNotes": {
+      "url": "https://github.com/FPTN-Project/FPTN/releases/tag/v0.3.23",
+      "text": "Notes de version"
+    }
+  },
+  "steps": {
+    "android": {
+      "title": "Comment commencer",
+      "items": [
+        {
+          "title": "Étape 1",
+          "description": [
+            "Accédez au <telegramBot>bot Telegram</telegramBot> et générez un jeton avec la commande /token, puis copiez-le."
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-en.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 2",
+          "description": ["Collez le jeton dans le champ approprié."],
+          "number": 2,
+          "image": "/images/steps/android/en/step-1-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 3",
+          "description": [
+            "Connectez-vous à l'application en utilisant le jeton reçu."
+          ],
+          "number": 3,
+          "image": "/images/steps/android/en/step-2-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 4",
+          "description": [
+            "Sélectionnez un serveur VPN dans la liste des serveurs disponibles (le mode 'Auto' choisira le serveur le plus optimal, ou vous pouvez sélectionner un serveur dans la liste). Pour activer le service VPN, appuyez sur le bouton au centre de l'écran pour établir la connexion avec le serveur sélectionné."
+          ],
+          "number": 4,
+          "image": "/images/steps/android/en/step-3-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "Terminé !",
+          "description": [],
+          "number": 5,
+          "image": "/images/steps/android/en/step-4-for-android.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "windows": {
+      "title": "Comment commencer",
+      "items": [
+        {
+          "title": "Étape 1",
+          "description": [
+            "Accédez au <telegramBot>bot Telegram</telegramBot> et générez un jeton avec la commande /token, puis copiez-le."
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-en.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 2",
+          "description": [
+            "Téléchargez et exécutez l'installateur. Lors du lancement de l'installateur, Windows affichera une fenêtre d'avertissement ; cliquez sur 'Plus d'infos'."
+          ],
+          "number": 2,
+          "image": "/images/steps/windows/en/1-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 3",
+          "description": [
+            "Ensuite, cliquez sur le bouton 'Exécuter quand même'."
+          ],
+          "number": 3,
+          "image": "/images/steps/windows/en/2-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 4",
+          "description": ["Ensuite, confirmez le lancement de l'installateur."],
+          "number": 4,
+          "image": "/images/steps/windows/en/3-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 5",
+          "description": [
+            "Une fois l'installation terminée, appuyez sur le bouton 'Terminer', et l'application se lancera automatiquement."
+          ],
+          "number": 5,
+          "image": "/images/steps/windows/en/4-launch.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 6",
+          "description": [
+            "Après le lancement du client, une icône de l'application apparaîtra dans la barre des tâches. Cliquez sur l'icône et ouvrez les paramètres."
+          ],
+          "number": 6,
+          "image": "/images/steps/windows/en/5-tray.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 7",
+          "description": ["Cliquez sur le bouton 'Ajouter un jeton'."],
+          "number": 7,
+          "image": "/images/steps/windows/en/7-load-config.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 8",
+          "description": [
+            "Collez le jeton du <telegramBot>bot Telegram</telegramBot> ici et enregistrez."
+          ],
+          "number": 8,
+          "image": "/images/steps/windows/en/8-select-file.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 9",
+          "description": [
+            "Après l'ouverture, une liste des serveurs disponibles apparaîtra ; ensuite, fermez simplement la fenêtre des paramètres."
+          ],
+          "number": 9,
+          "image": "/images/steps/windows/en/9-save.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 10",
+          "description": [
+            "Dans la barre des tâches, cliquez sur l'icône de l'application et sélectionnez 'Connexion intelligente'. La 'Connexion intelligente' choisira le serveur le plus optimal."
+          ],
+          "number": 10,
+          "image": "/images/steps/windows/en/10-run.webp",
+          "reverse": false
+        },
+        {
+          "title": "Terminé !",
+          "description": [],
+          "number": 11,
+          "image": "/images/steps/windows/en/11-running.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "raspberryPi": {
+      "title": "Configuration d'un point d'accès WiFi-VPN sur Raspberry Pi",
+      "items": [
+        {
+          "title": "Étape 1",
+          "description": [
+            "Téléchargez la version du client VPN pour ARM et configurez-la en suivant les instructions <raspberryPiSetupGuide>ici</raspberryPiSetupGuide>."
+          ],
+          "number": 1
+        },
+        {
+          "title": "Étape 2",
+          "description": [
+            "Installez les paquets hostapd et dnsmasq avec la commande :",
+            "sudo apt install hostapd dnsmasq"
+          ],
+          "number": 2
+        },
+        {
+          "title": "Étape 3",
+          "description": [
+            "Arrêtez et désactivez les services hostapd et dnsmasq :",
+            "sudo systemctl stop hostapd && sudo systemctl disable hostapd",
+            "sudo systemctl stop dnsmasq && sudo systemctl disable dnsmasq"
+          ],
+          "number": 3
+        },
+        {
+          "title": "Étape 4",
+          "description": [
+            "Pour Ubuntu 24.04/22.04 : ouvrez /etc/systemd/resolved.conf, définissez DNSStubListener=no, redémarrez le service systemd-resolved et redémarrez le système."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Étape 5",
+          "description": [
+            "Copiez hostapd/fptn-hostapd.conf et hostapd/fptn-hostapd.service dans les répertoires appropriés.",
+            "Modifiez /etc/fptn-hostapd.conf, en spécifiant l'interface WiFi, le SSID et le mot de passe."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Étape 6",
+          "description": [
+            "Copiez hostapd/fptn-dnsmasq.conf et hostapd/fptn-dnsmasq.service dans les répertoires appropriés."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Étape 7",
+          "description": [
+            "Copiez fptn-setup-network.service dans /etc/systemd/system et fptn-setup-network.sh dans /usr/sbin/.",
+            "Modifiez fptn-setup-network.sh, en spécifiant les interfaces WiFi et Ethernet."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Étape 8",
+          "description": [
+            "sudo systemctl daemon-reload",
+            "sudo systemctl enable/restart fptn-hostapd.service",
+            "sudo systemctl enable/restart fptn-dnsmasq.service",
+            "sudo systemctl enable/start fptn-setup-network.service",
+            "sudo systemctl enable/start fptn-client.service"
+          ],
+          "number": 8
+        },
+        {
+          "title": "Terminé !",
+          "description": [
+            "Après ces étapes, votre Raspberry Pi fonctionnera comme un point d'accès WiFi avec VPN."
+          ],
+          "number": 9
+        }
+      ]
+    },
+    "linux": {
+      "title": "Comment commencer",
+      "items": [
+        {
+          "title": "Étape 1",
+          "description": [
+            "Accédez au <telegramBot>bot Telegram</telegramBot> et générez un jeton avec la commande /token, puis copiez-le."
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-en.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 2",
+          "description": ["Lancez le client FPTN."],
+          "number": 2,
+          "image": "/images/steps/linux/en/1-icon.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 3",
+          "description": [
+            "Cliquez sur l'icône du client FPTN dans la barre des tâches pour ouvrir le menu contextuel."
+          ],
+          "number": 3,
+          "image": "/images/steps/linux/en/2-tray.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 4",
+          "description": [
+            "Ouvrez les paramètres du client FPTN et cliquez sur le bouton 'Ajouter un jeton'."
+          ],
+          "number": 4,
+          "image": "/images/steps/linux/en/3-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 5",
+          "description": [
+            "Collez le jeton du <telegramBot>bot Telegram</telegramBot> ici et enregistrez."
+          ],
+          "number": 5,
+          "image": "/images/steps/linux/en/4-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 6",
+          "description": ["Fermez la fenêtre des paramètres."],
+          "number": 6,
+          "image": "/images/steps/linux/en/5-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 7",
+          "description": [
+            "Dans la barre des tâches, cliquez sur l'icône de l'application et sélectionnez 'Connexion intelligente'. Cette fonctionnalité sélectionnera automatiquement le serveur le plus optimal."
+          ],
+          "number": 7,
+          "image": "/images/steps/linux/en/7-running-client.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "macos": {
+      "title": "Comment commencer",
+      "items": [
+        {
+          "title": "Étape 1",
+          "description": [
+            "Accédez au <telegramBot>bot Telegram</telegramBot> et générez un jeton avec la commande /token, puis copiez-le."
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-en.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 2",
+          "description": [
+            "Après avoir lancé l'application, cliquez sur l'icône dans la barre des tâches pour ouvrir le menu contextuel."
+          ],
+          "number": 2,
+          "image": "/images/steps/macos/en/client.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 3",
+          "description": [
+            "Collez le jeton du <telegramBot>bot Telegram</telegramBot> ici."
+          ],
+          "number": 3,
+          "image": "/images/steps/macos/en/running-client.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 4",
+          "description": ["Enregistrez le jeton."],
+          "number": 4,
+          "image": "/images/steps/macos/en/settings-2.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 5",
+          "description": [
+            "Fermez la fenêtre des paramètres et essayez de vous connecter."
+          ],
+          "number": 5,
+          "image": "/images/steps/macos/en/settings-3.webp",
+          "reverse": false
+        },
+        {
+          "title": "Étape 6",
+          "description": [
+            "Si la connexion échoue, vous pourriez avoir besoin d'un <detailedGuide>guide détaillé</detailedGuide> pour résoudre les problèmes de pilotes."
+          ],
+          "number": 6
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "description": "Réponses aux questions courantes sur FPTN",
+    "questions": [
+      {
+        "question": "Comment accéder à FPTN ?",
+        "answer": "Aucune inscription n'est requise ! Contactez simplement notre <telegramBot>bot Telegram</telegramBot>, et nous vous enverrons un jeton d'accès pour vous connecter."
+      },
+      {
+        "question": "FPTN est-il gratuit ?",
+        "answer": "Oui, FPTN est un projet à but non lucratif entièrement gratuit créé par des bénévoles pour fournir un accès ouvert à Internet."
+      },
+      {
+        "question": "Quels appareils FPTN prend-il en charge ?",
+        "answer": "FPTN est disponible sous forme d'application mobile pour smartphones et de programme léger pour ordinateurs avec une interface dans la barre des tâches."
+      },
+      {
+        "question": "FPTN est-il sécurisé ?",
+        "answer": "FPTN utilise le protocole HTTPS pour masquer le trafic, offrant un chiffrement robuste et protégeant vos données contre l'interception."
+      },
+      {
+        "question": "Puis-je faire confiance au projet ?",
+        "answer": "Oui, le code source de FPTN est entièrement ouvert et disponible sur <github>GitHub</github>. Vous pouvez examiner le code vous-même pour vous assurer qu'il n'y a pas de fonctionnalités cachées."
+      },
+      {
+        "question": "Les fournisseurs détecteront-ils l'utilisation de FPTN ?",
+        "answer": "FPTN fonctionne via le protocole HTTPS, imitant le trafic web classique, ce qui le rend presque indétectable par rapport à une navigation Internet standard."
+      },
+      {
+        "question": "FPTN affecte-t-il la vitesse d'Internet ?",
+        "answer": "Comme tout VPN, FPTN peut légèrement réduire la vitesse de connexion, mais nous optimisons les serveurs pour minimiser l'impact sur les performances."
+      },
+      {
+        "question": "Y a-t-il des limites de trafic ?",
+        "answer": "Nous visons à fournir un accès illimité, mais pendant les périodes de forte charge, des limites raisonnables peuvent être appliquées pour garantir des performances stables pour tous les utilisateurs."
+      },
+      {
+        "question": "Que faire si mon jeton cesse de fonctionner ?",
+        "answer": "Contactez notre <telegramChannel>canal Telegram</telegramChannel> – nous vous fournirons rapidement un nouveau jeton. Les jetons peuvent être mis à jour périodiquement pour des raisons de sécurité."
+      },
+      {
+        "question": "Puis-je contribuer au projet ?",
+        "answer": "Absolument ! Vous pouvez contribuer au développement via <github>GitHub</github>, aider avec les traductions, faire connaître le projet ou le soutenir par des dons."
+      },
+      {
+        "question": "Quels pays FPTN prend-il en charge ?",
+        "answer": "FPTN est conçu pour fonctionner dans les régions avec censure d'Internet. Consultez notre <telegramChannel>canal Telegram</telegramChannel> pour des informations à jour sur les pays pris en charge."
+      },
+      {
+        "question": "Une configuration technique est-elle requise ?",
+        "answer": "Non, FPTN est conçu pour être convivial – installez simplement l'application, entrez le jeton, et vous êtes prêt à commencer."
+      }
+    ],
+    "callToAction": {
+      "text": "Vous n'avez pas trouvé la réponse à votre question ? Contactez directement notre communauté, et nous serons ravis de vous aider !",
+      "button": { "text": "Contactez-nous", "url": "https://t.me/fptn_project" }
+    }
+  },
+  "contacts": {
+    "contactInfo": {
+      "title": "Informations de contact",
+      "items": [
+        {
+          "type": "phone",
+          "label": "Téléphone"
+        },
+        {
+          "type": "email",
+          "label": "E-mail"
+        },
+        {
+          "type": "address",
+          "label": "Adresse"
+        }
+      ]
+    },
+    "info": {
+      "title": "Avantages de nous contacter",
+      "items": [
+        "Réponse rapide dans les 24 heures",
+        "Approche personnalisée pour chaque client",
+        "Consultation gratuite pour votre demande",
+        "Sélection de la meilleure solution pour vos besoins"
+      ]
+    }
+  },
+  "footer": {
+    "description": "Nous fournissons des solutions innovantes pour la croissance de votre entreprise",
+    "quickLinks": {
+      "title": "Liens rapides",
+      "items": [
+        { "text": "Accueil", "url": "/" },
+        { "text": "À propos de nous", "url": "/#about" },
+        { "text": "Services", "url": "/#services" },
+        { "text": "Témoignages", "url": "/#testimonials" },
+        { "text": "Tarifs", "url": "/#price" },
+        { "text": "Comment commencer", "url": "/#steps" }
+      ]
+    },
+    "services": {
+      "title": "Services",
+      "items": [
+        { "text": "Consulting", "url": "/#services" },
+        { "text": "Développement", "url": "/#services" },
+        { "text": "Marketing", "url": "/#services" },
+        { "text": "Support", "url": "/#services" }
+      ]
+    },
+    "contactInfo": {
+      "title": "Contacts"
+    },
+    "newsletter": {
+      "title": "Abonnement à la newsletter",
+      "description": "Abonnez-vous à notre newsletter pour recevoir les dernières nouvelles et mises à jour",
+      "email": {
+        "label": "E-mail",
+        "placeholder": "Votre e-mail",
+        "error": "Veuillez entrer une adresse e-mail valide"
+      },
+      "button": "S'abonner",
+      "loading": "Envoi en cours...",
+      "success": "Vous vous êtes abonné avec succès à la newsletter !",
+      "error": "Une erreur s'est produite lors de l'envoi du formulaire",
+      "formcarryError": "Erreur serveur lors de l'abonnement à la newsletter",
+      "missingApiKey": "La clé API pour l'abonnement n'est pas configurée"
+    },
+    "copyright": "© 2025 Projet FPTN",
+    "legalLinks": [
+      { "text": "Conditions d'utilisation", "url": "/terms-of-service" },
+      { "text": "Politique de confidentialité", "url": "/privacy-policy" },
+      {
+        "text": "Politique de cookies",
+        "url": "/cookie-policy"
+      }
+    ]
+  },
+  "theme": {
+    "toggle": {
+      "title": "Changer de thème",
+      "light": "Clair",
+      "dark": "Sombre",
+      "system": "Système"
+    }
+  },
+  "cta": {
+    "title": "Prêt à commencer maintenant ?",
+    "description": "Commencez un essai gratuit de 14 jours et découvrez toutes les possibilités de notre plateforme. Pas de carte de crédit. Pas d'obligations.",
+    "primaryButton": {
+      "text": "Commencer gratuitement",
+      "url": "/signup"
+    },
+    "secondaryButton": {
+      "text": "Contactez-nous",
+      "url": "/contacts"
+    }
+  },
+  "ui": {
+    "language": {
+      "toggle": "Changer de langue"
+    },
+    "menu": {
+      "open": "Ouvrir le menu"
+    }
+  },
+  "download": {
+    "button": {
+      "text": "Télécharger pour {platform}",
+      "selectPlatform": "Sélectionner une autre plateforme pour le téléchargement"
+    },
+    "platforms": {
+      "android-play": "Android depuis Google Play",
+      "android-direct": "Android directement depuis le site web",
+      "windows": "Windows (Windows 10/11 x86_64)",
+      "macos-silicon": "macOS (Apple Silicon)",
+      "macos-intel": "macOS (Intel)",
+      "linux-x64": "Linux (Ubuntu x86_64)",
+      "linux-arm": "Linux (Ubuntu ARM64)",
+      "command-line-tools": "Outils de ligne de commande"
+    }
+  },
+  "notFoundPage": {
+    "errorCode": "404 - Page non trouvée",
+    "message": "La page que vous recherchez n'existe pas.",
+    "returnText": "Retour à l'accueil"
+  }
+}

@@ -1,0 +1,549 @@
+{
+  "links": {
+    "logo": {
+      "src": "/images/logo/puzzle.png",
+      "alt": "標誌",
+      "link": "/",
+      "text": "FPTN 項目"
+    },
+    "socials": {
+      "telegramBotUrl": "https://t.me/@fptn_bot",
+      "telegramChannelUrl": "https://t.me/fptn_channel",
+      "githubUrl": "https://github.com/batchar2/fptn"
+    }
+  },
+  "header": {
+    "navigation": [
+      { "text": "如何開始", "url": "#steps" },
+      { "text": "常見問題", "url": "#faq" }
+    ],
+    "cta": { "text": "下載", "url": "/#contacts" }
+  },
+  "hero": {
+    "gradientTitle": "FPTN 項目",
+    "gradientDescription": "FPTN 是一個非營利性 VPN，是一個志願者項目，旨在繞過審查。VPN 客戶端是一個移動應用程式或用於計算機的輕量級程序，介面位於系統托盤中。FPTN 通過 HTTPS 協議運行，有效掩蓋流量並允許繞過審查限制。<br></br><br></br> 無需註冊！我們將通過 <telegramBot>Telegram 機器人</telegramBot> 向您發送訪問令牌。<br></br><br></br> 項目的源代碼在 <github>GitHub</github> 上可供查看。",
+    "gradientImage": {
+      "src": "/fptn.webp",
+      "alt": "FPTN 項目"
+    },
+    "releaseNotes": {
+      "url": "https://github.com/FPTN-Project/FPTN/releases/tag/v0.3.23",
+      "text": "版本說明"
+    }
+  },
+  "steps": {
+    "android": {
+      "title": "如何開始",
+      "items": [
+        {
+          "title": "第一步",
+          "description": [
+            "前往 <telegramBot>Telegram 機器人</telegramBot> 並使用 /token 命令生成一個令牌，然後複製它。"
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-en.webp",
+          "reverse": false
+        },
+        {
+          "title": "第二步",
+          "description": ["將令牌粘貼到相應的欄位中。"],
+          "number": 2,
+          "image": "/images/steps/android/en/step-1-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "第三步",
+          "description": ["使用收到的令牌登錄應用程式。"],
+          "number": 3,
+          "image": "/images/steps/android/en/step-2-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "第四步",
+          "description": [
+            "從可用伺服器列表中選擇一個 VPN 伺服器（'自動' 模式將選擇最優化的伺服器，或者您可以從列表中選擇一個伺服器）。要啟用 VPN 服務，請按螢幕中央的按鈕以啟動與所選伺服器的連接。"
+          ],
+          "number": 4,
+          "image": "/images/steps/android/en/step-3-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "完成！",
+          "description": [],
+          "number": 5,
+          "image": "/images/steps/android/en/step-4-for-android.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "windows": {
+      "title": "如何開始",
+      "items": [
+        {
+          "title": "第一步",
+          "description": [
+            "前往 <telegramBot>Telegram 機器人</telegramBot> 並使用 /token 命令生成一個令牌，然後複製它。"
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-en.webp",
+          "reverse": false
+        },
+        {
+          "title": "第二步",
+          "description": [
+            "下載並運行安裝程式。在啟動安裝程式時，Windows 將顯示一個警告窗口；點擊「更多資訊」。"
+          ],
+          "number": 2,
+          "image": "/images/steps/windows/en/1-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "第三步",
+          "description": ["然後點擊「仍然運行」按鈕。"],
+          "number": 3,
+          "image": "/images/steps/windows/en/2-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "第四步",
+          "description": ["之後，確認安裝程式的啟動。"],
+          "number": 4,
+          "image": "/images/steps/windows/en/3-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "第五步",
+          "description": ["安裝完成後，按下「完成」按鈕，應用程式將自動啟動。"],
+          "number": 5,
+          "image": "/images/steps/windows/en/4-launch.webp",
+          "reverse": false
+        },
+        {
+          "title": "第六步",
+          "description": [
+            "啟動客戶端後，系統托盤中將出現一個應用程式圖標。點擊該圖標並打開設置。"
+          ],
+          "number": 6,
+          "image": "/images/steps/windows/en/5-tray.webp",
+          "reverse": false
+        },
+        {
+          "title": "第七步",
+          "description": ["點擊「添加令牌」按鈕。"],
+          "number": 7,
+          "image": "/images/steps/windows/en/7-load-config.webp",
+          "reverse": false
+        },
+        {
+          "title": "第八步",
+          "description": [
+            "在此處粘貼來自 <telegramBot>Telegram 機器人</telegramBot> 的令牌並保存。"
+          ],
+          "number": 8,
+          "image": "/images/steps/windows/en/8-select-file.webp",
+          "reverse": false
+        },
+        {
+          "title": "第九步",
+          "description": [
+            "打開後，將顯示可用伺服器列表；然後只需關閉設置窗口。"
+          ],
+          "number": 9,
+          "image": "/images/steps/windows/en/9-save.webp",
+          "reverse": false
+        },
+        {
+          "title": "第十步",
+          "description": [
+            "在系統托盤中，點擊應用程式圖標並選擇「智能連接」。「智能連接」將選擇最優化的伺服器。"
+          ],
+          "number": 10,
+          "image": "/images/steps/windows/en/10-run.webp",
+          "reverse": false
+        },
+        {
+          "title": "完成！",
+          "description": [],
+          "number": 11,
+          "image": "/images/steps/windows/en/11-running.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "raspberryPi": {
+      "title": "在 Raspberry Pi 上設置 WiFi-VPN 接入點",
+      "items": [
+        {
+          "title": "第一步",
+          "description": [
+            "下載適用於 ARM 的 VPN 客戶端版本，並按照 <raspberryPiSetupGuide>這裡</raspberryPiSetupGuide> 的說明進行設置。"
+          ],
+          "number": 1
+        },
+        {
+          "title": "第二步",
+          "description": [
+            "使用以下命令安裝 hostapd 和 dnsmasq 軟件包：",
+            "sudo apt install hostapd dnsmasq"
+          ],
+          "number": 2
+        },
+        {
+          "title": "第三步",
+          "description": [
+            "停止並禁用 hostapd 和 dnsmasq 服務：",
+            "sudo systemctl stop hostapd && sudo systemctl disable hostapd",
+            "sudo systemctl stop dnsmasq && sudo systemctl disable dnsmasq"
+          ],
+          "number": 3
+        },
+        {
+          "title": "第四步",
+          "description": [
+            "對於 Ubuntu 24.04/22.04：打開 /etc/systemd/resolved.conf，設置 DNSStubListener=no，重啟 systemd-resolved 服務並重啟系統。"
+          ],
+          "number": 4
+        },
+        {
+          "title": "第五步",
+          "description": [
+            "將 hostapd/fptn-hostapd.conf 和 hostapd/fptn-hostapd.service 複製到相應的目錄。",
+            "編輯 /etc/fptn-hostapd.conf，指定 WiFi 介面、SSID 和密碼。"
+          ],
+          "number": 5
+        },
+        {
+          "title": "第六步",
+          "description": [
+            "將 hostapd/fptn-dnsmasq.conf 和 hostapd/fptn-dnsmasq.service 複製到相應的目錄。"
+          ],
+          "number": 6
+        },
+        {
+          "title": "第七步",
+          "description": [
+            "將 fptn-setup-network.service 複製到 /etc/systemd/system，將 fptn-setup-network.sh 複製到 /usr/sbin/。",
+            "編輯 fptn-setup-network.sh，指定 WiFi 和以太網介面。"
+          ],
+          "number": 7
+        },
+        {
+          "title": "第八步",
+          "description": [
+            "sudo systemctl daemon-reload",
+            "sudo systemctl enable/restart fptn-hostapd.service",
+            "sudo systemctl enable/restart fptn-dnsmasq.service",
+            "sudo systemctl enable/start fptn-setup-network.service",
+            "sudo systemctl enable/start fptn-client.service"
+          ],
+          "number": 8
+        },
+        {
+          "title": "完成！",
+          "description": [
+            "完成這些步驟後，您的 Raspberry Pi 將作為帶有 VPN 的 WiFi 接入點運行。"
+          ],
+          "number": 9
+        }
+      ]
+    },
+    "linux": {
+      "title": "如何開始",
+      "items": [
+        {
+          "title": "第一步",
+          "description": [
+            "前往 <telegramBot>Telegram 機器人</telegramBot> 並使用 /token 命令生成一個令牌，然後複製它。"
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-en.webp",
+          "reverse": false
+        },
+        {
+          "title": "第二步",
+          "description": ["啟動 FPTN 客戶端。"],
+          "number": 2,
+          "image": "/images/steps/linux/en/1-icon.webp",
+          "reverse": false
+        },
+        {
+          "title": "第三步",
+          "description": ["點擊系統托盤中的 FPTN 客戶端圖標以打開上下文菜單。"],
+          "number": 3,
+          "image": "/images/steps/linux/en/2-tray.webp",
+          "reverse": false
+        },
+        {
+          "title": "第四步",
+          "description": ["打開 FPTN 客戶端設置並點擊「添加令牌」按鈕。"],
+          "number": 4,
+          "image": "/images/steps/linux/en/3-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "第五步",
+          "description": [
+            "在此處粘貼來自 <telegramBot>Telegram 機器人</telegramBot> 的令牌並保存。"
+          ],
+          "number": 5,
+          "image": "/images/steps/linux/en/4-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "第六步",
+          "description": ["關閉設置窗口。"],
+          "number": 6,
+          "image": "/images/steps/linux/en/5-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "第七步",
+          "description": [
+            "在系統托盤中，點擊應用程式圖標並選擇「智能連接」。此功能將自動選擇最優化的伺服器。"
+          ],
+          "number": 7,
+          "image": "/images/steps/linux/en/7-running-client.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "macos": {
+      "title": "如何開始",
+      "items": [
+        {
+          "title": "第一步",
+          "description": [
+            "前往 <telegramBot>Telegram 機器人</telegramBot> 並使用 /token 命令生成一個令牌，然後複製它。"
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-en.webp",
+          "reverse": false
+        },
+        {
+          "title": "第二步",
+          "description": [
+            "啟動應用程式後，點擊系統托盤中的圖標以打開上下文菜單。"
+          ],
+          "number": 2,
+          "image": "/images/steps/macos/en/client.webp",
+          "reverse": false
+        },
+        {
+          "title": "第三步",
+          "description": [
+            "在此處粘貼來自 <telegramBot>Telegram 機器人</telegramBot> 的令牌。"
+          ],
+          "number": 3,
+          "image": "/images/steps/macos/en/running-client.webp",
+          "reverse": false
+        },
+        {
+          "title": "第四步",
+          "description": ["保存令牌。"],
+          "number": 4,
+          "image": "/images/steps/macos/en/settings-2.webp",
+          "reverse": false
+        },
+        {
+          "title": "第五步",
+          "description": ["關閉設置窗口並嘗試連接。"],
+          "number": 5,
+          "image": "/images/steps/macos/en/settings-3.webp",
+          "reverse": false
+        },
+        {
+          "title": "第六步",
+          "description": [
+            "如果連接失敗，您可能需要 <detailedGuide>詳細指南</detailedGuide> 來解決驅動程式問題。"
+          ],
+          "number": 6
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "常見問題",
+    "description": "關於 FPTN 的常見問題解答",
+    "questions": [
+      {
+        "question": "如何獲得 FPTN 的訪問權限？",
+        "answer": "無需註冊！只需聯繫我們的 <telegramBot>Telegram 機器人</telegramBot>，我們將為您發送一個用於連接的訪問令牌。"
+      },
+      {
+        "question": "FPTN 是免費的嗎？",
+        "answer": "是的，FPTN 是一個完全免費的非營利項目，由志願者創建，旨在提供開放的互聯網訪問。"
+      },
+      {
+        "question": "FPTN 支持哪些設備？",
+        "answer": "FPTN 提供智能手機的移動應用程式以及帶有系統托盤介面的輕量級計算機程序。"
+      },
+      {
+        "question": "FPTN 有多安全？",
+        "answer": "FPTN 使用 HTTPS 協議來掩蓋流量，提供強大的加密，保護您的數據免受攔截。"
+      },
+      {
+        "question": "我可以信任這個項目嗎？",
+        "answer": "是的，FPTN 的源代碼完全公開並可在 <github>GitHub</github> 上查看。您可以自行檢查代碼以確保沒有隱藏功能。"
+      },
+      {
+        "question": "提供商會檢測到 FPTN 的使用嗎？",
+        "answer": "FPTN 通過 HTTPS 協議運行，模仿常規網絡流量，使其幾乎無法與標準的互聯網瀏覽區分開來。"
+      },
+      {
+        "question": "FPTN 會影響網絡速度嗎？",
+        "answer": "像任何 VPN 一樣，FPTN 可能會略微降低連接速度，但我們優化了伺服器以最小化性能影響。"
+      },
+      {
+        "question": "有沒有流量限制？",
+        "answer": "我們的目標是提供無限制的訪問，但在高峰負載期間，可能會施加合理的限制以確保所有用戶的穩定性能。"
+      },
+      {
+        "question": "如果我的令牌停止工作怎麼辦？",
+        "answer": "聯繫我們的 <telegramChannel>Telegram 頻道</telegramChannel> - 我們會迅速發放一個新令牌。出於安全原因，令牌可能會定期更新。"
+      },
+      {
+        "question": "我可以為項目做貢獻嗎？",
+        "answer": "當然可以！您可以通過 <github>GitHub</github> 為開發做出貢獻，幫助翻譯，推廣項目或通過捐款支持項目。"
+      },
+      {
+        "question": "FPTN 支持哪些國家？",
+        "answer": "FPTN 旨在在存在網絡審查的地區運行。請查看我們的 <telegramChannel>Telegram 頻道</telegramChannel> 以獲取有關支持國家的最新信息。"
+      },
+      {
+        "question": "需要進行技術設置嗎？",
+        "answer": "不需要，FPTN 設計得非常用戶友好 - 只需安裝應用程式，輸入令牌，您就可以開始使用了。"
+      }
+    ],
+    "callToAction": {
+      "text": "沒有找到您問題的答案？請直接聯繫我們的社區，我們很樂意為您提供幫助！",
+      "button": { "text": "聯繫我們", "url": "https://t.me/fptn_project" }
+    }
+  },
+  "contacts": {
+    "contactInfo": {
+      "title": "聯繫信息",
+      "items": [
+        {
+          "type": "phone",
+          "label": "電話"
+        },
+        {
+          "type": "email",
+          "label": "電子郵件"
+        },
+        {
+          "type": "address",
+          "label": "地址"
+        }
+      ]
+    },
+    "info": {
+      "title": "聯繫我們的優勢",
+      "items": [
+        "24 小時內快速回复",
+        "為每位客戶提供個性化服務",
+        "免費諮詢您的需求",
+        "為您的需求選擇最佳解決方案"
+      ]
+    }
+  },
+  "footer": {
+    "description": "我們為您的業務增長提供創新解決方案",
+    "quickLinks": {
+      "title": "快速鏈接",
+      "items": [
+        { "text": "首頁", "url": "/" },
+        { "text": "關於我們", "url": "/#about" },
+        { "text": "服務", "url": "/#services" },
+        { "text": "客戶評價", "url": "/#testimonials" },
+        { "text": "價格", "url": "/#price" },
+        { "text": "如何開始", "url": "/#steps" }
+      ]
+    },
+    "services": {
+      "title": "服務",
+      "items": [
+        { "text": "諮詢", "url": "/#services" },
+        { "text": "開發", "url": "/#services" },
+        { "text": "市場營銷", "url": "/#services" },
+        { "text": "支持", "url": "/#services" }
+      ]
+    },
+    "contactInfo": {
+      "title": "聯繫方式"
+    },
+    "newsletter": {
+      "title": "訂閱新聞通訊",
+      "description": "訂閱我們的新聞通訊以接收最新的新聞和更新",
+      "email": {
+        "label": "電子郵件",
+        "placeholder": "您的電子郵件",
+        "error": "請輸入有效的電子郵件地址"
+      },
+      "button": "訂閱",
+      "loading": "正在發送...",
+      "success": "您已成功訂閱新聞通訊！",
+      "error": "提交表單時發生錯誤",
+      "formcarryError": "訂閱新聞通訊時發生服務器錯誤",
+      "missingApiKey": "訂閱的 API 密鑰未配置"
+    },
+    "copyright": "© 2025 FPTN 項目",
+    "legalLinks": [
+      { "text": "使用條款", "url": "/terms-of-service" },
+      { "text": "隱私政策", "url": "/privacy-policy" },
+      {
+        "text": "Cookie 政策",
+        "url": "/cookie-policy"
+      }
+    ]
+  },
+  "theme": {
+    "toggle": {
+      "title": "切換主題",
+      "light": "明亮",
+      "dark": "暗黑",
+      "system": "系統"
+    }
+  },
+  "cta": {
+    "title": "準備好現在開始了嗎？",
+    "description": "開始為期 14 天的免費試用，探索我們平台的所有可能性。無需信用卡。無任何義務。",
+    "primaryButton": {
+      "text": "免費開始",
+      "url": "/signup"
+    },
+    "secondaryButton": {
+      "text": "聯繫我們",
+      "url": "/contacts"
+    }
+  },
+  "ui": {
+    "language": {
+      "toggle": "切換語言"
+    },
+    "menu": {
+      "open": "打開菜單"
+    }
+  },
+  "download": {
+    "button": {
+      "text": "為 {platform} 下載",
+      "selectPlatform": "選擇另一個平台進行下載"
+    },
+    "platforms": {
+      "android-play": "從 Google Play 下載 Android",
+      "android-direct": "直接從網站下載 Android",
+      "windows": "Windows (Windows 10/11 x86_64)",
+      "macos-silicon": "macOS (Apple Silicon)",
+      "macos-intel": "macOS (Intel)",
+      "linux-x64": "Linux (Ubuntu x86_64)",
+      "linux-arm": "Linux (Ubuntu ARM64)",
+      "command-line-tools": "命令行工具"
+    }
+  },
+  "notFoundPage": {
+    "errorCode": "404 - 頁面未找到",
+    "message": "您尋找的頁面不存在。",
+    "returnText": "返回首頁"
+  }
+}

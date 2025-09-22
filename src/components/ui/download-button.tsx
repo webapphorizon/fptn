@@ -148,7 +148,7 @@ export function DownloadButton() {
     <div className="flex items-center gap-0">
       <Button
         size="lg"
-        className="w-full max-w-[15rem] overflow-hidden rounded-r-none border-r border-indigo-200 bg-white text-black hover:bg-white/90 md:w-[26.25rem] md:max-w-none"
+        className="w-full max-w-[15rem] overflow-hidden rounded-r-none border-r border-indigo-200 bg-white text-black hover:bg-white/90 md:w-[27.5rem] md:max-w-none"
         onClick={() => handleDownload(selectedOption)}
       >
         <Download className="h-8 w-8" />

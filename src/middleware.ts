@@ -4,7 +4,7 @@ import type { NextRequest } from "next/server";
 // Создаем middleware для интернационализации с настройками для корневого пути
 const intlMiddleware = createMiddleware({
   // Поддерживаемые локали
-  locales: ["en", "ru"],
+  locales: ["en", "ru", "es", "de", "fr", "it", "pt", "cn", "jp", "kr"],
 
   // Локаль по умолчанию
   defaultLocale: "en",

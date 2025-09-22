@@ -1,0 +1,555 @@
+{
+  "links": {
+    "logo": {
+      "src": "/images/logo/puzzle.png",
+      "alt": "ロゴ",
+      "link": "/",
+      "text": "FPTNプロジェクト"
+    },
+    "socials": {
+      "telegramBotUrl": "https://t.me/@fptn_bot",
+      "telegramChannelUrl": "https://t.me/fptn_channel",
+      "githubUrl": "https://github.com/batchar2/fptn"
+    }
+  },
+  "header": {
+    "navigation": [
+      { "text": "始め方", "url": "#steps" },
+      { "text": "よくある質問", "url": "#faq" }
+    ],
+    "cta": { "text": "ダウンロード", "url": "/#contacts" }
+  },
+  "hero": {
+    "gradientTitle": "FPTNプロジェクト",
+    "gradientDescription": "FPTNは非営利のVPNであり、検閲を回避するためのボランティアプロジェクトです。VPNクライアントはモバイルアプリまたはコンピューター用の軽量プログラムで、システムトレイにインターフェースがあります。FPTNはHTTPSプロトコルを介して動作し、トラフィックを効果的に隠し、検閲制限を回避することができます。<br></br><br></br> 登録は不要です！<telegramBot>Telegramボット</telegramBot>を通じてアクセス用のトークンを送信します。<br></br><br></br>プロジェクトのソースコードは<github>GitHub</github>で公開されています。",
+    "gradientImage": {
+      "src": "/fptn.webp",
+      "alt": "FPTNプロジェクト"
+    },
+    "releaseNotes": {
+      "url": "https://github.com/FPTN-Project/FPTN/releases/tag/v0.3.23",
+      "text": "リリースノート"
+    }
+  },
+  "steps": {
+    "android": {
+      "title": "始め方",
+      "items": [
+        {
+          "title": "ステップ1",
+          "description": [
+            "<telegramBot>Telegramボット</telegramBot>にアクセスし、/tokenコマンドを使用してトークンを生成し、それをコピーします。"
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-en.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ2",
+          "description": ["トークンを適切なフィールドに貼り付けます。"],
+          "number": 2,
+          "image": "/images/steps/android/en/step-1-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ3",
+          "description": ["受信したトークンを使用してアプリにログインします。"],
+          "number": 3,
+          "image": "/images/steps/android/en/step-2-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ4",
+          "description": [
+            "利用可能なサーバーのリストからVPNサーバーを選択します（「自動」モードでは最適なサーバーが選択されます。または、リストからサーバーを選択できます）。VPNサービスを有効にするには、画面中央のボタンを押して、選択したサーバーへの接続を有効にします。"
+          ],
+          "number": 4,
+          "image": "/images/steps/android/en/step-3-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "完了！",
+          "description": [],
+          "number": 5,
+          "image": "/images/steps/android/en/step-4-for-android.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "windows": {
+      "title": "始め方",
+      "items": [
+        {
+          "title": "ステップ1",
+          "description": [
+            "<telegramBot>Telegramボット</telegramBot>にアクセスし、/tokenコマンドを使用してトークンを生成し、それをコピーします。"
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-en.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ2",
+          "description": [
+            "インストーラーをダウンロードして実行します。インストーラー起動時に、Windowsが警告ウィンドウを表示します。「詳細情報」をクリックします。"
+          ],
+          "number": 2,
+          "image": "/images/steps/windows/en/1-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ3",
+          "description": ["次に、「それでも実行」ボタンをクリックします。"],
+          "number": 3,
+          "image": "/images/steps/windows/en/2-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ4",
+          "description": ["その後、インストーラーの起動を確認します。"],
+          "number": 4,
+          "image": "/images/steps/windows/en/3-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ5",
+          "description": [
+            "インストールが完了したら、「完了」ボタンを押し、アプリケーションが自動的に起動します。"
+          ],
+          "number": 5,
+          "image": "/images/steps/windows/en/4-launch.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ6",
+          "description": [
+            "クライアントを起動すると、システムトレイにアプリケーションのアイコンが表示されます。アイコンをクリックして設定を開きます。"
+          ],
+          "number": 6,
+          "image": "/images/steps/windows/en/5-tray.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ7",
+          "description": ["「トークンを追加」ボタンをクリックします。"],
+          "number": 7,
+          "image": "/images/steps/windows/en/7-load-config.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ8",
+          "description": [
+            "<telegramBot>Telegramボット</telegramBot>から取得したトークンをここに貼り付けて保存します。"
+          ],
+          "number": 8,
+          "image": "/images/steps/windows/en/8-select-file.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ9",
+          "description": [
+            "開くと利用可能なサーバーのリストが表示されます。その後、設定ウィンドウを閉じます。"
+          ],
+          "number": 9,
+          "image": "/images/steps/windows/en/9-save.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ10",
+          "description": [
+            "システムトレイでアプリケーションのアイコンをクリックし、「スマート接続」を選択します。「スマート接続」は最適なサーバーを選択します。"
+          ],
+          "number": 10,
+          "image": "/images/steps/windows/en/10-run.webp",
+          "reverse": false
+        },
+        {
+          "title": "完了！",
+          "description": [],
+          "number": 11,
+          "image": "/images/steps/windows/en/11-running.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "raspberryPi": {
+      "title": "Raspberry PiでWiFi-VPNアクセスポイントを設定する",
+      "items": [
+        {
+          "title": "ステップ1",
+          "description": [
+            "ARM用のVPNクライアントバージョンをダウンロードし、<raspberryPiSetupGuide>こちら</raspberryPiSetupGuide>の指示に従って設定します。"
+          ],
+          "number": 1
+        },
+        {
+          "title": "ステップ2",
+          "description": [
+            "以下のコマンドでhostapdとdnsmasqのパッケージをインストールします：",
+            "sudo apt install hostapd dnsmasq"
+          ],
+          "number": 2
+        },
+        {
+          "title": "ステップ3",
+          "description": [
+            "hostapdとdnsmasqのサービスを停止および無効化します：",
+            "sudo systemctl stop hostapd && sudo systemctl disable hostapd",
+            "sudo systemctl stop dnsmasq && sudo systemctl disable dnsmasq"
+          ],
+          "number": 3
+        },
+        {
+          "title": "ステップ4",
+          "description": [
+            "Ubuntu 24.04/22.04の場合：/etc/systemd/resolved.confを開き、DNSStubListener=noを設定し、systemd-resolvedサービスを再起動し、システムを再起動します。"
+          ],
+          "number": 4
+        },
+        {
+          "title": "ステップ5",
+          "description": [
+            "hostapd/fptn-hostapd.confとhostapd/fptn-hostapd.serviceを適切なディレクトリにコピーします。",
+            "/etc/fptn-hostapd.confを編集し、WiFiインターフェース、SSID、パスワードを指定します。"
+          ],
+          "number": 5
+        },
+        {
+          "title": "ステップ6",
+          "description": [
+            "hostapd/fptn-dnsmasq.confとhostapd/fptn-dnsmasq.serviceを適切なディレクトリにコピーします。"
+          ],
+          "number": 6
+        },
+        {
+          "title": "ステップ7",
+          "description": [
+            "fptn-setup-network.serviceを/etc/systemd/systemに、fptn-setup-network.shを/usr/sbin/にコピーします。",
+            "fptn-setup-network.shを編集し、WiFiおよびイーサネットインターフェースを指定します。"
+          ],
+          "number": 7
+        },
+        {
+          "title": "ステップ8",
+          "description": [
+            "sudo systemctl daemon-reload",
+            "sudo systemctl enable/restart fptn-hostapd.service",
+            "sudo systemctl enable/restart fptn-dnsmasq.service",
+            "sudo systemctl enable/start fptn-setup-network.service",
+            "sudo systemctl enable/start fptn-client.service"
+          ],
+          "number": 8
+        },
+        {
+          "title": "完了！",
+          "description": [
+            "これらの手順を終えると、Raspberry PiはVPN付きのWiFiアクセスポイントとして機能します。"
+          ],
+          "number": 9
+        }
+      ]
+    },
+    "linux": {
+      "title": "始め方",
+      "items": [
+        {
+          "title": "ステップ1",
+          "description": [
+            "<telegramBot>Telegramボット</telegramBot>にアクセスし、/tokenコマンドを使用してトークンを生成し、それをコピーします。"
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-en.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ2",
+          "description": ["FPTNクライアントを起動します。"],
+          "number": 2,
+          "image": "/images/steps/linux/en/1-icon.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ3",
+          "description": [
+            "システムトレイのFPTNクライアントアイコンをクリックしてコンテキストメニューを開きます。"
+          ],
+          "number": 3,
+          "image": "/images/steps/linux/en/2-tray.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ4",
+          "description": [
+            "FPTNクライアントの設定を開き、「トークンを追加」ボタンをクリックします。"
+          ],
+          "number": 4,
+          "image": "/images/steps/linux/en/3-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ5",
+          "description": [
+            "<telegramBot>Telegramボット</telegramBot>から取得したトークンをここに貼り付けて保存します。"
+          ],
+          "number": 5,
+          "image": "/images/steps/linux/en/4-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ6",
+          "description": ["設定ウィンドウを閉じます。"],
+          "number": 6,
+          "image": "/images/steps/linux/en/5-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ7",
+          "description": [
+            "システムトレイでアプリケーションのアイコンをクリックし、「スマート接続」を選択します。この機能は自動的に最適なサーバーを選択します。"
+          ],
+          "number": 7,
+          "image": "/images/steps/linux/en/7-running-client.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "macos": {
+      "title": "始め方",
+      "items": [
+        {
+          "title": "ステップ1",
+          "description": [
+            "<telegramBot>Telegramボット</telegramBot>にアクセスし、/tokenコマンドを使用してトークンを生成し、それをコピーします。"
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-en.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ2",
+          "description": [
+            "アプリケーションを起動後、システムトレイのアイコンをクリックしてコンテキストメニューを開きます。"
+          ],
+          "number": 2,
+          "image": "/images/steps/macos/en/client.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ3",
+          "description": [
+            "<telegramBot>Telegramボット</telegramBot>から取得したトークンをここに貼り付けます。"
+          ],
+          "number": 3,
+          "image": "/images/steps/macos/en/running-client.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ4",
+          "description": ["トークンを保存します。"],
+          "number": 4,
+          "image": "/images/steps/macos/en/settings-2.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ5",
+          "description": ["設定ウィンドウを閉じて接続を試みます。"],
+          "number": 5,
+          "image": "/images/steps/macos/en/settings-3.webp",
+          "reverse": false
+        },
+        {
+          "title": "ステップ6",
+          "description": [
+            "接続に失敗した場合、ドライバの問題を解決するために<detailedGuide>詳細なガイド</detailedGuide>が必要になる場合があります。"
+          ],
+          "number": 6
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "よくある質問",
+    "description": "FPTNに関するよくある質問への回答",
+    "questions": [
+      {
+        "question": "FPTNにアクセスするにはどうすればいいですか？",
+        "answer": "登録は不要です！<telegramBot>Telegramボット</telegramBot>に連絡するだけで、接続用のアクセス用トークンを送信します。"
+      },
+      {
+        "question": "FPTNは無料ですか？",
+        "answer": "はい、FPTNはボランティアによって作成された完全に無料の非営利プロジェクトで、オープンなインターネットアクセスを提供します。"
+      },
+      {
+        "question": "FPTNはどのデバイスをサポートしていますか？",
+        "answer": "FPTNはスマートフォン用のモバイルアプリおよびシステムトレイインターフェースを持つコンピューター用の軽量プログラムとして利用可能です。"
+      },
+      {
+        "question": "FPTNはどのくらい安全ですか？",
+        "answer": "FPTNはHTTPSプロトコルを使用してトラフィックを隠し、強力な暗号化を提供し、データが傍受されるのを防ぎます。"
+      },
+      {
+        "question": "このプロジェクトは信頼できますか？",
+        "answer": "はい、FPTNのソースコードは完全にオープンで、<github>GitHub</github>で公開されています。コードを自分で確認して、隠された機能がないことを確認できます。"
+      },
+      {
+        "question": "プロバイダーはFPTNの使用を検出しますか？",
+        "answer": "FPTNはHTTPSプロトコルを介して動作し、通常のウェブトラフィックを模倣するため、標準的なインターネット閲覧とほぼ区別がつきません。"
+      },
+      {
+        "question": "FPTNはインターネット速度に影響しますか？",
+        "answer": "他のVPNと同様に、FPTNは接続速度をわずかに下げる可能性がありますが、サーバーを最適化してパフォーマンスへの影響を最小限に抑えています。"
+      },
+      {
+        "question": "トラフィックの制限はありますか？",
+        "answer": "無制限のアクセスを提供することを目指していますが、負荷が高い時期には、すべてのユーザーに安定したパフォーマンスを確保するために合理的な制限が適用される場合があります。"
+      },
+      {
+        "question": "トークンが機能しなくなった場合はどうすればいいですか？",
+        "answer": "<telegramChannel>Telegramチャンネル</telegramChannel>に連絡してください。すぐに新しいトークンを発行します。セキュリティ上の理由で、トークンは定期的に更新されることがあります。"
+      },
+      {
+        "question": "プロジェクトに貢献できますか？",
+        "answer": "もちろんです！<github>GitHub</github>を通じて開発に貢献したり、翻訳を手伝ったり、プロジェクトを広めたり、寄付でサポートしたりできます。"
+      },
+      {
+        "question": "FPTNはどの国をサポートしていますか？",
+        "answer": "FPTNはインターネット検閲がある地域向けに設計されています。サポートされている国の最新情報については、<telegramChannel>Telegramチャンネル</telegramChannel>を確認してください。"
+      },
+      {
+        "question": "技術的な設定は必要ですか？",
+        "answer": "いいえ、FPTNは使いやすさを重視して設計されています。アプリをインストールしてトークンを入力するだけで、すぐに使用できます。"
+      }
+    ],
+    "callToAction": {
+      "text": "質問の答えが見つかりませんでしたか？直接コミュニティに連絡してください。喜んでお手伝いします！",
+      "button": { "text": "お問い合わせ", "url": "https://t.me/fptn_project" }
+    }
+  },
+  "contacts": {
+    "contactInfo": {
+      "title": "連絡先情報",
+      "items": [
+        {
+          "type": "phone",
+          "label": "電話"
+        },
+        {
+          "type": "email",
+          "label": "メール"
+        },
+        {
+          "type": "address",
+          "label": "住所"
+        }
+      ]
+    },
+    "info": {
+      "title": "お問い合わせのメリット",
+      "items": [
+        "24時間以内の迅速な返信",
+        "各顧客に対する個別対応",
+        "ご依頼に対する無料相談",
+        "お客様のニーズに最適なソリューションの選択"
+      ]
+    }
+  },
+  "footer": {
+    "description": "私たちはビジネスの成長のための革新的なソリューションを提供します",
+    "quickLinks": {
+      "title": "クイックリンク",
+      "items": [
+        { "text": "ホーム", "url": "/" },
+        { "text": "私たちについて", "url": "/#about" },
+        { "text": "サービス", "url": "/#services" },
+        { "text": "お客様の声", "url": "/#testimonials" },
+        { "text": "価格", "url": "/#price" },
+        { "text": "始め方", "url": "/#steps" }
+      ]
+    },
+    "services": {
+      "title": "サービス",
+      "items": [
+        { "text": "コンサルティング", "url": "/#services" },
+        { "text": "開発", "url": "/#services" },
+        { "text": "マーケティング", "url": "/#services" },
+        { "text": "サポート", "url": "/#services" }
+      ]
+    },
+    "contactInfo": {
+      "title": "連絡先"
+    },
+    "newsletter": {
+      "title": "ニュースレターの購読",
+      "description": "最新のニュースやアップデートを受け取るために、ニュースレターを購読してください",
+      "email": {
+        "label": "メール",
+        "placeholder": "あなたのメールアドレス",
+        "error": "有効なメールアドレスを入力してください"
+      },
+      "button": "購読",
+      "loading": "送信中...",
+      "success": "ニュースレターに正常に登録しました！",
+      "error": "フォームの送信中にエラーが発生しました",
+      "formcarryError": "ニュースレターの購読中にサーバーエラーが発生しました",
+      "missingApiKey": "購読用のAPIキーが設定されていません"
+    },
+    "copyright": "© 2025 FPTNプロジェクト",
+    "legalLinks": [
+      { "text": "利用規約", "url": "/terms-of-service" },
+      { "text": "プライバシーポリシー", "url": "/privacy-policy" },
+      {
+        "text": "クッキーポリシー",
+        "url": "/cookie-policy"
+      }
+    ]
+  },
+  "theme": {
+    "toggle": {
+      "title": "テーマの切り替え",
+      "light": "ライト",
+      "dark": "ダーク",
+      "system": "システム"
+    }
+  },
+  "cta": {
+    "title": "今すぐ始める準備はできていますか？",
+    "description": "14日間の無料トライアルを開始して、プラットフォームのすべての可能性を探索してください。クレジットカード不要。義務なし。",
+    "primaryButton": {
+      "text": "無料で始める",
+      "url": "/signup"
+    },
+    "secondaryButton": {
+      "text": "お問い合わせ",
+      "url": "/contacts"
+    }
+  },
+  "ui": {
+    "language": {
+      "toggle": "言語の切り替え"
+    },
+    "menu": {
+      "open": "メニューを開く"
+    }
+  },
+  "download": {
+    "button": {
+      "text": "{platform}用にダウンロード",
+      "selectPlatform": "別のプラットフォームを選択してダウンロード"
+    },
+    "platforms": {
+      "android-play": "Google PlayからのAndroid",
+      "android-direct": "ウェブサイトから直接Android",
+      "windows": "Windows (Windows 10/11 x86_64)",
+      "macos-silicon": "macOS (Apple Silicon)",
+      "macos-intel": "macOS (Intel)",
+      "linux-x64": "Linux (Ubuntu x86_64)",
+      "linux-arm": "Linux (Ubuntu ARM64)",
+      "command-line-tools": "コマンドラインツール"
+    }
+  },
+  "notFoundPage": {
+    "errorCode": "404 - ページが見つかりません",
+    "message": "お探しのページは存在しません。",
+    "returnText": "ホームに戻る"
+  }
+}

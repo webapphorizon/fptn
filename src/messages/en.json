@@ -449,10 +449,6 @@
         "Free consultation for your request",
         "Selection of the best solution for your needs"
       ]
-    },
-    "mapLocation": {
-      "coordinates": [55.7495, 37.5396],
-      "zoom": 15
     }
   },
   "footer": {
