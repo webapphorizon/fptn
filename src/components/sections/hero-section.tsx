@@ -1,19 +1,12 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { contentData } from "~/lib/content-data";
 import CustomLink from "../ui/custom-link";
 import { DownloadButton } from "../ui/download-button";
 
-interface HeroData {
-  gradientTitle: string;
-  gradientDescription: string;
-  gradientImage: {
-    src: string;
-    alt: string;
-  };
-}
-
 const HeroSection = () => {
-  const heroData = contentData.hero as unknown as HeroData;
+  const t = useTranslations();
 
   return (
     <section className="mx-auto w-full">
@@ -32,8 +25,8 @@ const HeroSection = () => {
 
         <div className="relative z-10 flex flex-col items-center gap-8 text-white lg:flex-row lg:justify-between">
           <div className="flex max-w-2xl flex-col gap-6">
-            <h1>{heroData.gradientTitle}</h1>
-            <p>{heroData.gradientDescription}</p>
+            <h1>{t("hero.gradientTitle")}</h1>
+            <p>{t("hero.gradientDescription")}</p>
             <div className="flex flex-col gap-2">
               <div className="flex flex-col gap-4 sm:flex-row">
                 <DownloadButton />
@@ -44,15 +37,15 @@ const HeroSection = () => {
                   href="https://github.com/FPTN-Project/FPTN/releases/tag/v0.3.23"
                   className=""
                 >
-                  Читать описание релиза
+                  {t("header.cta.text")} - Release Notes
                 </CustomLink>
               </div>
             </div>
           </div>
           <div className="relative hidden aspect-square w-full max-w-md shrink-0 overflow-hidden rounded-full backdrop-blur-2xl lg:block">
             <Image
-              src={heroData.gradientImage.src}
-              alt={heroData.gradientImage.alt}
+              src={t("hero.gradientImage.src")}
+              alt={t("hero.gradientImage.alt")}
               fill
               className="object-cover opacity-90"
               sizes="(max-width: 768px) 100vw, 40vw"

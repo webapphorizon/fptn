@@ -19,6 +19,7 @@ import { contentData } from "~/lib/content-data";
 import { cn } from "~/lib/utils";
 import madeby from "~/madeby.json";
 import CustomLink from "../ui/custom-link";
+import { LanguageToggle } from "../ui/language-toggle";
 import { ThemeToggle } from "../ui/theme-toggle";
 // import Logo from "~/components/icons/logo"
 
@@ -68,6 +69,7 @@ const Header = () => {
               {`${contentData.header.cta.text}`}
             </Button>
           </Link>
+          <LanguageToggle />
           <ThemeToggle />
         </div>
         <div className="xl:hidden">
@@ -110,7 +112,10 @@ const Header = () => {
                 </div> */}
                 <div className="flex items-center justify-between">
                   <SocialIcons />
-                  <ThemeToggle />
+                  <div className="flex gap-2">
+                    <LanguageToggle />
+                    <ThemeToggle />
+                  </div>
                 </div>
               </div>
               <SheetFooter>

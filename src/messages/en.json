@@ -1,0 +1,631 @@
+{
+  "links": {
+    "logo": {
+      "src": "/images/logo/puzzle.png",
+      "alt": "Logo",
+      "link": "/",
+      "text": "FPTN Project"
+    },
+    "phone": {
+      "text": "+7 (999) 123-4567",
+      "url": "tel:+79991234567"
+    },
+    "email": {
+      "text": "info@webapphorizon.com",
+      "url": "mailto:info@webapphorizon.com"
+    },
+    "address": {
+      "text": "123317, Moscow, Presnenskaya Emb., 12, MMDC «Moscow-City»",
+      "mapUrl": "https://maps.google.com/?q=Presnenskaya+Embankment+12+Moscow"
+    },
+    "socials": {
+      "twitterUrl": "https://twitter.com/fptn",
+      "facebookUrl": "https://www.facebook.com/fptn",
+      "vkUrl": "https://vk.com/fptn",
+      "yandexMapsUrl": "https://yandex.ru/maps/?ll=37.618423%2C55.755826&z=17",
+      "googleMapsUrl": "https://maps.google.com/?q=Presnenskaya+Embankment+12+Moscow",
+      "instagramUrl": "https://www.instagram.com/fptn",
+      "linkedinUrl": "https://www.linkedin.com/company/fptn",
+      "telegramUrl": "https://t.me/fptn",
+      "whatsappUrl": "https://wa.me/fptn",
+      "youtubeUrl": "https://www.youtube.com/fptn",
+      "tiktokUrl": "https://www.tiktok.com/fptn",
+      "pinterestUrl": "https://www.pinterest.com/fptn",
+      "snapchatUrl": "https://www.snapchat.com/fptn",
+      "vimeoUrl": "https://www.vimeo.com/fptn",
+      "soundcloudUrl": "https://www.soundcloud.com/fptn",
+      "spotifyUrl": "https://www.spotify.com/fptn",
+      "appleMusicUrl": "https://www.applemusic.com/fptn",
+      "amazonMusicUrl": "https://www.amazonmusic.com/fptn",
+      "deezerUrl": "https://www.deezer.com/fptn",
+      "bandcampUrl": "https://www.bandcamp.com/fptn",
+      "mixcloudUrl": "https://www.mixcloud.com/fptn",
+      "githubUrl": "https://www.github.com/fptn"
+    }
+  },
+  "header": {
+    "navigation": [
+      { "text": "How to Start", "url": "#steps" },
+      { "text": "FAQ", "url": "#faq" }
+    ],
+    "cta": { "text": "Download", "url": "/#contacts" }
+  },
+  "hero": {
+    "gradientTitle": "FPTN Project",
+    "gradientDescription": "FPTN is a non-profit VPN, a volunteer project to bypass censorship. The VPN client is a mobile app or a lightweight program for computers, with an interface located in the system tray. No registration is required! We will send you an access token via a Telegram bot. FPTN operates through the HTTPS protocol, effectively masking traffic and allowing you to bypass censorship restrictions. The project's source code is available on GitHub.",
+    "gradientImage": {
+      "src": "/fptn.webp",
+      "alt": "FPTN Project"
+    }
+  },
+  "steps": {
+    "android": {
+      "title": "How to Start",
+      "items": [
+        {
+          "title": "Step One",
+          "description": [
+            "Go to the Telegram bot and generate a token with the /token command, then copy it."
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-en.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Two",
+          "description": ["Paste the token into the appropriate field."],
+          "number": 2,
+          "image": "/images/steps/android/en/step-1-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Three",
+          "description": ["Log in to the app using the received token."],
+          "number": 3,
+          "image": "/images/steps/android/en/step-2-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Four",
+          "description": [
+            "Select a VPN server from the list of available servers (the 'Auto' mode will choose the most optimal server, or you can select a server from the list). To enable the VPN service, press the button in the center of the screen to activate the connection to the selected server."
+          ],
+          "number": 4,
+          "image": "/images/steps/android/en/step-3-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "Done!",
+          "description": [],
+          "number": 5,
+          "image": "/images/steps/android/en/step-4-for-android.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "windows": {
+      "title": "How to Start",
+      "items": [
+        {
+          "title": "Step One",
+          "description": [
+            "Go to the Telegram bot and generate a token with the /token command, then copy it."
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-en.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Two",
+          "description": [
+            "Download and run the installer. When launching the installer, Windows will display a warning window; click 'More info'."
+          ],
+          "number": 2,
+          "image": "/images/steps/windows/en/1-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Three",
+          "description": ["Then click the 'Run anyway' button."],
+          "number": 3,
+          "image": "/images/steps/windows/en/2-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Four",
+          "description": ["After that, confirm the installer launch."],
+          "number": 4,
+          "image": "/images/steps/windows/en/3-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Five",
+          "description": [
+            "After the installation is complete, press the 'Finish' button, and the application will launch automatically."
+          ],
+          "number": 5,
+          "image": "/images/steps/windows/en/4-launch.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Six",
+          "description": [
+            "After launching the client, an application icon will appear in the system tray. Click the icon and open the settings."
+          ],
+          "number": 6,
+          "image": "/images/steps/windows/en/5-tray.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Seven",
+          "description": ["Click the 'Add token' button."],
+          "number": 7,
+          "image": "/images/steps/windows/en/7-load-config.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Eight",
+          "description": [
+            "Paste the token from the Telegram bot here and save."
+          ],
+          "number": 8,
+          "image": "/images/steps/windows/en/8-select-file.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Nine",
+          "description": [
+            "After opening, a list of available servers will appear; then simply close the settings window."
+          ],
+          "number": 9,
+          "image": "/images/steps/windows/en/9-save.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Ten",
+          "description": [
+            "In the system tray, click the application icon and select 'Smart Connection.' 'Smart Connection' will choose the most optimal server."
+          ],
+          "number": 10,
+          "image": "/images/steps/windows/en/10-run.webp",
+          "reverse": false
+        },
+        {
+          "title": "Done!",
+          "description": [],
+          "number": 11,
+          "image": "/images/steps/windows/en/11-running.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "raspberryPi": {
+      "title": "Setting Up a WiFi-VPN Access Point on Raspberry Pi",
+      "items": [
+        {
+          "title": "Step 1",
+          "description": [
+            "Download the VPN client version for ARM and set it up following the instructions: https://github.com/batchar2/fptn?tab=readme-ov-file#fptn-client-installation-and-configuration"
+          ],
+          "number": 1
+        },
+        {
+          "title": "Step 2",
+          "description": [
+            "Install the hostapd and dnsmasq packages with the command:",
+            "sudo apt install hostapd dnsmasq"
+          ],
+          "number": 2
+        },
+        {
+          "title": "Step 3",
+          "description": [
+            "Stop and disable the hostapd and dnsmasq services:",
+            "sudo systemctl stop hostapd && sudo systemctl disable hostapd",
+            "sudo systemctl stop dnsmasq && sudo systemctl disable dnsmasq"
+          ],
+          "number": 3
+        },
+        {
+          "title": "Step 4",
+          "description": [
+            "For Ubuntu 24.04/22.04: open /etc/systemd/resolved.conf, set DNSStubListener=no, restart the systemd-resolved service, and reboot the system."
+          ],
+          "number": 4
+        },
+        {
+          "title": "Step 5",
+          "description": [
+            "Copy hostapd/fptn-hostapd.conf and hostapd/fptn-hostapd.service to the appropriate directories.",
+            "Edit /etc/fptn-hostapd.conf, specifying the WiFi interface, SSID, and password."
+          ],
+          "number": 5
+        },
+        {
+          "title": "Step 6",
+          "description": [
+            "Copy hostapd/fptn-dnsmasq.conf and hostapd/fptn-dnsmasq.service to the appropriate directories."
+          ],
+          "number": 6
+        },
+        {
+          "title": "Step 7",
+          "description": [
+            "Copy fptn-setup-network.service to /etc/systemd/system and fptn-setup-network.sh to /usr/sbin/.",
+            "Edit fptn-setup-network.sh, specifying the WiFi and Ethernet interfaces."
+          ],
+          "number": 7
+        },
+        {
+          "title": "Step 8",
+          "description": [
+            "sudo systemctl daemon-reload",
+            "sudo systemctl enable/restart fptn-hostapd.service",
+            "sudo systemctl enable/restart fptn-dnsmasq.service",
+            "sudo systemctl enable/start fptn-setup-network.service",
+            "sudo systemctl enable/start fptn-client.service"
+          ],
+          "number": 8
+        },
+        {
+          "title": "Done!",
+          "description": [
+            "After these steps, your Raspberry Pi will function as a WiFi access point with VPN."
+          ],
+          "number": 9
+        }
+      ]
+    },
+    "linux": {
+      "title": "How to Start",
+      "items": [
+        {
+          "title": "Step One",
+          "description": [
+            "Go to the Telegram bot and generate a token with the /token command, then copy it."
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-en.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Two",
+          "description": ["Launch the FPTN client."],
+          "number": 2,
+          "image": "/images/steps/linux/en/1-icon.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Three",
+          "description": [
+            "Click the FPTN client icon in the system tray to open the context menu."
+          ],
+          "number": 3,
+          "image": "/images/steps/linux/en/2-tray.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Four",
+          "description": [
+            "Open the FPTN client settings and click the 'Add token' button."
+          ],
+          "number": 4,
+          "image": "/images/steps/linux/en/3-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Five",
+          "description": [
+            "Paste the token from the Telegram bot here and save."
+          ],
+          "number": 5,
+          "image": "/images/steps/linux/en/4-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Six",
+          "description": ["Close the settings window."],
+          "number": 6,
+          "image": "/images/steps/linux/en/5-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Seven",
+          "description": [
+            "In the system tray, click the application icon and select 'Smart Connection.' This feature will automatically select the most optimal server."
+          ],
+          "number": 7,
+          "image": "/images/steps/linux/en/7-running-client.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "macos": {
+      "title": "How to Start",
+      "items": [
+        {
+          "title": "Step One",
+          "description": [
+            "Go to the Telegram bot and generate a token with the /token command, then copy it."
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-en.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Two",
+          "description": [
+            "After launching the application, click the icon in the system tray to open the context menu."
+          ],
+          "number": 2,
+          "image": "/images/steps/macos/en/client.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Three",
+          "description": ["Paste the token from the Telegram bot here."],
+          "number": 3,
+          "image": "/images/steps/macos/en/running-client.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Four",
+          "description": ["Save the token."],
+          "number": 4,
+          "image": "/images/steps/macos/en/settings-2.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Five",
+          "description": ["Close the settings window and try to connect."],
+          "number": 5,
+          "image": "/images/steps/macos/en/settings-3.webp",
+          "reverse": false
+        },
+        {
+          "title": "Step Six",
+          "description": [
+            "If the connection fails, you may need a more detailed guide to resolve driver issues: https://github.com/batchar2/fptn/blob/master/docs/macos/README.md"
+          ],
+          "number": 6
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Answers to common questions about FPTN",
+    "questions": [
+      {
+        "question": "How do I get access to FPTN?",
+        "answer": "No registration is required! Just contact our Telegram bot, and we’ll send you an access token to connect."
+      },
+      {
+        "question": "Is FPTN free?",
+        "answer": "Yes, FPTN is a completely free non-profit project created by volunteers to provide open internet access."
+      },
+      {
+        "question": "Which devices does FPTN support?",
+        "answer": "FPTN is available as a mobile app for smartphones and as a lightweight program for computers with a system tray interface."
+      },
+      {
+        "question": "How secure is FPTN?",
+        "answer": "FPTN uses the HTTPS protocol to mask traffic, providing strong encryption and protecting your data from interception."
+      },
+      {
+        "question": "Can I trust the project?",
+        "answer": "Yes, FPTN’s source code is fully open and available on GitHub. You can review the code yourself to ensure there are no hidden features."
+      },
+      {
+        "question": "Will providers detect FPTN usage?",
+        "answer": "FPTN operates via the HTTPS protocol, mimicking regular web traffic, making it nearly indistinguishable from standard internet browsing."
+      },
+      {
+        "question": "Does FPTN affect internet speed?",
+        "answer": "Like any VPN, FPTN may slightly reduce connection speed, but we optimize servers to minimize performance impact."
+      },
+      {
+        "question": "Are there any traffic limits?",
+        "answer": "We aim to provide unlimited access, but during high load periods, reasonable limits may apply to ensure stable performance for all users."
+      },
+      {
+        "question": "What if my token stops working?",
+        "answer": "Contact our Telegram bot—we’ll quickly issue a new token. Tokens may periodically be updated for security reasons."
+      },
+      {
+        "question": "Can I contribute to the project?",
+        "answer": "Absolutely! You can contribute to development via GitHub, help with translations, spread the word, or support the project with donations."
+      },
+      {
+        "question": "Which countries does FPTN support?",
+        "answer": "FPTN is designed to work in regions with internet censorship. Check with our Telegram bot for up-to-date information on supported countries."
+      },
+      {
+        "question": "Is technical setup required?",
+        "answer": "No, FPTN is designed to be user-friendly—just install the app, enter the token, and you’re ready to go."
+      }
+    ],
+    "callToAction": {
+      "text": "Didn’t find the answer to your question? Contact our community directly, and we’ll be happy to help!",
+      "button": { "text": "Contact Us", "url": "/#contacts" }
+    }
+  },
+  "contacts": {
+    "title": "Contact Us",
+    "description": "Have questions or ready to get started? Contact us for a free consultation.",
+    "booking": {
+      "title": "Online Booking",
+      "description": "Choose a convenient time for a consultation or meeting with our specialist.",
+      "widgetType": "yclients"
+    },
+    "form": {
+      "title": "Send a Message",
+      "description": "Fill out the form below, and we’ll get back to you as soon as possible.",
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Your name",
+          "error": "Name must contain at least 2 characters"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Your email",
+          "error": "Please enter a valid email"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Your message",
+          "error": "Message must contain at least 10 characters"
+        }
+      },
+      "button": {
+        "default": "Send Message",
+        "loading": "Sending..."
+      },
+      "success": "Form successfully submitted!",
+      "error": "An error occurred while submitting the form",
+      "formcarryError": "Server error while submitting the form",
+      "missingApiKey": "API key for form submission is not configured"
+    },
+    "beforeAfter": {
+      "title": "Our Students’ Results",
+      "description": "Real success stories and achievements of our students before and after taking our courses",
+      "items": [
+        {
+          "title": "Alexander, 28 years old",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDLR0DNnUSV4FvuNmqdszpjxc8ETB9KUJg1kPH",
+          "before": "A1 Beginner",
+          "after": "B2 Upper-Intermediate",
+          "description": "In just 8 months, improved English from basic to a level enabling fluent communication at work."
+        },
+        {
+          "title": "Maria, 35 years old",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD7BVBTPbE9LQ0VMs5dBNACDFGycK7Sv3YnJPw",
+          "before": "A2 Elementary",
+          "after": "C1 Advanced",
+          "description": "Learned the language for relocation to another country. Now successfully works in an international company."
+        },
+        {
+          "title": "Dmitry, 42 years old",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDYXWLYViNMPHarF4K5yX8z6nTO7uc2twJSZLU",
+          "before": "B1 Intermediate",
+          "after": "C1 Advanced",
+          "description": "Improved business English in 6 months. Got a promotion thanks to confident communication with international partners."
+        },
+        {
+          "title": "Ekaterina, 19 years old",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD7BVBTPbE9LQ0VMs5dBNACDFGycK7Sv3YnJPw",
+          "before": "A1 Beginner",
+          "after": "B2 Upper-Intermediate",
+          "description": "Enrolled in a foreign university after a year-long course preparing for language exams."
+        },
+        {
+          "title": "Sergey, 31 years old",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDt8dd4FXHvWNLgyxqAbeQEiS4rRuFKnwMBfzX",
+          "before": "A2 Elementary",
+          "after": "B2 Upper-Intermediate",
+          "description": "Studied the language independently for years without results. Achieved the goal in 10 months with our courses."
+        },
+        {
+          "title": "Anna, 25 years old",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDVc5IxE9HhT2akm0S3v1y4lMgeGqBozDZrI7O",
+          "before": "B1 Intermediate",
+          "after": "C2 Proficiency",
+          "description": "Became a professional translator after an advanced course and preparation for international exams."
+        }
+      ],
+      "cta": {
+        "text": "Start Learning",
+        "url": "/#contacts"
+      }
+    },
+    "contactInfo": {
+      "title": "Contact Information",
+      "items": [
+        {
+          "type": "phone",
+          "label": "Phone"
+        },
+        {
+          "type": "email",
+          "label": "Email"
+        },
+        {
+          "type": "address",
+          "label": "Address"
+        }
+      ]
+    },
+    "info": {
+      "title": "Benefits of Contacting Us",
+      "items": [
+        "Quick response within 24 hours",
+        "Personalized approach for each client",
+        "Free consultation for your request",
+        "Selection of the best solution for your needs"
+      ]
+    },
+    "mapLocation": {
+      "coordinates": [55.7495, 37.5396],
+      "zoom": 15
+    }
+  },
+  "footer": {
+    "description": "We provide innovative solutions for your business growth",
+    "quickLinks": {
+      "title": "Quick Links",
+      "items": [
+        { "text": "Home", "url": "/" },
+        { "text": "About Us", "url": "/#about" },
+        { "text": "Services", "url": "/#services" },
+        { "text": "Testimonials", "url": "/#testimonials" },
+        { "text": "Pricing", "url": "/#price" },
+        { "text": "How to Start", "url": "/#steps" }
+      ]
+    },
+    "services": {
+      "title": "Services",
+      "items": [
+        { "text": "Consulting", "url": "/#services" },
+        { "text": "Development", "url": "/#services" },
+        { "text": "Marketing", "url": "/#services" },
+        { "text": "Support", "url": "/#services" }
+      ]
+    },
+    "contactInfo": {
+      "title": "Contacts"
+    },
+    "newsletter": {
+      "title": "Newsletter Subscription",
+      "description": "Subscribe to our newsletter to receive the latest news and updates",
+      "email": {
+        "label": "Email",
+        "placeholder": "Your email",
+        "error": "Please enter a valid email"
+      },
+      "button": "Subscribe",
+      "loading": "Sending...",
+      "success": "You have successfully subscribed to the newsletter!",
+      "error": "An error occurred while submitting the form",
+      "formcarryError": "Server error during newsletter subscription",
+      "missingApiKey": "API key for subscription is not configured"
+    },
+    "copyright": "© 2025 FPTN Project",
+    "legalLinks": [
+      { "text": "Terms of Use", "url": "/terms-of-service" },
+      { "text": "Privacy Policy", "url": "/privacy-policy" },
+      {
+        "text": "Cookie Policy",
+        "url": "/cookie-policy"
+      }
+    ]
+  },
+  "theme": {
+    "toggle": {
+      "title": "Switch Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
+  }
+}

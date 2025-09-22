@@ -1,0 +1,631 @@
+{
+  "links": {
+    "logo": {
+      "src": "/images/logo/puzzle.png",
+      "alt": "Лого",
+      "link": "/",
+      "text": "FPTN Project"
+    },
+    "phone": {
+      "text": "+7 (999) 123-4567",
+      "url": "tel:+79991234567"
+    },
+    "email": {
+      "text": "info@webapphorizon.com",
+      "url": "mailto:info@webapphorizon.com"
+    },
+    "address": {
+      "text": "123317, Москва, Пресненская наб., 12, ММДЦ «Москва-Сити»",
+      "mapUrl": "https://maps.google.com/?q=Пресненская+набережная+12+Москва"
+    },
+    "socials": {
+      "twitterUrl": "https://twitter.com/fptn",
+      "facebookUrl": "https://www.facebook.com/fptn",
+      "vkUrl": "https://vk.com/fptn",
+      "yandexMapsUrl": "https://yandex.ru/maps/?ll=37.618423%2C55.755826&z=17",
+      "googleMapsUrl": "https://maps.google.com/?q=Пресненская+набережная+12+Москва",
+      "instagramUrl": "https://www.instagram.com/fptn",
+      "linkedinUrl": "https://www.linkedin.com/company/fptn",
+      "telegramUrl": "https://t.me/fptn",
+      "whatsappUrl": "https://wa.me/fptn",
+      "youtubeUrl": "https://www.youtube.com/fptn",
+      "tiktokUrl": "https://www.tiktok.com/fptn",
+      "pinterestUrl": "https://www.pinterest.com/fptn",
+      "snapchatUrl": "https://www.snapchat.com/fptn",
+      "vimeoUrl": "https://www.vimeo.com/fptn",
+      "soundcloudUrl": "https://www.soundcloud.com/fptn",
+      "spotifyUrl": "https://www.spotify.com/fptn",
+      "appleMusicUrl": "https://www.applemusic.com/fptn",
+      "amazonMusicUrl": "https://www.amazonmusic.com/fptn",
+      "deezerUrl": "https://www.deezer.com/fptn",
+      "bandcampUrl": "https://www.bandcamp.com/fptn",
+      "mixcloudUrl": "https://www.mixcloud.com/fptn",
+      "soundcloudUrl": "https://www.soundcloud.com/fptn",
+      "spotifyUrl": "https://www.spotify.com/fptn",
+      "appleMusicUrl": "https://www.applemusic.com/fptn",
+      "amazonMusicUrl": "https://www.amazonmusic.com/fptn",
+      "deezerUrl": "https://www.deezer.com/fptn",
+      "githubUrl": "https://www.github.com/fptn"
+    }
+  },
+  "header": {
+    "navigation": [
+      { "text": "Как начать", "url": "#steps" },
+      { "text": "FAQ", "url": "#faq" }
+    ],
+    "cta": { "text": "Скачать", "url": "/#contacts" }
+  },
+  "hero": {
+    "gradientTitle": "FPTN Project",
+    "gradientDescription": "FPTN — это некоммерческий VPN, волонтерский проект для обхода цензуры. VPN-клиент — мобильное приложение или миниатюрная программа для компьютера, интерфейс которой размещается в трее. Здесь нет процесса регистрации! Мы пришлем токен доступа через бота в Telegram. FPTN работает через протокол HTTPS, эффективно маскируя трафик и позволяя обходить ограничения цензуры. Исходный код проекта доступен на Github.",
+    "gradientImage": {
+      "src": "/fptn.webp",
+      "alt": "FPTN Project"
+    }
+  },  "steps": {
+    "android": {
+      "title": "Как начать",
+      "items": [
+        {
+          "title": "Шаг первый",
+          "description": [
+            "Перейдите в Telegram-бот и сгенерируйте токен командой /token, затем скопируйте его."
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-ru.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг второй",
+          "description": ["Вставьте токен в соответствующее поле."],
+          "number": 2,
+          "image": "/images/steps/android/ru/step-1-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг третий",
+          "description": ["Войдите в приложение, используя полученный токен."],
+          "number": 3,
+          "image": "/images/steps/android/ru/step-2-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг четвертый",
+          "description": [
+            "Выберите VPN-сервер из списка доступных (Режим \"Авто\" подберет наиболее оптимальный сервер или можете выбрать сервер из списка доступных). Для включения VPN-сервиса нажмите на кнопку в центре экрана, которая активирует подключение к выбранному серверу."
+          ],
+          "number": 4,
+          "image": "/images/steps/android/ru/step-3-for-android.webp",
+          "reverse": false
+        },
+        {
+          "title": "Готово!",
+          "description": [],
+          "number": 5,
+          "image": "/images/steps/android/ru/step-4-for-android.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "windows": {
+      "title": "Как начать",
+      "items": [
+        {
+          "title": "Шаг первый",
+          "description": [
+            "Перейдите в Telegram-бот и сгенерируйте токен командой /token, затем скопируйте его."
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-ru.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг второй",
+          "description": [
+            "Скачайте и запустите установщик. При запуске установщика, Windows покажет окно с предупреждением, нажмите \"подробнее\".."
+          ],
+          "number": 2,
+          "image": "/images/steps/windows/ru/1-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг третий",
+          "description": [" И нажмите на кнопку \"Запустить в любом случае\"."],
+          "number": 3,
+          "image": "/images/steps/windows/ru/2-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг четвертый",
+          "description": ["После чего подтвердите запуск установщика."],
+          "number": 4,
+          "image": "/images/steps/windows/ru/3-protect.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг пятый",
+          "description": [
+            "После завершения установки нажмите кнопку завершить и приложение запустится автоматически."
+          ],
+          "number": 5,
+          "image": "/images/steps/windows/ru/4-launch.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг шестой",
+          "description": [
+            "После запуска клиента в системном трее появится иконка приложения. Кликните по иконке и откройте настройки."
+          ],
+          "number": 6,
+          "image": "/images/steps/windows/ru/5-tray.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг седьмой",
+          "description": ["Нажмите кнопку \"Добавить токен\"."],
+          "number": 7,
+          "image": "/images/steps/windows/ru/7-load-config.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг восьмой",
+          "description": ["Вставьте сюда токен из Telegram-бота и сохраните"],
+          "number": 8,
+          "image": "/images/steps/windows/ru/8-select-file.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг девятый",
+          "description": [
+            "После открытия появится список доступных серверов, далее нужно просто закрыть окно настроек."
+          ],
+          "number": 9,
+          "image": "/images/steps/windows/ru/9-save.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг десятый",
+          "description": [
+            "В системном трее кликните по иконке приложения и выберите \"Умное подключение\". \"Умное подключение\" подберет наиболее оптимальный сервер."
+          ],
+          "number": 10,
+          "image": "/images/steps/windows/ru/10-run.webp",
+          "reverse": false
+        },
+        {
+          "title": "Готово!",
+          "description": [],
+          "number": 11,
+          "image": "/images/steps/windows/ru/11-running.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "raspberryPi": {
+      "title": "Настройка WiFi-VPN точки доступа на Raspberry Pi",
+      "items": [
+        {
+          "title": "Шаг 1",
+          "description": [
+            "Скачайте клиентскую версию VPN клиента для ARM и настройте его по инструкции: https://github.com/batchar2/fptn?tab=readme-ov-file#fptn-client-installation-and-configuration"
+          ],
+          "number": 1
+        },
+        {
+          "title": "Шаг 2",
+          "description": [
+            "Установите пакеты hostapd и dnsmasq командой:",
+            "sudo apt install hostapd dnsmasq"
+          ],
+          "number": 2
+        },
+        {
+          "title": "Шаг 3",
+          "description": [
+            "Остановите и отключите службы hostapd и dnsmasq:",
+            "sudo systemctl stop hostapd && sudo systemctl disable hostapd",
+            "sudo systemctl stop dnsmasq && sudo systemctl disable dnsmasq"
+          ],
+          "number": 3
+        },
+        {
+          "title": "Шаг 4",
+          "description": [
+            "Для Ubuntu 24.04/22.04: откройте /etc/systemd/resolved.conf, установите DNSStubListener=no, перезапустите службу systemd-resolved и перезагрузите систему"
+          ],
+          "number": 4
+        },
+        {
+          "title": "Шаг 5",
+          "description": [
+            "Скопируйте hostapd/fptn-hostapd.conf и hostapd/fptn-hostapd.service в нужные директории",
+            "Отредактируйте /etc/fptn-hostapd.conf, указав WiFi интерфейс, SSID и пароль"
+          ],
+          "number": 5
+        },
+        {
+          "title": "Шаг 6",
+          "description": [
+            "Скопируйте hostapd/fptn-dnsmasq.conf и hostapd/fptn-dnsmasq.service в нужные директории"
+          ],
+          "number": 6
+        },
+        {
+          "title": "Шаг 7",
+          "description": [
+            "Скопируйте fptn-setup-network.service в /etc/systemd/system и fptn-setup-network.sh в /usr/sbin/",
+            "Отредактируйте fptn-setup-network.sh, указав интерфейсы WiFi и Ethernet"
+          ],
+          "number": 7
+        },
+        {
+          "title": "Шаг 8",
+          "description": [
+            "sudo systemctl daemon-reload",
+            "sudo systemctl enable/restart fptn-hostapd.service",
+            "sudo systemctl enable/restart fptn-dnsmasq.service",
+            "sudo systemctl enable/start fptn-setup-network.service",
+            "sudo systemctl enable/start fptn-client.service"
+          ],
+          "number": 8
+        },
+        {
+          "title": "Готово!",
+          "description": [
+            "После этих шагов ваш Raspberry Pi будет работать как WiFi точка доступа с VPN"
+          ],
+          "number": 9
+        }
+      ]
+    },
+    "linux": {
+      "title": "Как начать",
+      "items": [
+        {
+          "title": "Шаг первый",
+          "description": [
+            "Перейдите в Telegram-бот и сгенерируйте токен командой /token, затем скопируйте его."
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-ru.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг второй",
+          "description": ["Запустите FPTN-клиент."],
+          "number": 2,
+          "image": "/images/steps/linux/ru/1-icon.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг третий",
+          "description": [
+            "Нажмите на иконку FPTN-клиента в системном трее, чтобы открыть контекстное меню."
+          ],
+          "number": 3,
+          "image": "/images/steps/linux/ru/2-tray.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг четвертый",
+          "description": [
+            "Откройте настройки FPTN-клиента и нажмите кнопку \"Добавить токен\"."
+          ],
+          "number": 4,
+          "image": "/images/steps/linux/ru/3-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг четвертый",
+          "description": ["Вставьте сюда токен из Telegram-бота и сохраните."],
+          "number": 5,
+          "image": "/images/steps/linux/ru/4-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг пятый",
+          "description": ["Закройте окно настроек."],
+          "number": 6,
+          "image": "/images/steps/linux/ru/5-settings.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг шестой",
+          "description": [
+            "В системном трее кликните по иконке приложения и выберите \"Умное подключение\". Эта функция автоматически подберет наиболее оптимальный сервер."
+          ],
+          "number": 7,
+          "image": "/images/steps/linux/ru/7-running-client.webp",
+          "reverse": false
+        }
+      ]
+    },
+    "macos": {
+      "title": "Как начать",
+      "items": [
+        {
+          "title": "Шаг первый",
+          "description": [
+            "Перейдите в Telegram-бот и сгенерируйте токен командой /token, затем скопируйте его."
+          ],
+          "number": 1,
+          "image": "/images/telegram-token-ru.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг второй",
+          "description": [
+            "После запуска приложения нажмите на иконку в системном трее чтобы открыть контекстное меню."
+          ],
+          "number": 2,
+          "image": "/images/steps/macos/ru/client.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг третий",
+          "description": ["Вставьте сюда токен из Telegram-бота."],
+          "number": 3,
+          "image": "/images/steps/macos/ru/running-client.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг четвертый",
+          "description": ["Сохраните токен."],
+          "number": 4,
+          "image": "/images/steps/macos/ru/settings-2.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг пятый",
+          "description": ["Закройте окно настроек и попробуйте подключиться."],
+          "number": 5,
+          "image": "/images/steps/macos/ru/settings-3.webp",
+          "reverse": false
+        },
+        {
+          "title": "Шаг шестой",
+          "description": [
+            "Если не удалось, то вам может понадобиться более детальная инструкция для решения проблем с драйверами https://github.com/batchar2/fptn/blob/master/docs/macos/README.md"
+          ],
+          "number": 6
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Частые вопросы",
+    "description": "Ответы на популярные вопросы о FPTN",
+    "questions": [
+      {
+        "question": "Как получить доступ к FPTN?",
+        "answer": "Регистрация не требуется! Просто напишите нашему боту в Telegram, и мы пришлем вам токен доступа для подключения."
+      },
+      {
+        "question": "FPTN бесплатный?",
+        "answer": "Да, FPTN — это полностью бесплатный некоммерческий проект, созданный волонтерами для обеспечения свободного доступа к интернету."
+      },
+      {
+        "question": "На каких устройствах работает FPTN?",
+        "answer": "FPTN доступен как мобильное приложение для смартфонов, так и в виде компактной программы для компьютеров с интерфейсом в системном трее."
+      },
+      {
+        "question": "Насколько безопасен FPTN?",
+        "answer": "FPTN использует протокол HTTPS для маскировки трафика, что обеспечивает надежное шифрование и защиту ваших данных от перехвата."
+      },
+      {
+        "question": "Можно ли доверять проекту?",
+        "answer": "Да, исходный код FPTN полностью открыт и доступен на GitHub. Вы можете самостоятельно изучить код и убедиться в отсутствии скрытых функций."
+      },
+      {
+        "question": "Обнаружат ли провайдеры использование FPTN?",
+        "answer": "FPTN работает через протокол HTTPS, имитируя обычный веб-трафик, что делает его практически неотличимым от стандартного интернет-серфинга."
+      },
+      {
+        "question": "Влияет ли FPTN на скорость интернета?",
+        "answer": "Как и любой VPN, FPTN может незначительно снижать скорость соединения, но мы оптимизируем серверы для минимального влияния на производительность."
+      },
+      {
+        "question": "Есть ли ограничения по трафику?",
+        "answer": "Мы стремимся предоставлять неограниченный доступ, но в периоды высокой нагрузки могут действовать разумные ограничения для обеспечения стабильной работы для всех пользователей."
+      },
+      {
+        "question": "Что делать, если токен перестал работать?",
+        "answer": "Обратитесь к нашему боту в Telegram — мы быстро выдадим новый токен. Токены могут периодически обновляться по соображениям безопасности."
+      },
+      {
+        "question": "Можно ли помочь проекту?",
+        "answer": "Конечно! Вы можете внести вклад в разработку через GitHub, помочь с переводами, распространением информации или поддержать проект донатами."
+      },
+      {
+        "question": "В каких странах работает FPTN?",
+        "answer": "FPTN разработан для работы в регионах с интернет-цензурой. Актуальную информацию о поддерживаемых странах уточняйте у нашего Telegram-бота."
+      },
+      {
+        "question": "Требуется ли техническая настройка?",
+        "answer": "Нет, FPTN максимально прост в использовании — просто установите приложение, введите полученный токен, и вы готовы к работе."
+      }
+    ],
+    "callToAction": {
+      "text": "Не нашли ответ на свой вопрос? Свяжитесь с нашим сообществом напрямую, и мы будем рады помочь!",
+      "button": { "text": "Связаться с нами", "url": "/#contacts" }
+    }
+  },
+  "contacts": {
+    "title": "Свяжитесь с нами",
+    "description": "Есть вопросы или готовы начать? Свяжитесь с нами для бесплатной консультации.",
+    "booking": {
+      "title": "Запись онлайн",
+      "description": "Выберите удобное время для консультации или встречи с нашим специалистом",
+      "widgetType": "yclients"
+    },
+    "form": {
+      "title": "Отправить сообщение",
+      "description": "Заполните форму ниже, и мы свяжемся с вами в ближайшее время.",
+      "fields": {
+        "name": {
+          "label": "Имя",
+          "placeholder": "Ваше имя",
+          "error": "Имя должно содержать минимум 2 символа"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Ваш email",
+          "error": "Пожалуйста, введите корректный email"
+        },
+        "message": {
+          "label": "Сообщение",
+          "placeholder": "Ваше сообщение",
+          "error": "Сообщение должно содержать минимум 10 символов"
+        }
+      },
+      "button": {
+        "default": "Отправить сообщение",
+        "loading": "Отправка..."
+      },
+      "success": "Форма успешно отправлена!",
+      "error": "Произошла ошибка при отправке формы",
+      "formcarryError": "Ошибка сервера при отправке формы",
+      "missingApiKey": "API ключ для отправки формы не настроен"
+    },
+    "beforeAfter": {
+      "title": "Результаты наших студентов",
+      "description": "Реальные истории успеха и достижения наших учеников до и после обучения на курсах",
+      "items": [
+        {
+          "title": "Александр, 28 лет",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDLR0DNnUSV4FvuNmqdszpjxc8ETB9KUJg1kPH",
+          "before": "A1 Beginner",
+          "after": "B2 Upper-Intermediate",
+          "description": "Всего за 8 месяцев смог прокачать свой английский с базового до уровня, позволяющего свободно общаться на работе"
+        },
+        {
+          "title": "Мария, 35 лет",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD7BVBTPbE9LQ0VMs5dBNACDFGycK7Sv3YnJPw",
+          "before": "A2 Elementary",
+          "after": "C1 Advanced",
+          "description": "Выучила язык для переезда в другую страну. Теперь успешно работает в международной компании"
+        },
+        {
+          "title": "Дмитрий, 42 года",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDYXWLYViNMPHarF4K5yX8z6nTO7uc2twJSZLU",
+          "before": "B1 Intermediate",
+          "after": "C1 Advanced",
+          "description": "Улучшил деловой английский за 6 месяцев. Получил повышение благодаря уверенному общению с зарубежными партнерами"
+        },
+        {
+          "title": "Екатерина, 19 лет",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoD7BVBTPbE9LQ0VMs5dBNACDFGycK7Sv3YnJPw",
+          "before": "A1 Beginner",
+          "after": "B2 Upper-Intermediate",
+          "description": "Поступила в зарубежный университет после годового курса подготовки к языковым экзаменам"
+        },
+        {
+          "title": "Сергей, 31 год",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDt8dd4FXHvWNLgyxqAbeQEiS4rRuFKnwMBfzX",
+          "before": "A2 Elementary",
+          "after": "B2 Upper-Intermediate",
+          "description": "Самостоятельно изучал язык годами без результата. На наших курсах достиг цели за 10 месяцев"
+        },
+        {
+          "title": "Анна, 25 лет",
+          "image": "https://vc7v703vlt.ufs.sh/f/JPvQ68qNOfoDVc5IxE9HhT2akm0S3v1y4lMgeGqBozDZrI7O",
+          "before": "B1 Intermediate",
+          "after": "C2 Proficiency",
+          "description": "Стала профессиональным переводчиком после углубленного курса и подготовки к международным экзаменам"
+        }
+      ],
+      "cta": {
+        "text": "Начать обучение",
+        "url": "/#contacts"
+      }
+    },
+    "contactInfo": {
+      "title": "Контактная информация",
+      "items": [
+        {
+          "type": "phone",
+          "label": "Телефон"
+        },
+        {
+          "type": "email",
+          "label": "Почта"
+        },
+        {
+          "type": "address",
+          "label": "Адрес"
+        }
+      ]
+    },
+    "info": {
+      "title": "Преимущества обратной связи",
+      "items": [
+        "Быстрый ответ в течение 24 часов",
+        "Индивидуальный подход к каждому клиенту",
+        "Бесплатная консультация по вашему запросу",
+        "Подбор оптимального решения для ваших задач"
+      ]
+    },
+    "mapLocation": {
+      "coordinates": [55.7495, 37.5396],
+      "zoom": 15
+    }
+  },
+  "footer": {
+    "description": "Мы предоставляем инновационные решения для развития вашего бизнеса",
+    "quickLinks": {
+      "title": "Быстрые ссылки",
+      "items": [
+        { "text": "Главная", "url": "/" },
+        { "text": "О нас", "url": "/#about" },
+        { "text": "Услуги", "url": "/#services" },
+        { "text": "Отзывы", "url": "/#testimonials" },
+        { "text": "Цены", "url": "/#price" },
+        { "text": "Как начать", "url": "/#steps" }
+      ]
+    },
+    "services": {
+      "title": "Услуги",
+      "items": [
+        { "text": "Консалтинг", "url": "/#services" },
+        { "text": "Разработка", "url": "/#services" },
+        { "text": "Маркетинг", "url": "/#services" },
+        { "text": "Поддержка", "url": "/#services" }
+      ]
+    },
+    "contactInfo": {
+      "title": "Контакты"
+    },
+    "newsletter": {
+      "title": "Подписка на новости",
+      "description": "Подпишитесь на нашу рассылку, чтобы получать последние новости и обновления",
+      "email": {
+        "label": "Email",
+        "placeholder": "Ваш email",
+        "error": "Пожалуйста, введите корректный email"
+      },
+      "button": "Подписаться",
+      "loading": "Отправка...",
+      "success": "Вы успешно подписались на рассылку!",
+      "error": "Произошла ошибка при отправке формы",
+      "formcarryError": "Ошибка сервера при подписке на рассылку",
+      "missingApiKey": "API ключ для подписки не настроен"
+    },
+    "copyright": "© 2025 FPTN Project",
+    "legalLinks": [
+      { "text": "Условия использования", "url": "/terms-of-service" },
+      { "text": "Политика конфиденциальности", "url": "/privacy-policy" },
+      {
+        "text": "Политика использования файлов cookie",
+        "url": "/cookie-policy"
+      }
+    ]
+  },
+  "theme": {
+    "toggle": {
+      "title": "Переключить тему",
+      "light": "Светлая",
+      "dark": "Темная",
+      "system": "Системная"
+    }
+  }
+}

@@ -170,15 +170,11 @@ html {
     @apply font-mono font-[700];
   }
 
-  p {
-    @apply font-serif font-[400] opacity-90;
-  }
-
   /* Адаптивный основной текст */
   body,
   blockquote,
   p {
-    @apply text-[.875rem] leading-normal md:text-[1rem] font-serif font-[400];
+    @apply text-[.875rem] leading-normal md:text-[1rem] font-serif font-[400] opacity-90;
   }
 
   small {

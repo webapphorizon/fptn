@@ -1,21 +1,17 @@
-import createMDX from "@next/mdx";
+import createNextIntlPlugin from "next-intl/plugin";
 
-import "./src/env.js";
+/**
+ * Run `build` or `dev` with `SKIP_ENV_VALIDATION` to skip env validation. This is especially useful
+ * for Docker builds.
+ */
 
 /** @type {import("next").NextConfig} */
-const config = {
-  images: {
-    domains: ["github.com", "vc7v703vlt.ufs.sh"],
-  },
+const nextConfig = {
+  // output: "standalone",
+  // trailingSlash: true,
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
 };
 
-const withMDX = createMDX({
-  options: {
-    remarkPlugins: [],
-    rehypePlugins: [],
-    format: "mdx",
-  },
-});
+const withNextIntl = createNextIntlPlugin();
 
-export default withMDX(config);
+export default withNextIntl(nextConfig);
