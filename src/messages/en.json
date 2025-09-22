@@ -17,7 +17,7 @@
       { "text": "How to Start", "url": "#steps" },
       { "text": "FAQ", "url": "#faq" }
     ],
-    "cta": { "text": "Read", "url": "/#contacts" }
+    "cta": { "text": "Download", "url": "/#contacts" }
   },
   "hero": {
     "gradientTitle": "FPTN Project",
@@ -25,6 +25,10 @@
     "gradientImage": {
       "src": "/fptn.webp",
       "alt": "FPTN Project"
+    },
+    "releaseNotes": {
+      "url": "https://github.com/FPTN-Project/FPTN/releases/tag/v0.3.23",
+      "text": "Release Notes"
     }
   },
   "steps": {
@@ -174,14 +178,14 @@
         {
           "title": "Step 1",
           "description": [
-            "Download the VPN client version for ARM and set it up following the instructions: https://github.com/batchar2/fptn?tab=readme-ov-file#fptn-client-installation-and-configuration"
+            "Download the VPN client version for ARM and set it up following the instructions <raspberryPiSetupGuide>here</raspberryPiSetupGuide>"
           ],
           "number": 1
         },
         {
           "title": "Step 2",
           "description": [
-            "Install the hostapd and dnsmasq packages with the command:",
+            "Install the hostapd and dnsmasq packages with the command:", 
             "sudo apt install hostapd dnsmasq"
           ],
           "number": 2
@@ -189,7 +193,7 @@
         {
           "title": "Step 3",
           "description": [
-            "Stop and disable the hostapd and dnsmasq services:",
+            "Stop   disable the hostapd and dnsmasq services:",
             "sudo systemctl stop hostapd && sudo systemctl disable hostapd",
             "sudo systemctl stop dnsmasq && sudo systemctl disable dnsmasq"
           ],
@@ -541,7 +545,8 @@
       "macos-silicon": "macOS (Apple Silicon)",
       "macos-intel": "macOS (Intel)",
       "linux-x64": "Linux (Ubuntu x86_64)",
-      "linux-arm": "Linux (Ubuntu ARM64)"
+      "linux-arm": "Linux (Ubuntu ARM64)",
+      "command-line-tools": "Command Line Tools"
     }
   },
   "notFoundPage": {

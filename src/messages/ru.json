@@ -17,7 +17,7 @@
       { "text": "Как начать", "url": "#steps" },
       { "text": "FAQ", "url": "#faq" }
     ],
-    "cta": { "text": "Читать", "url": "/#hero" }
+    "cta": { "text": "Скачать", "url": "/#hero" }
   },
   "hero": {
     "gradientTitle": "FPTN Project",
@@ -25,6 +25,10 @@
     "gradientImage": {
       "src": "/fptn.webp",
       "alt": "FPTN Project"
+    },
+    "releaseNotes": {
+      "url": "https://github.com/FPTN-Project/FPTN/releases/tag/v0.3.23",
+      "text": "Ознакомиться с заметками о релизе"
     }
   },
   "steps": {
@@ -172,7 +176,7 @@
         {
           "title": "Шаг 1",
           "description": [
-            "Скачайте клиентскую версию VPN клиента для ARM и настройте его по инструкции: https://github.com/batchar2/fptn?tab=readme-ov-file#fptn-client-installation-and-configuration"
+            "Скачайте клиентскую версию VPN клиента для ARM и настройте его по инструкции <raspberryPiSetupGuide>здесь</raspberryPiSetupGuide>"
           ],
           "number": 1
         },
@@ -505,7 +509,8 @@
       "macos-silicon": "macOS (Apple Silicon)",
       "macos-intel": "macOS (Intel)",
       "linux-x64": "Linux (Ubuntu x86_64)",
-      "linux-arm": "Linux (Ubuntu ARM64)"
+      "linux-arm": "Linux (Ubuntu ARM64)",
+      "command-line-tools": "Инструменты командной строки"
     }
   },
   "notFoundPage": {

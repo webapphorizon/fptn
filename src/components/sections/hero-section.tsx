@@ -52,8 +52,8 @@ const HeroSection = () => {
               </div>
               <div className="flex flex-col">
                 <span>Version: 0.3.23</span>
-                <CustomLink href="https://github.com/FPTN-Project/FPTN/releases/tag/v0.3.23" className="text-blue-400 underline">
-                  {t("header.cta.text")} - Release Notes
+                <CustomLink href={t("hero.releaseNotes.url")} className="text-blue-400 underline">
+                  {t("hero.releaseNotes.text")}
                 </CustomLink>
               </div>
             </div>
