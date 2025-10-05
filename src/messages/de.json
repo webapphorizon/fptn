@@ -1,4 +1,8 @@
 {
+  "metadata": {
+    "title": "FPTN Project",
+    "description": "FPTN ist ein gemeinnütziger VPN, ein Freiwilligenprojekt zur Umgehung von Zensur."
+  },
   "links": {
     "logo": {
       "src": "/images/logo/puzzle.png",
@@ -180,13 +184,13 @@
         }
       ]
     },
-    "raspberryPi": {
-      "title": "Einrichtung eines WiFi-VPN-Zugangspunkts auf Raspberry Pi",
+    "wifiVpnRouter": {
+      "title": "Einrichtung eines WIFI VPN Router auf Raspberry Pi",
       "items": [
         {
           "title": "Schritt 1",
           "description": [
-            "Laden Sie die VPN-Client-Version für ARM herunter und richten Sie sie gemäß den Anweisungen <raspberryPiSetupGuide>hier</raspberryPiSetupGuide> ein."
+            "Laden Sie die VPN-Client-Version für ARM herunter und richten Sie sie gemäß den Anweisungen <wifiVpnSetupGuide>hier</wifiVpnSetupGuide> ein."
           ],
           "number": 1
         },

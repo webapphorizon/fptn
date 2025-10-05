@@ -14,7 +14,7 @@ import {
 import { usePathname, useRouter } from "~/i18n/routing";
 
 // Поддерживаемые локали (должны соответствовать настройкам в routing.ts)
-const supportedLocales = ["en", "ru", "es", "de", "fr", "it", "pt", "zh", "ja", "ko"];
+const supportedLocales = ["en", "ru", "es", "de", "fr", "it", "pt", "cn", "jp", "kr"];
 
 const languages = [
   { code: "en", name: "English", flag: "🇺🇸" },

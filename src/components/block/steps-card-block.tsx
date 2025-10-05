@@ -53,7 +53,7 @@ const StepsCardBlock = (): ReactElement => {
                           {chunks}
                         </CustomLink>
                       ),
-                      raspberryPiSetupGuide: (chunks) => (
+                      wifiVpnSetupGuide: (chunks) => (
                         <CustomLink
                           href={
                             "https://github.com/batchar2/fptn?tab=readme-ov-file#fptn-client-installation-and-configuration"

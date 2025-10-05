@@ -1,4 +1,8 @@
 {
+  "metadata": {
+    "title": "FPTN Project",
+    "description": "FPTN 是一个非营利 VPN 项目，用于绕过审查。"
+  },
   "links": {
     "logo": {
       "src": "/images/logo/puzzle.png",
@@ -170,13 +174,13 @@
         }
       ]
     },
-    "raspberryPi": {
-      "title": "在 Raspberry Pi 上設置 WiFi-VPN 接入點",
+    "wifiVpnRouter": {
+      "title": "在 Raspberry Pi 上設置 WIFI VPN Router",
       "items": [
         {
           "title": "第一步",
           "description": [
-            "下載適用於 ARM 的 VPN 客戶端版本，並按照 <raspberryPiSetupGuide>這裡</raspberryPiSetupGuide> 的說明進行設置。"
+            "下載適用於 ARM 的 VPN 客戶端版本，並按照 <wifiVpnSetupGuide>這裡</wifiVpnSetupGuide> 的說明進行設置。"
           ],
           "number": 1
         },

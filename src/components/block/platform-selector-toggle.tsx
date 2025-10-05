@@ -1,7 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import { FaAndroid, FaApple, FaLinux, FaWindows, FaRaspberryPi } from "react-icons/fa";
+import { FaAndroid, FaApple, FaLinux, FaWifi, FaWindows } from "react-icons/fa";
 import { ToggleGroup, ToggleGroupItem } from "~/components/ui/toggle-group";
 import { usePlatform } from "~/context/platform-selector-context";
 
@@ -13,7 +12,7 @@ const PlatformSelectorToggle = () => {
     { id: "windows", icon: FaWindows, name: "Windows" },
     { id: "linux", icon: FaLinux, name: "Linux" },
     { id: "macos", icon: FaApple, name: "macOS" },
-    { id: "raspberryPi", icon: FaRaspberryPi, name: "RaspberryPi" },
+    { id: "wifiVpnRouter", icon: FaWifi, name: "WIFI VPN Router" },
   ];
 
   return (

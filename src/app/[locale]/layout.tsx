@@ -7,11 +7,20 @@ import { ThemeProvider } from "next-themes";
 import { Noto_Sans, Roboto, Ubuntu } from "next/font/google";
 import { PlatformProvider } from "~/context/platform-selector-context";
 
-export const metadata: Metadata = {
-  title: "FPTN Project",
-  description: "FPTN Project",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const messages = await getMessages({ locale });
+
+  return {
+    title: (messages["metadata.title"] as string) || "FPTN Project",
+    description: (messages["metadata.description"] as string) || "FPTN Project",
+    icons: [{ rel: "icon", url: "/favicon.ico" }],
+  };
+}
 
 const roboto = Roboto({
   subsets: ["cyrillic", "latin"],

@@ -7,7 +7,7 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 /** @type {import("next").NextConfig} */
 const nextConfig = {
-  // output: "standalone",
+  // output: "export" as const,
   // trailingSlash: true,
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
 };

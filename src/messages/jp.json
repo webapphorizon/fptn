@@ -1,4 +1,8 @@
 {
+  "metadata": {
+    "title": "FPTN Project",
+    "description": "FPTNは非営利のVPNであり、検閲を回避するためのボランティアプロジェクトです。"
+  },
   "links": {
     "logo": {
       "src": "/images/logo/puzzle.png",
@@ -172,13 +176,13 @@
         }
       ]
     },
-    "raspberryPi": {
-      "title": "Raspberry PiでWiFi-VPNアクセスポイントを設定する",
+    "wifiVpnRouter": {
+      "title": "Raspberry PiでWIFI VPN Routerを設定する",
       "items": [
         {
           "title": "ステップ1",
           "description": [
-            "ARM用のVPNクライアントバージョンをダウンロードし、<raspberryPiSetupGuide>こちら</raspberryPiSetupGuide>の指示に従って設定します。"
+            "ARM用のVPNクライアントバージョンをダウンロードし、<wifiVpnSetupGuide>こちら</wifiVpnSetupGuide>の指示に従って設定します。"
           ],
           "number": 1
         },

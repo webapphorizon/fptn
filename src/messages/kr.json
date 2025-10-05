@@ -1,4 +1,8 @@
 {
+  "metadata": {
+    "title": "FPTN Project",
+    "description": "FPTN은 비영리 VPN으로, 검열을 우회하기 위한 자원봉사 프로젝트입니다."
+  },
   "links": {
     "logo": {
       "src": "/images/logo/puzzle.png",
@@ -172,13 +176,13 @@
         }
       ]
     },
-    "raspberryPi": {
-      "title": "Raspberry Pi에서 WiFi-VPN 액세스 포인트 설정",
+    "wifiVpnRouter": {
+      "title": "Raspberry Pi에서 WIFI VPN Router 설정",
       "items": [
         {
           "title": "1단계",
           "description": [
-            "ARM용 VPN 클라이언트 버전을 다운로드하고 <raspberryPiSetupGuide>여기</raspberryPiSetupGuide>의 지침에 따라 설정합니다."
+            "ARM용 VPN 클라이언트 버전을 다운로드하고 <wifiVpnSetupGuide>여기</wifiVpnSetupGuide>의 지침에 따라 설정합니다."
           ],
           "number": 1
         },
