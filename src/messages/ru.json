@@ -441,7 +441,7 @@
         { "text": "О нас", "url": "/#about" },
         { "text": "Услуги", "url": "/#services" },
         { "text": "Отзывы", "url": "/#testimonials" },
-        { "text": "Цены", "url": "/#price" },
+        { "text": "Скачать", "url": "/downloads" },
         { "text": "Как начать", "url": "/#steps" }
       ]
     },
@@ -520,19 +520,65 @@
       "url": "/downloads"
     },
     "platforms": {
-      "android-play": "Android из Google Play",
-      "android-direct": "Android напрямую с сайта",
-      "windows": "Windows (Windows 10/11 x86_64)",
-      "macos-silicon": "macOS (Apple Silicon)",
-      "macos-intel": "macOS (Intel)",
-      "linux-x64": "Linux (Ubuntu x86_64)",
-      "linux-arm": "Linux (Ubuntu ARM64)",
-      "command-line-tools": "Инструменты командной строки"
+      "android-play": {
+        "id": "android-play",
+        "text": "Android из Google Play",
+        "icon": "smartphone",
+        "url": "https://play.google.com/store/apps/details?id=org.fptn.vpn&pli=1"
+      },
+      "windows": {
+        "id": "windows",
+        "text": "Windows (Windows 10/11 x86_64)",
+        "icon": "monitor",
+        "url": "https://github.com/batchar2/fptn/releases/download/0.3.23/FptnClientInstaller-0.3.23-windows-x64_x86.zip"
+      },
+      "macos-silicon": {
+        "id": "macos-silicon",
+        "text": "macOS (Apple Silicon)",
+        "icon": "apple",
+        "url": "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-apple-silicon.pkg"
+      },
+      "macos-intel": {
+        "id": "macos-intel",
+        "text": "macOS (Intel)",
+        "icon": "apple",
+        "url": "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-intel.pkg"
+      },
+      "linux-x64": {
+        "id": "linux-x64",
+        "text": "Linux (Ubuntu x86_64)",
+        "icon": "monitor",
+        "url": "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-ubuntu22.04-amd64.deb"
+      },
+      "linux-arm": {
+        "id": "linux-arm",
+        "text": "Linux (Ubuntu ARM64)",
+        "icon": "monitor",
+        "url": "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-ubuntu22.04-arm64.deb"
+      },
+      "command-line-tools": {
+        "id": "command-line-tools",
+        "text": "Command Line Tools",
+        "icon": "terminal",
+        "url": "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-command-line-tools.zip"
+      },
+      "android-direct": {
+        "id": "android-direct",
+        "text": "Android с сайта",
+        "icon": "smartphone",
+        "url": "https://github.com/batchar2/FptnClient-Android/releases/download/1.2.18.0/fptn-android-1.2.18.0.apk"
+      }
     }
   },
   "notFoundPage": {
     "errorCode": "404 - Страница не найдена",
     "message": "Страница, которую вы ищете, не существует.",
     "returnText": "Вернуться на главную"
+  },
+  "breadcrumb": {
+    "home": "Главная"
+  },
+  "downloadPage": {
+    "title": "Скачать"
   }
 }

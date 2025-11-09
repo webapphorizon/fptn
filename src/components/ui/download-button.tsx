@@ -143,7 +143,7 @@ export function DownloadButton() {
       >
         <Download className="h-8 w-8" />
         <p className="max-w-[20rem] truncate md:max-w-none">
-          {t("button.text", { platform: t(`platforms.${selectedOption.id}`) })}
+          {t("button.text", { platform: t(`platforms.${selectedOption.id}.text`) })}
         </p>
       </Button>
 
@@ -158,12 +158,6 @@ export function DownloadButton() {
           </Button>
         </PopoverTrigger>
         <PopoverContent align="end" className="w-80 rounded-xl p-0">
-          <div className="px-4 py-3">
-            <div className="text-sm font-medium">
-              {t("button.selectPlatform")}
-            </div>
-          </div>
-          <Separator />
           <div className="space-y-2 p-4">
             {downloadOptionsConfig.map((option) => (
               <button
@@ -172,7 +166,7 @@ export function DownloadButton() {
                 className="hover:bg-muted flex w-full cursor-pointer items-center gap-3 rounded-md p-2 transition-colors"
               >
                 {option.icon}
-                <span className="text-sm">{t(`platforms.${option.id}`)}</span>
+                <span className="text-sm">{t(`platforms.${option.id}.text`)}</span>
               </button>
             ))}
           </div>

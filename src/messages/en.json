@@ -466,7 +466,7 @@
         { "text": "About Us", "url": "/#about" },
         { "text": "Services", "url": "/#services" },
         { "text": "Testimonials", "url": "/#testimonials" },
-        { "text": "Pricing", "url": "/#price" },
+        { "text": "Downloads", "url": "/downloads" },
         { "text": "How to Start", "url": "/#steps" }
       ]
     },
@@ -545,19 +545,65 @@
       "url": "/downloads"
     },
     "platforms": {
-      "android-play": "Android from Google Play",
-      "android-direct": "Android directly from website",
-      "windows": "Windows (Windows 10/11 x86_64)",
-      "macos-silicon": "macOS (Apple Silicon)",
-      "macos-intel": "macOS (Intel)",
-      "linux-x64": "Linux (Ubuntu x86_64)",
-      "linux-arm": "Linux (Ubuntu ARM64)",
-      "command-line-tools": "Command Line Tools"
+      "android-play": {
+        "id": "android-play",
+        "text": "Android from Google Play",
+        "icon": "smartphone",
+        "url": "https://play.google.com/store/apps/details?id=org.fptn.vpn&pli=1"
+      },
+      "windows": {
+        "id": "windows",
+        "text": "Windows (Windows 10/11 x86_64)",
+        "icon": "monitor",
+        "url": "https://github.com/batchar2/fptn/releases/download/0.3.23/FptnClientInstaller-0.3.23-windows-x64_x86.zip"
+      },
+      "macos-silicon": {
+        "id": "macos-silicon",
+        "text": "macOS (Apple Silicon)",
+        "icon": "apple",
+        "url": "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-apple-silicon.pkg"
+      },
+      "macos-intel": {
+        "id": "macos-intel",
+        "text": "macOS (Intel)",
+        "icon": "apple",
+        "url": "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-intel.pkg"
+      },
+      "linux-x64": {
+        "id": "linux-x64",
+        "text": "Linux (Ubuntu x86_64)",
+        "icon": "monitor",
+        "url": "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-ubuntu22.04-amd64.deb"
+      },
+      "linux-arm": {
+        "id": "linux-arm",
+        "text": "Linux (Ubuntu ARM64)",
+        "icon": "monitor",
+        "url": "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-ubuntu22.04-arm64.deb"
+      },
+      "command-line-tools": {
+        "id": "command-line-tools",
+        "text": "Command Line Tools",
+        "icon": "terminal",
+        "url": "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-command-line-tools.zip"
+      },
+      "android-direct": {
+        "id": "android-direct",
+        "text": "Android directly from website",
+        "icon": "smartphone",
+        "url": "https://github.com/batchar2/FptnClient-Android/releases/download/1.2.18.0/fptn-android-1.2.18.0.apk"
+      }
     }
+  },
+  "breadcrumb": {
+    "home": "Home"
   },
   "notFoundPage": {
     "errorCode": "404 - Page Not Found",
     "message": "The page you are looking for does not exist.",
     "returnText": "Back to Home"
+  },
+  "downloadPage": {
+    "title": "Downloads"
   }
 }

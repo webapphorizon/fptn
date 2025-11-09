@@ -72,7 +72,7 @@ const Header = () => {
             </CustomLink>
           </div>
           <Link href={tHeader("cta.url")}>
-            <Button className="min-w-40 flex-1 text-nowrap">
+            <Button className="min-w-40 flex-1 text-nowrap ">
               {tHeader("cta.text")}
             </Button>
           </Link>

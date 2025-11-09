@@ -62,10 +62,13 @@ const Footer = () => {
             {/* <CustomLink className="text-muted-foreground" href="/">
               {t("quickLinks.items.0.text")}
             </CustomLink> */}
-            <CustomLink className="text-muted-foreground" href="#about">
+            <CustomLink className="text-muted-foreground" href={t("quickLinks.items.1.url")}>
               {t("quickLinks.items.1.text")}
             </CustomLink>
-            <CustomLink className="text-muted-foreground" href="#steps">
+            <CustomLink className="text-muted-foreground" href={t("quickLinks.items.4.url")}>
+              {t("quickLinks.items.4.text")}
+            </CustomLink>
+            <CustomLink className="text-muted-foreground" href={t("quickLinks.items.5.url")}>
               {t("quickLinks.items.5.text")}
             </CustomLink>
           </div>
