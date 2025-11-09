@@ -18,8 +18,8 @@
   },
   "header": {
     "navigation": [
-      { "text": "How to Start", "url": "#steps" },
-      { "text": "FAQ", "url": "#faq" },
+      { "text": "How to Start", "url": "/#steps" },
+      { "text": "FAQ", "url": "/#faq" },
       { "text": "Contribute", "url": "/contribute" }
     ],
     "cta": { "text": "Download", "url": "/downloads" }
@@ -608,6 +608,8 @@
     "title": "Downloads"
   },
   "contributePage": {
-    "title": "Contribute"
+    "title": "Contribute",
+    "description1": "The development of the project depends on community support. If you like what we do, you can help financially - any amount goes directly to improving the code, new features and infrastructure support.",
+    "description2": "If you want to contribute more than just money, you can also participate in development, suggest ideas, fix bugs, or help with documentation. Your donation and participation make the project alive and independent - it is thanks to such people that it continues to develop."
   }
 }

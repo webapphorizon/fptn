@@ -41,7 +41,7 @@ export default async function ClientDownloadsPage({
             <Link
               key={key}
               href={t(`download.platforms.${key}.url`)}
-              className="border-border bg-card rounded-lg border p-6 transition-shadow hover:shadow-md"
+              className="border-border bg-transparent rounded-lg border p-6  duration-300 ease-in transition-all hover:border-border/105 "
             >
               <span className="text-card-foreground text-xl">
                 {t(`download.platforms.${key}.text`)}

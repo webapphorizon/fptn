@@ -532,7 +532,7 @@ const SphereImageGrid: React.FC<SphereImageGridProps> = ({
         onMouseLeave={() => setHoveredIndex(null)}
         onClick={() => setSelectedImage(image)}
       >
-        <div className="relative h-full w-full overflow-hidden rounded-full dark:border-none border-2  shadow-lg">
+        <div className="relative h-full w-full overflow-hidden rounded-full ">
           <Image
             src={image.src}
             alt={image.alt}

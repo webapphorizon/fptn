@@ -18,10 +18,11 @@
   },
   "header": {
     "navigation": [
-      { "text": "始め方", "url": "#steps" },
-      { "text": "よくある質問", "url": "#faq" }
+      { "text": "始め方", "url": "/#steps" },
+      { "text": "よくある質問", "url": "/#faq" },
+      { "text": "貢献", "url": "/contribute" }
     ],
-    "cta": { "text": "ダウンロード", "url": "/#contacts" }
+    "cta": { "text": "ダウンロード", "url": "/downloads" }
   },
   "hero": {
     "gradientTitle": "FPTNプロジェクト",
@@ -465,7 +466,7 @@
         { "text": "ホーム", "url": "/" },
         { "text": "私たちについて", "url": "/#about" },
         { "text": "サービス", "url": "/#services" },
-        { "text": "お客様の声", "url": "/#testimonials" },
+        { "text": "貢献", "url": "/contribute" },
         { "text": "ダウンロード", "url": "/downloads" },
         { "text": "始め方", "url": "/#steps" }
       ]
@@ -605,5 +606,10 @@
   },
   "downloadPage": {
     "title": "ダウンロード"
+  },
+  "contributePage": {
+    "title": "貢献",
+    "description1": "プロジェクトの開発はコミュニティのサポートに依存しています。私たちの活動を気に入っていただければ、経済的に支援していただけます - どの金額もコードの改善、新機能、インフラストラクチャのサポートに直接使われます。",
+    "description2": "お金だけでなく、もっと貢献したい場合は、開発に参加したり、アイデアを提案したり、バグを修正したり、ドキュメント作成を手伝ったりすることもできます。あなたの寄付と参加がプロジェクトを活気づけ、独立したものにしています - このような人々のおかげで、プロジェクトは発展し続けています。"
   }
 }

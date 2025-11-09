@@ -18,10 +18,11 @@
   },
   "header": {
     "navigation": [
-      { "text": "如何開始", "url": "#steps" },
-      { "text": "常見問題", "url": "#faq" }
+      { "text": "如何開始", "url": "/#steps" },
+      { "text": "常見問題", "url": "/#faq" },
+      { "text": "貢獻", "url": "/contribute" }
     ],
-    "cta": { "text": "下載", "url": "/#contacts" }
+    "cta": { "text": "下載", "url": "/downloads" }
   },
   "hero": {
     "gradientTitle": "FPTN 項目",
@@ -459,7 +460,7 @@
         { "text": "首頁", "url": "/" },
         { "text": "關於我們", "url": "/#about" },
         { "text": "服務", "url": "/#services" },
-        { "text": "客戶評價", "url": "/#testimonials" },
+        { "text": "貢獻", "url": "/contribute" },
         { "text": "下載", "url": "/downloads" },
         { "text": "如何開始", "url": "/#steps" }
       ]
@@ -599,5 +600,10 @@
   },
   "downloadPage": {
     "title": "下載"
+  },
+  "contributePage": {
+    "title": "貢獻",
+    "description1": "項目的發展取決於社區的支持。如果您喜歡我們的工作，您可以在經濟上提供幫助 - 任何金額都直接用於改進代碼、新功能和基礎設施支持。",
+    "description2": "如果您想貢獻的不僅僅是金錢，您還可以參與開發、提出想法、修復錯誤或幫助文檔。您的捐贈和參與使項目充滿活力並保持獨立 - 正是因為有這樣的人，項目才能繼續發展。"
   }
 }

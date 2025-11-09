@@ -18,10 +18,11 @@
   },
   "header": {
     "navigation": [
-      { "text": "Comment commencer", "url": "#steps" },
-      { "text": "FAQ", "url": "#faq" }
+      { "text": "Comment commencer", "url": "/#steps" },
+      { "text": "FAQ", "url": "/#faq" },
+      { "text": "Contribuer", "url": "/contribute" }
     ],
-    "cta": { "text": "Télécharger", "url": "/#contacts" }
+    "cta": { "text": "Télécharger", "url": "/downloads" }
   },
   "hero": {
     "gradientTitle": "Projet FPTN",
@@ -471,7 +472,7 @@
         { "text": "Accueil", "url": "/" },
         { "text": "À propos de nous", "url": "/#about" },
         { "text": "Services", "url": "/#services" },
-        { "text": "Témoignages", "url": "/#testimonials" },
+        { "text": "Contribuer", "url": "/contribute" },
         { "text": "Téléchargements", "url": "/downloads" },
         { "text": "Comment commencer", "url": "/#steps" }
       ]
@@ -611,5 +612,10 @@
   },
   "downloadPage": {
     "title": "Téléchargements"
+  },
+  "contributePage": {
+    "title": "Contribuer",
+    "description1": "Le développement du projet dépend du soutien de la communauté. Si vous aimez ce que nous faisons, vous pouvez aider financièrement - tout montant va directement à l'amélioration du code, aux nouvelles fonctionnalités et au soutien de l'infrastructure.",
+    "description2": "Si vous souhaitez contribuer plus que de l'argent, vous pouvez également participer au développement, suggérer des idées, corriger des bugs ou aider à la documentation. Votre don et votre participation rendent le projet vivant et indépendant - c'est grâce à de telles personnes qu'il continue de se développer."
   }
 }

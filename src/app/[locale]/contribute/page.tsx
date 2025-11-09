@@ -5,6 +5,7 @@ import Header from "~/components/sections/header";
 import CustomBreadcrumb from "~/components/ui/custom-breadcrumb";
 import ImgSphere, { type ImageData } from "~/components/ui/img-sphere";
 import { TbCoinMoneroFilled } from "react-icons/tb";
+import QrCode from "~/components/icons/qrcode";
 
 // Image data using project assets - duplicated to fill sphere better
 const BASE_IMAGES: Omit<ImageData, "id">[] = [
@@ -147,48 +148,44 @@ export default async function ContributePage({
   return (
     <>
       <Header />
-      <main className="mx-auto flex w-full max-w-[94rem] flex-1 flex-col gap-6 px-4 pb-30 pt-5 md:pt-10 md:pb-40 lg:gap-10 lg:px-8">
+      <main className="mx-auto flex w-full max-w-[1504px] flex-1 flex-col gap-6 px-4 pt-5 pb-30 md:pt-10 md:pb-40 lg:gap-10 lg:px-8">
         <CustomBreadcrumb
           items={[{ label: t("breadcrumb.home"), href: "/" }]}
           currentPage={t("contributePage.title")}
         />
         <h1 className="text-4xl font-bold">{t("contributePage.title")}</h1>
         <div className="flex flex-col gap-12 xl:flex-row">
-          <div className="flex flex-col justify-between gap-20">
+          <div className="flex flex-col justify-between gap-10">
             <div className="max-w-2xl">
-              <p>
-                Развитие проекта зависит от поддержки сообщества. Если вам
-                нравится то, что мы делаем, вы можете помочь финансово — любая
-                сумма напрямую идёт на улучшение кода, новых функций и поддержку
-                инфраструктуры.
-              </p>
+              <p>{t("contributePage.description1")}</p>
               {/* <br /> */}
               <br />
-              <p>
-                Если у вас есть желание внести свой вклад не только деньгами —
-                вы также можете участвовать в разработке, предлагать идеи,
-                исправлять ошибки или помогать с документацией. Ваш донат и
-                участие делают проект живым и независимым — именно благодаря
-                таким людям он продолжает развиваться.
-              </p>
+              <p>{t("contributePage.description2")}</p>
             </div>{" "}
-            <div className="flex flex-col gap-2">
-              <div className="flex items-center gap-2">
-                <PiCurrencyBtcFill className="size-4" />
-                <p className="max-lg:max-w-[320px] truncate">
-                  <small>
-                    9a1f3a322ff119def6f220fe2bb37297b4d87e09fb93905d70dc0cf049684789b
-                  </small>
-                </p>
+            <div className="flex gap-14">
+              <div className="flex flex-col gap-2">
+                <div className="flex items-center gap-2">
+                  <PiCurrencyBtcFill className="size-4" />
+                  <p className="max-w-[20rem] truncate xl:max-w-[13.75rem]">
+                    <small>
+                      9a1f3a322ff119def6f220fe2bb37297b4d87e09fb93905d70dc0cf049684789b
+                    </small>
+                  </p>
+                </div>
+                <QrCode />
+                {/* <img src="/svg/qrcode.svg" alt="QR Code" className="xl:w-60 xl:h-60  object-cover" /> */}
               </div>
-              <div className="flex items-center gap-2">
-                <TbCoinMoneroFilled className="size-4" />
-                <p className="max-lg:max-w-[320px] truncate">
-                  <small>
-                    3a5f9d8b7c3ea14f1e5b9eaf2d4c87f2a8b6d5c1fca3b2974e9d1a6b7c2f5843
-                  </small>
-                </p>
-              </div>
+              {/* <div className="flex  gap-2 flex-col">
+                <div className="flex items-center  gap-2">
+                  <TbCoinMoneroFilled className="size-4" />
+                  <p className="truncate max-w-[20rem] xl:max-w-[220px]">
+                    <small>
+                      3a5f9d8b7c3ea14f1e5b9eaf2d4c87f2a8b6d5c1fca3b2974e9d1a6b7c2f5843
+                    </small>
+                  </p>
+                </div>
+                <QrCode />
+              </div> */}
             </div>
           </div>
           <div className="max-xl:hidden">

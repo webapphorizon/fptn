@@ -18,10 +18,11 @@
   },
   "header": {
     "navigation": [
-      { "text": "시작하는 방법", "url": "#steps" },
-      { "text": "자주 묻는 질문", "url": "#faq" }
+      { "text": "시작하는 방법", "url": "/#steps" },
+      { "text": "자주 묻는 질문", "url": "/#faq" },
+      { "text": "기여하기", "url": "/contribute" }
     ],
-    "cta": { "text": "다운로드", "url": "/#contacts" }
+    "cta": { "text": "다운로드", "url": "/downloads" }
   },
   "hero": {
     "gradientTitle": "FPTN 프로젝트",
@@ -465,7 +466,7 @@
         { "text": "홈", "url": "/" },
         { "text": "회사 소개", "url": "/#about" },
         { "text": "서비스", "url": "/#services" },
-        { "text": "고객 후기", "url": "/#testimonials" },
+        { "text": "기여하기", "url": "/contribute" },
         { "text": "다운로드", "url": "/downloads" },
         { "text": "시작하는 방법", "url": "/#steps" }
       ]
@@ -605,5 +606,10 @@
   },
   "downloadPage": {
     "title": "다운로드"
+  },
+  "contributePage": {
+    "title": "기여하기",
+    "description1": "프로젝트의 개발은 커뮤니티의 지원에 달려 있습니다. 우리가 하는 일이 마음에 드시면 경제적으로 도울 수 있습니다 - 어떤 금액이든 코드 개선, 새로운 기능 및 인프라 지원에 직접 사용됩니다.",
+    "description2": "돈 이상으로 기여하고 싶다면 개발에 참여하거나, 아이디어를 제안하거나, 버그를 수정하거나, 문서 작성에 도움을 줄 수도 있습니다. 여러분의 기부와 참여가 프로젝트를 살아있고 독립적으로 만듭니다 - 이러한 사람들 덕분에 프로젝트가 계속 발전하고 있습니다."
   }
 }
