@@ -29,15 +29,6 @@ const HeroSection = () => {
       <div className="relative overflow-hidden rounded-xl p-8 md:p-12 lg:p-16">
         {/* Фон */}
         <BubbleBackgroundDemo interactive={false} />
-        <Image
-          src="/images/background.webp"
-          alt="Background"
-          fill
-          className="absolute inset-0 -z-10 object-cover"
-          sizes="100vw"
-          priority
-        />
-        <div className="absolute inset-0 -z-10 bg-black/80 backdrop-blur-xl" />
 
         <div className="relative z-10 flex flex-col items-center gap-8 text-white lg:flex-row lg:justify-between">
           <div className="flex max-w-2xl flex-col gap-6">

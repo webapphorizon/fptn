@@ -19,9 +19,10 @@
   "header": {
     "navigation": [
       { "text": "How to Start", "url": "#steps" },
-      { "text": "FAQ", "url": "#faq" }
+      { "text": "FAQ", "url": "#faq" },
+      { "text": "Contribute", "url": "/contribute" }
     ],
-    "cta": { "text": "Download", "url": "/#contacts" }
+    "cta": { "text": "Download", "url": "/downloads" }
   },
   "hero": {
     "gradientTitle": "FPTN Project",
@@ -465,7 +466,7 @@
         { "text": "Home", "url": "/" },
         { "text": "About Us", "url": "/#about" },
         { "text": "Services", "url": "/#services" },
-        { "text": "Testimonials", "url": "/#testimonials" },
+        { "text": "Contribute", "url": "/contribute" },
         { "text": "Downloads", "url": "/downloads" },
         { "text": "How to Start", "url": "/#steps" }
       ]
@@ -605,5 +606,8 @@
   },
   "downloadPage": {
     "title": "Downloads"
+  },
+  "contributePage": {
+    "title": "Contribute"
   }
 }

@@ -29,7 +29,7 @@ export default async function ClientDownloadsPage({
   return (
     <>
       <Header />
-      <main className="mx-auto flex w-full max-w-[94rem] flex-1 flex-col px-4 gap-6 pb-30  md:pt-10 md:pb-40 lg:gap-10 lg:px-8">
+      <main className="mx-auto flex w-full max-w-[94rem] flex-1 flex-col px-4 gap-6 pb-30 pt-5 md:pt-10 md:pb-40 lg:gap-10 lg:px-8">
         <CustomBreadcrumb
           items={[{ label: t("breadcrumb.home"), href: "/" }]}
           currentPage={t("downloadPage.title")}

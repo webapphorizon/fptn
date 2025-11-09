@@ -9,6 +9,9 @@ import createNextIntlPlugin from "next-intl/plugin";
 const nextConfig = {
   // output: "export" as const,
   // trailingSlash: true,
+  images: {
+    domains: ["images.unsplash.com"],
+  },
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
 };
 
