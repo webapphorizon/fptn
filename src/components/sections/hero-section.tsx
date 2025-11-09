@@ -6,6 +6,20 @@ import CustomLink from "../ui/custom-link";
 import { DownloadButton } from "../ui/download-button";
 import { Button } from "../ui/button";
 import Link from "next/link";
+import { BubbleBackground } from "~/components/backgrounds/bubble";
+
+type BubbleBackgroundProps = {
+  interactive: boolean;
+};
+
+const BubbleBackgroundDemo = ({ interactive }: BubbleBackgroundProps) => {
+  return (
+    <BubbleBackground
+      interactive={interactive}
+      className="absolute inset-0 flex items-center justify-center rounded-xl"
+    />
+  );
+};
 
 const HeroSection = () => {
   const t = useTranslations();
@@ -14,6 +28,7 @@ const HeroSection = () => {
     <section className="mx-auto w-full" id="hero">
       <div className="relative overflow-hidden rounded-xl p-8 md:p-12 lg:p-16">
         {/* Фон */}
+        <BubbleBackgroundDemo interactive={false} />
         <Image
           src="/images/background.webp"
           alt="Background"
@@ -61,14 +76,14 @@ const HeroSection = () => {
               })}
             </p>
             <div className="flex flex-col gap-2">
-              <div className="flex flex-col gap-4 sm:flex-row">
+              <div className="flex flex-col gap-4 xl:flex-row">
                 <DownloadButton />
                 <Link href={t("download.secondaryButton.url")}>
                   {" "}
                   <Button
                     size="lg"
                     variant="outline"
-                    className="border-white bg-transparent text-white hover:bg-white/20 hover:text-white dark:border-white"
+                    className="border-white bg-transparent text-white hover:bg-white/20 hover:text-white max-md:w-full dark:border-white"
                   >
                     <p>{t("download.secondaryButton.text")}</p>
                   </Button>

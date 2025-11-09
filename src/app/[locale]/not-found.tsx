@@ -5,6 +5,7 @@ import {
   useNotFoundContext,
 } from "~/context/not-found-context";
 import CustomLink from "~/components/ui/custom-link";
+import { MagicBackButton } from "~/components/ui/magic-button";
 
 // Внутренний компонент страницы not-found
 const NotFoundContent = () => {
@@ -20,7 +21,7 @@ const NotFoundContent = () => {
           {errors("notFoundPage.message")}
         </p>
       </div>
-      <CustomLink href="/">{errors("notFoundPage.returnText")}</CustomLink>
+      <MagicBackButton backLink="/">{errors("notFoundPage.returnText")}</MagicBackButton>
     </div>
   );
 };
