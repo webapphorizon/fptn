@@ -4,6 +4,8 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import CustomLink from "../ui/custom-link";
 import { DownloadButton } from "../ui/download-button";
+import { Button } from "../ui/button";
+import Link from "next/link";
 
 const HeroSection = () => {
   const t = useTranslations();
@@ -28,7 +30,7 @@ const HeroSection = () => {
               <Image
                 src={t("hero.gradientImage.src")}
                 alt={t("hero.gradientImage.alt")}
-                className="rounded-full object-cover opacity-90 lg:hidden block"
+                className="block rounded-full object-cover opacity-90 lg:hidden"
                 width={100}
                 height={100}
                 quality={90}
@@ -47,6 +49,7 @@ const HeroSection = () => {
                     {chunks}
                   </CustomLink>
                 ),
+
                 github: (chunks) => (
                   <CustomLink
                     href={t("links.socials.githubUrl")}
@@ -60,6 +63,16 @@ const HeroSection = () => {
             <div className="flex flex-col gap-2">
               <div className="flex flex-col gap-4 sm:flex-row">
                 <DownloadButton />
+                <Link href={t("download.secondaryButton.url")}>
+                  {" "}
+                  <Button
+                    size="lg"
+                    variant="outline"
+                    className="border-white bg-transparent text-white hover:bg-white/20 hover:text-white dark:border-white"
+                  >
+                    <p>{t("download.secondaryButton.text")}</p>
+                  </Button>
+                </Link>
               </div>
               <div className="flex flex-col">
                 <span>Version: 0.3.23</span>

@@ -540,6 +540,10 @@
       "text": "Download for {platform}",
       "selectPlatform": "Select another platform for download"
     },
+    "secondaryButton": {
+      "text": "More download options",
+      "url": "/downloads"
+    },
     "platforms": {
       "android-play": "Android from Google Play",
       "android-direct": "Android directly from website",

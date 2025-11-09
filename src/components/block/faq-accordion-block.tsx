@@ -55,6 +55,7 @@ const FAQAccordionBlock = ({ questions }: FAQAccordionBlockProps) => {
                       {chunks}
                     </CustomLink>
                   ),
+                  br: () => <br />,
                   telegramChannel: (chunks) => (
                     <CustomLink
                       href={tLinks("socials.telegramChannelUrl")}

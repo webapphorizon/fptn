@@ -534,6 +534,10 @@
       "text": "為 {platform} 下載",
       "selectPlatform": "選擇另一個平台進行下載"
     },
+    "secondaryButton": {
+      "text": "更多下載選項",
+      "url": "/downloads"
+    },
     "platforms": {
       "android-play": "從 Google Play 下載 Android",
       "android-direct": "直接從網站下載 Android",

@@ -546,6 +546,10 @@
       "text": "Descargar para {platform}",
       "selectPlatform": "Seleccionar otra plataforma para descargar"
     },
+    "secondaryButton": {
+      "text": "Más opciones de descarga",
+      "url": "/downloads"
+    },
     "platforms": {
       "android-play": "Android desde Google Play",
       "android-direct": "Android directamente desde el sitio web",

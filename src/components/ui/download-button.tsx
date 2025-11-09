@@ -31,11 +31,7 @@ const downloadOptionsConfig: DownloadOption[] = [
     icon: <Smartphone className="h-4 w-4" />,
     url: "https://play.google.com/store/apps/details?id=org.fptn.vpn&pli=1",
   },
-  {
-    id: "android-direct",
-    icon: <Smartphone className="h-4 w-4" />,
-    url: "/downloads/app-android.apk",
-  },
+
   {
     id: "windows",
     icon: <Monitor className="h-4 w-4" />,
@@ -60,12 +56,7 @@ const downloadOptionsConfig: DownloadOption[] = [
     id: "linux-arm",
     icon: <Monitor className="h-4 w-4" />,
     url: "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-ubuntu22.04-arm64.deb",
-  },
-  {
-    id: "command-line-tools",
-    icon: <Terminal className="h-4 w-4" />,
-    url: "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-command-line-tools.zip",
-  },
+  }
 ];
 
 function detectPlatform(): DownloadOption {

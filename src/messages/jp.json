@@ -540,6 +540,10 @@
       "text": "{platform}用にダウンロード",
       "selectPlatform": "別のプラットフォームを選択してダウンロード"
     },
+    "secondaryButton": {
+      "text": "より多くのダウンロードオプション",
+      "url": "/downloads"
+    },
     "platforms": {
       "android-play": "Google PlayからのAndroid",
       "android-direct": "ウェブサイトから直接Android",
