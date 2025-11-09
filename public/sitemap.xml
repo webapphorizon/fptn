@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Главная -->
+  <url>
+    <loc>https://fptn.org/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fptn.org/en/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://fptn.org/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://fptn.org/es/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://fptn.org/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fptn.org/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://fptn.org/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://fptn.org/pt/" />
+    <xhtml:link rel="alternate" hreflang="cn" href="https://fptn.org/cn/" />
+    <xhtml:link rel="alternate" hreflang="jp" href="https://fptn.org/jp/" />
+    <xhtml:link rel="alternate" hreflang="kr" href="https://fptn.org/kr/" />
+    <lastmod>2025-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Contribute -->
+  <url>
+    <loc>https://fptn.org/contribute</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fptn.org/en/contribute" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://fptn.org/ru/contribute" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://fptn.org/es/contribute" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://fptn.org/de/contribute" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fptn.org/fr/contribute" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://fptn.org/it/contribute" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://fptn.org/pt/contribute" />
+    <xhtml:link rel="alternate" hreflang="cn" href="https://fptn.org/cn/contribute" />
+    <xhtml:link rel="alternate" hreflang="jp" href="https://fptn.org/jp/contribute" />
+    <xhtml:link rel="alternate" hreflang="kr" href="https://fptn.org/kr/contribute" />
+    <lastmod>2025-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Downloads -->
+  <url>
+    <loc>https://fptn.org/downloads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fptn.org/en/downloads" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://fptn.org/ru/downloads" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://fptn.org/es/downloads" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://fptn.org/de/downloads" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fptn.org/fr/downloads" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://fptn.org/it/downloads" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://fptn.org/pt/downloads" />
+    <xhtml:link rel="alternate" hreflang="cn" href="https://fptn.org/cn/downloads" />
+    <xhtml:link rel="alternate" hreflang="jp" href="https://fptn.org/jp/downloads" />
+    <xhtml:link rel="alternate" hreflang="kr" href="https://fptn.org/kr/downloads" />
+    <lastmod>2025-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
