@@ -12,21 +12,37 @@ import {
   DropdownMenuTrigger,
 } from "~/components/ui/dropdown-menu";
 import { usePathname, useRouter } from "~/i18n/routing";
+import ReactCountryFlag from "react-country-flag"; // ✅ добавляем флаги через react-country-flag
 
-// Поддерживаемые локали (должны соответствовать настройкам в routing.ts)
-const supportedLocales = ["en", "ru", "es", "de", "fr", "it", "pt", "cn", "jp", "kr"];
+// Соответствие локалей и кодов стран ISO
+const localeToCountry: Record<string, string> = {
+  en: "US",
+  ru: "RU",
+  es: "ES",
+  de: "DE",
+  fr: "FR",
+  it: "IT",
+  pt: "PT",
+  cn: "CN",
+  jp: "JP",
+  kr: "KR",
+};
 
+// Поддерживаемые локали
+const supportedLocales = Object.keys(localeToCountry);
+
+// Названия языков
 const languages = [
-  { code: "en", name: "English", flag: "🇺🇸" },
-  { code: "ru", name: "Русский", flag: "🇷🇺" },
-  { code: "es", name: "Español", flag: "🇪🇸" },
-  { code: "de", name: "Deutsch", flag: "🇩🇪" },
-  { code: "fr", name: "Français", flag: "🇫🇷" },
-  { code: "it", name: "Italiano", flag: "🇮🇹" },
-  { code: "pt", name: "Português", flag: "🇵🇹" },
-  { code: "cn", name: "中文", flag: "🇨🇳" },
-  { code: "jp", name: "日本語", flag: "🇯🇵" },
-  { code: "kr", name: "한국어", flag: "🇰🇷" },
+  { code: "en", name: "English" },
+  { code: "ru", name: "Русский" },
+  { code: "es", name: "Español" },
+  { code: "de", name: "Deutsch" },
+  { code: "fr", name: "Français" },
+  { code: "it", name: "Italiano" },
+  { code: "pt", name: "Português" },
+  { code: "cn", name: "中文" },
+  { code: "jp", name: "日本語" },
+  { code: "kr", name: "한국어" },
 ];
 
 export function LanguageToggle() {
@@ -38,24 +54,17 @@ export function LanguageToggle() {
   const t = useTranslations("ui");
   const [isMobile, setIsMobile] = useState(false);
 
-  // Определяем размер экрана для условного modal поведения
+  // Проверяем ширину экрана
   useEffect(() => {
-    const checkIsMobile = () => {
-      setIsMobile(window.innerWidth < 1280); // xl breakpoint
-    };
-
+    const checkIsMobile = () => setIsMobile(window.innerWidth < 1280);
     checkIsMobile();
     window.addEventListener("resize", checkIsMobile);
-
     return () => window.removeEventListener("resize", checkIsMobile);
   }, []);
 
-  // При монтировании компонента проверяем, соответствует ли текущий язык сохраненному в cookie
+  // Проверяем cookie с языком при загрузке
   useEffect(() => {
-    // Если уже было перенаправление, не делаем это снова
     if (redirectedRef.current) return;
-
-    // Флаг для предотвращения повторных перенаправлений
     redirectedRef.current = true;
 
     try {
@@ -64,15 +73,13 @@ export function LanguageToggle() {
         .find((row) => row.startsWith("NEXT_LOCALE="))
         ?.split("=")[1];
 
-      // Если есть сохраненный язык и он отличается от текущего, перенаправляем
       if (
         savedLocale &&
         savedLocale !== locale &&
         supportedLocales.includes(savedLocale)
       ) {
-        // Устанавливаем флаг перенаправления
         router.replace(
-          // @ts-expect-error -- TypeScript issue with routing types
+          // @ts-expect-error — несовместимость типов
           { pathname, params },
           { locale: savedLocale },
         );
@@ -80,23 +87,15 @@ export function LanguageToggle() {
     } catch (error) {
       console.error("Ошибка при проверке языка:", error);
     }
-  }, [locale, params, pathname, router]); // Запускаем при изменении локали или маршрута
+  }, [locale, params, pathname, router]);
 
   const handleLanguageChange = (nextLocale: string) => {
-    // Если пытаемся переключиться на текущий язык, ничего не делаем
     if (nextLocale === locale) return;
 
     try {
-      // Сохраняем в cookie на 1 год
       document.cookie = `NEXT_LOCALE=${nextLocale};path=/;max-age=31536000;SameSite=Strict`;
 
-      // Получаем текущий URL и трансформируем его в соответствии с новой локалью
-      let newUrl: string;
-
-      // Определяем базовый путь (без локали)
       let basePath = pathname;
-
-      // Удаляем префикс текущей локали из пути (если он есть)
       for (const supportedLocale of supportedLocales) {
         if (
           supportedLocale !== "en" &&
@@ -107,21 +106,13 @@ export function LanguageToggle() {
         }
       }
 
-      // Если получился пустой путь, делаем его корневым
-      if (basePath === "") {
-        basePath = "/";
-      }
+      if (basePath === "") basePath = "/";
 
-      // Формируем URL в зависимости от целевого языка
-      if (nextLocale === "en") {
-        // Для английского используем путь без префикса
-        newUrl = basePath;
-      } else {
-        // Для остальных языков добавляем префикс
-        newUrl = `/${nextLocale}${basePath === "/" ? "" : basePath}`;
-      }
+      const newUrl =
+        nextLocale === "en"
+          ? basePath
+          : `/${nextLocale}${basePath === "/" ? "" : basePath}`;
 
-      // Полное обновление страницы по новому URL
       window.location.href = newUrl;
     } catch (error) {
       console.error("Ошибка при смене языка:", error);
@@ -136,19 +127,34 @@ export function LanguageToggle() {
           <span className="sr-only">{t("language.toggle")}</span>
         </Button>
       </DropdownMenuTrigger>
+
       <DropdownMenuContent align="start" className="z-200">
-        {languages.map((language) => (
-          <DropdownMenuItem
-            key={language.code}
-            onClick={() => handleLanguageChange(language.code)}
-            className={
-              locale === language.code ? "bg-accent text-accent-foreground" : ""
-            }
-          >
-            <span className="mr-2">{language.flag}</span>
-            {language.name}
-          </DropdownMenuItem>
-        ))}
+        {languages.map((language) => {
+          const countryCode = localeToCountry[language.code];
+          return (
+            <DropdownMenuItem
+              key={language.code}
+              onClick={() => handleLanguageChange(language.code)}
+              className={
+                locale === language.code
+                  ? "bg-accent text-accent-foreground"
+                  : ""
+              }
+            >
+              <ReactCountryFlag
+                countryCode={countryCode ?? "US"}
+                svg
+                style={{
+                  width: "1.25em",
+                  height: "1.25em",
+                  marginRight: "0.5em",
+                  borderRadius: "2px",
+                }}
+              />
+              {language.name}
+            </DropdownMenuItem>
+          );
+        })}
       </DropdownMenuContent>
     </DropdownMenu>
   );

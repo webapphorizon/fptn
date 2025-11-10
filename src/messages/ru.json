@@ -18,6 +18,7 @@
   },
   "header": {
     "navigation": [
+      { "text": "Главная", "url": "/" },
       { "text": "Как начать", "url": "/#steps" },
       { "text": "Часто задаваемые вопросы", "url": "/#faq" },
       { "text": "Помочь проекту", "url": "/contribute" }

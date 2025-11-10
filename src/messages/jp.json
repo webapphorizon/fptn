@@ -18,6 +18,7 @@
   },
   "header": {
     "navigation": [
+      { "text": "ホーム", "url": "/" },
       { "text": "始め方", "url": "/#steps" },
       { "text": "よくある質問", "url": "/#faq" },
       { "text": "貢献", "url": "/contribute" }

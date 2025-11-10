@@ -18,6 +18,7 @@
   },
   "header": {
     "navigation": [
+      { "text": "Início", "url": "/" },
       { "text": "Como Começar", "url": "/#steps" },
       { "text": "Perguntas Frequentes", "url": "/#faq" },
       { "text": "Contribuir", "url": "/contribute" }
