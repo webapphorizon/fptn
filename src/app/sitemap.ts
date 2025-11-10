@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://fptn.com";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://fptn.org";
 
   const locales = ["en", "ru", "es", "de", "fr", "it", "pt", "cn", "jp", "kr"];
 
