@@ -1,12 +1,18 @@
-import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import Footer from "~/components/sections/footer";
 import Header from "~/components/sections/header";
 import CustomBreadcrumb from "~/components/ui/custom-breadcrumb";
 
+export const dynamic = "force-static";
+
+export async function generateStaticParams() {
+  const locales = ["en", "ru", "es", "de", "fr", "it", "pt", "cn", "jp", "kr"];
+  return locales.map((locale) => ({ locale }));
+}
+
 export default async function ClientDownloadsPage({
-  params, 
+  params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
@@ -29,20 +35,20 @@ export default async function ClientDownloadsPage({
   return (
     <>
       <Header />
-      <main className="mx-auto flex w-full max-w-[94rem] flex-1 flex-col px-4 gap-6 pb-30 pt-5 md:pt-10 md:pb-40 lg:gap-10 lg:px-8">
+      <main className="mx-auto flex w-full max-w-[94rem] flex-1 flex-col gap-6 px-4 pt-5 pb-30 md:pt-10 md:pb-40 lg:gap-10 lg:px-8">
         <CustomBreadcrumb
           items={[{ label: t("breadcrumb.home"), href: "/" }]}
           currentPage={t("downloadPage.title")}
         />
         <h1 className="text-4xl font-bold">{t("downloadPage.title")}</h1>
 
-        <div className="grid grid-cols-1 gap-4 xl:gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:gap-6">
           {platformKeys.map((key) => (
             <Link
               key={key}
               href={t(`download.platforms.${key}.url`)}
               target="_blank"
-              className="border-border bg-transparent rounded-lg border p-6  duration-300 ease-in transition-all hover:border-border/105 "
+              className="border-border hover:border-border/105 rounded-lg border bg-transparent p-6 transition-all duration-300 ease-in"
             >
               <span className="text-card-foreground text-xl">
                 {t(`download.platforms.${key}.text`)}

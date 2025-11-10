@@ -4,6 +4,13 @@ import Header from "~/components/sections/header";
 import HeroSection from "~/components/sections/hero-section";
 import StepsSection from "~/components/sections/steps-section";
 
+export const dynamic = "force-static";
+
+export async function generateStaticParams() {
+  const locales = ["en", "ru", "es", "de", "fr", "it", "pt", "cn", "jp", "kr"];
+  return locales.map((locale) => ({ locale }));
+}
+
 export default function HomePage() {
   return (
     <>

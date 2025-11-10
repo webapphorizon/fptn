@@ -7,10 +7,11 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 /** @type {import("next").NextConfig} */
 const nextConfig = {
-  // output: "export" as const,
+  output: "export" as const,
   // trailingSlash: true,
   images: {
     domains: ["images.unsplash.com"],
+    unoptimized: true,
   },
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
 };
