@@ -638,7 +638,7 @@ const SphereImageGrid: React.FC<SphereImageGridProps> = ({
             />
             <button
               onClick={() => setSelectedImage(null)}
-              className="bg-opacity-50 hover:bg-opacity-70 absolute top-2 right-2 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-background text-foreground transition-all"
+              className="bg-opacity-50 hover:bg-opacity-70 bg-background text-foreground absolute top-2 right-2 flex h-8 w-8 cursor-pointer items-center justify-center rounded-full transition-all"
             >
               <X size={16} />
             </button>
@@ -647,23 +647,18 @@ const SphereImageGrid: React.FC<SphereImageGridProps> = ({
           {(selectedImage.title ??
             selectedImage.description ??
             selectedImage.social) && (
-            <div className="flex flex-col p-6 text-black dark:text-white gap-2">
+            <div className="flex flex-col gap-2 p-6 text-black dark:text-white">
               {selectedImage.title && (
                 <h3 className="">{selectedImage.title}</h3>
               )}
               <div className="flex flex-col gap-1">
                 {selectedImage.description && (
-                  <Link
-                    href={`https://${selectedImage.description}`}
-                    className=""
-                  >
-                    {selectedImage.description}
-                  </Link>
+                  <p>{selectedImage.description}</p>
                 )}
                 {selectedImage.social && (
                   <Link
-                    href={`https://${selectedImage.socialUrl}`}
-                    className="text-sm text-blue-400 underline hover:text-blue-600"
+                    href={`${selectedImage.socialUrl}`}
+                    className="text-sm text-blue-400 underline hover:text-blue-600 transition-all"
                   >
                     {selectedImage.social}
                   </Link>
