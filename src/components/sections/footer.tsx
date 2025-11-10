@@ -66,9 +66,9 @@ const Footer = () => {
             </CustomLink> */}
                 <CustomLink
                   className="text-muted-foreground"
-                  href={t("quickLinks.items.1.url")}
+                  href={t("quickLinks.items.0.url")}
                 >
-                  {t("quickLinks.items.1.text")}
+                  {t("quickLinks.items.0.text")}
                 </CustomLink>
                 <CustomLink
                   className="text-muted-foreground"
