@@ -188,9 +188,9 @@ export default async function ContributePage({
               </div> */}
             </div>
           </div>
-          <div className="max-xl:hidden">
+          {/* <div className="max-xl:hidden">
             <ImgSphere images={IMAGES} {...CONFIG} />
-          </div>
+          </div> */}
         </div>
       </main>
       <Footer />

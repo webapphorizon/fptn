@@ -42,11 +42,6 @@ const downloadOptionsConfig: DownloadOption[] = [
     url: "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-apple-silicon.pkg",
   },
   {
-    id: "macos-intel",
-    icon: <Apple className="h-4 w-4" />,
-    url: "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-intel.pkg",
-  },
-  {
     id: "linux-x64",
     icon: <Monitor className="h-4 w-4" />,
     url: "https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-ubuntu22.04-amd64.deb",
@@ -91,10 +86,6 @@ function detectPlatform(): DownloadOption {
         downloadOptionsConfig[0]!
       );
     }
-    return (
-      downloadOptionsConfig.find((o) => o.id === "macos-intel") ??
-      downloadOptionsConfig[0]!
-    );
   }
   if (/Linux/i.test(ua)) {
     return (
@@ -123,7 +114,7 @@ export function DownloadButton() {
     setSelectedOption(option);
 
     if (option.url.startsWith("http")) {
-      window.open(option.url, "_self", "noopener,noreferrer");
+      window.open(option.url, "_blank", "noopener,noreferrer");
     } else {
       const link = document.createElement("a");
       link.href = option.url;

@@ -21,7 +21,7 @@ const PlatformSelectorToggle = () => {
         type="single"
         value={selectedPlatform}
         onValueChange={(value) => value && setSelectedPlatform(value)}
-        className="grid w-full grid-cols-2 gap-4 md:grid-cols-4"
+        className="grid w-full grid-cols-2 gap-4 md:grid-cols-5"
       >
         {platforms.map((platform) => {
           const IconComponent = platform.icon;
@@ -32,7 +32,7 @@ const PlatformSelectorToggle = () => {
               className="data-[state=on]:bg-primary data-[state=on]:text-primary-foreground flex h-auto flex-col items-center gap-2 rounded-md p-4"
             >
               <IconComponent className="text-2xl" />
-              <span className="text-sm md:text-base">{platform.name}</span>
+              <span className="text-sm ">{platform.name}</span>
             </ToggleGroupItem>
           );
         })}

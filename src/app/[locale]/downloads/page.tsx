@@ -6,7 +6,7 @@ import Header from "~/components/sections/header";
 import CustomBreadcrumb from "~/components/ui/custom-breadcrumb";
 
 export default async function ClientDownloadsPage({
-  params,
+  params, 
 }: {
   params: Promise<{ locale: string }>;
 }) {
@@ -41,6 +41,7 @@ export default async function ClientDownloadsPage({
             <Link
               key={key}
               href={t(`download.platforms.${key}.url`)}
+              target="_blank"
               className="border-border bg-transparent rounded-lg border p-6  duration-300 ease-in transition-all hover:border-border/105 "
             >
               <span className="text-card-foreground text-xl">
