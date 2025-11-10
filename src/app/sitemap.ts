@@ -9,13 +9,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: baseUrl,
       lastModified: new Date(),
-      changeFrequency: "yearly",
+      changeFrequency: "monthly",
       priority: 1,
     },
     ...locales.map((locale) => ({
       url: `${baseUrl}/${locale}`,
       lastModified: new Date(),
-      changeFrequency: "yearly" as const,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    ...locales.map((locale) => ({
+      url: `${baseUrl}/${locale}/contribute`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    ...locales.map((locale) => ({
+      url: `${baseUrl}/${locale}/downloads`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
   ];
