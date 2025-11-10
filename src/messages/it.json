@@ -614,6 +614,8 @@
   "contributePage": {
     "title": "Contribuire",
     "description1": "Lo sviluppo del progetto dipende dal supporto della comunità. Se ti piace quello che facciamo, puoi aiutare finanziariamente - qualsiasi importo va direttamente al miglioramento del codice, alle nuove funzionalità e al supporto dell'infrastruttura.",
-    "description2": "Se vuoi contribuire con più del solo denaro, puoi anche partecipare allo sviluppo, suggerire idee, correggere bug o aiutare con la documentazione. La tua donazione e partecipazione rendono il progetto vivo e indipendente - è grazie a persone come te che continua a svilupparsi."
+    "description2": "Se vuoi contribuire con più del solo denaro, puoi anche partecipare allo sviluppo, suggerire idee, correggere bug o aiutare con la documentazione. La tua donazione e partecipazione rendono il progetto vivo e indipendente - è grazie a persone come te che continua a svilupparsi.",
+    "copy-to-clipboard": "Copia nella clipboard",
+    "copied": "Copiato"
   }
 }

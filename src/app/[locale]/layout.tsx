@@ -6,6 +6,7 @@ import { getMessages } from "next-intl/server";
 import { ThemeProvider } from "next-themes";
 import { Noto_Sans, Roboto, Ubuntu } from "next/font/google";
 import { PlatformProvider } from "~/context/platform-selector-context";
+import { Toaster } from "~/components/ui/sonner";
 
 export async function generateMetadata({
   params,
@@ -54,7 +55,7 @@ export default async function RootLayout({ children, params }: Props) {
       className={`${roboto.variable} ${notoSans.variable} ${ubuntu.variable}`}
       suppressHydrationWarning
     >
-      <body className="mt-[4.5rem] flex flex-col min-h-screen ">
+      <body className="mt-[4.5rem] flex min-h-screen flex-col">
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider
             attribute="class"
@@ -64,6 +65,7 @@ export default async function RootLayout({ children, params }: Props) {
           >
             <PlatformProvider>{children}</PlatformProvider>
           </ThemeProvider>
+          <Toaster />
         </NextIntlClientProvider>
       </body>
     </html>

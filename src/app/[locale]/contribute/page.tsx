@@ -7,92 +7,25 @@ import ImgSphere, { type ImageData } from "~/components/ui/img-sphere";
 import { TbCoinMoneroFilled } from "react-icons/tb";
 import QrCode from "~/components/icons/qrcode";
 import Wrapper from "~/components/block/wrapper";
+import BitcoinHashCopy from "~/components/patterns/bitcoin-hash-copy";
 
 // Image data using project assets - duplicated to fill sphere better
 const BASE_IMAGES: Omit<ImageData, "id">[] = [
   {
     src: "/images/avatar.jpg",
     alt: "Image 1",
-    title: "Mountain Landscape",
-    description:
-      "A beautiful landscape captured at golden hour with mountains in the background.",
+    title: "John Mason",
+    description: "Frontend Developer",
+    social: "GitHub",
+    socialUrl: "https://github.com/webapphorizon",
   },
   {
-    src: "/images/avatar.jpg",
+    src: "/images/person.jpg",
     alt: "Image 2",
-    title: "Portrait Photography",
-    description:
-      "Stunning portrait photography showcasing natural lighting and composition.",
-  },
-  {
-    src: "/images/avatar.jpg",
-    alt: "Image 3",
-    title: "Urban Architecture",
-    description:
-      "Modern architectural design featuring clean lines and geometric patterns.",
-  },
-  {
-    src: "/images/avatar.jpg",
-    alt: "Image 4",
-    title: "Nature Scene",
-    description:
-      "Peaceful nature scene with vibrant colors and natural beauty.",
-  },
-  {
-    src: "/images/avatar.jpg",
-    alt: "Image 5",
-    title: "Abstract Art",
-    description:
-      "Creative abstract composition with bold colors and unique patterns.",
-  },
-  {
-    src: "/images/avatar.jpg",
-    alt: "Image 6",
-    title: "Mountain Landscape",
-    description:
-      "A beautiful landscape captured at golden hour with mountains in the background.",
-  },
-  {
-    src: "/images/avatar.jpg",
-    alt: "Image 7",
-    title: "Portrait Photography",
-    description:
-      "Stunning portrait photography showcasing natural lighting and composition.",
-  },
-  {
-    src: "/images/avatar.jpg",
-    alt: "Image 8",
-    title: "Urban Architecture",
-    description:
-      "Modern architectural design featuring clean lines and geometric patterns.",
-  },
-  {
-    src: "/images/avatar.jpg",
-    alt: "Image 9",
-    title: "Nature Scene",
-    description:
-      "Peaceful nature scene with vibrant colors and natural beauty.",
-  },
-  {
-    src: "/images/avatar.jpg",
-    alt: "Image 10",
-    title: "Abstract Art",
-    description:
-      "Creative abstract composition with bold colors and unique patterns.",
-  },
-  {
-    src: "/images/avatar.jpg",
-    alt: "Image 11",
-    title: "Abstract Art",
-    description:
-      "Creative abstract composition with bold colors and unique patterns.",
-  },
-  {
-    src: "/images/avatar.jpg",
-    alt: "Image 12",
-    title: "Abstract Art",
-    description:
-      "Creative abstract composition with bold colors and unique patterns.",
+    title: "Alex Smith",
+    description: "Backend Developer",
+    social: "GitHub",
+    socialUrl: "https://github.com/webapphorizon",
   },
 ];
 
@@ -166,7 +99,7 @@ export default async function ContributePage({
                   <p>{t("contributePage.description2")}</p>
                 </div>{" "}
                 <div className="flex gap-14">
-                  <div className="flex flex-col gap-2">
+                  {/* <div className="flex flex-col gap-2">
                     <div className="flex items-center gap-2">
                       <PiCurrencyBtcFill className="size-4" />
                       <p className="max-w-[20rem] truncate xl:max-w-[13.75rem]">
@@ -176,8 +109,8 @@ export default async function ContributePage({
                       </p>
                     </div>
                     <QrCode />
-                    {/* <img src="/svg/qrcode.svg" alt="QR Code" className="xl:w-60 xl:h-60  object-cover" /> */}
-                  </div>
+                  </div> */}
+                  <BitcoinHashCopy />
                   {/* <div className="flex  gap-2 flex-col">
                 <div className="flex items-center  gap-2">
                   <TbCoinMoneroFilled className="size-4" />
@@ -191,9 +124,9 @@ export default async function ContributePage({
               </div> */}
                 </div>
               </div>
-              {/* <div className="max-xl:hidden">
+              <div className="max-xl:hidden">
             <ImgSphere images={IMAGES} {...CONFIG} />
-          </div> */}
+          </div>
             </div>
           </div>
         </Wrapper>
