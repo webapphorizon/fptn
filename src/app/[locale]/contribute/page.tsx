@@ -6,6 +6,7 @@ import CustomBreadcrumb from "~/components/ui/custom-breadcrumb";
 import ImgSphere, { type ImageData } from "~/components/ui/img-sphere";
 import { TbCoinMoneroFilled } from "react-icons/tb";
 import QrCode from "~/components/icons/qrcode";
+import Wrapper from "~/components/block/wrapper";
 
 // Image data using project assets - duplicated to fill sphere better
 const BASE_IMAGES: Omit<ImageData, "id">[] = [
@@ -148,34 +149,36 @@ export default async function ContributePage({
   return (
     <>
       <Header />
-      <main className="mx-auto flex w-full max-w-[1504px] flex-1 flex-col gap-6 px-4 pt-5 pb-30 md:pt-10 md:pb-40 lg:gap-10 lg:px-8">
-        <CustomBreadcrumb
-          items={[{ label: t("breadcrumb.home"), href: "/" }]}
-          currentPage={t("contributePage.title")}
-        />
-        <h1 className="text-4xl font-bold">{t("contributePage.title")}</h1>
-        <div className="flex flex-col gap-12 xl:flex-row">
-          <div className="flex flex-col justify-between gap-10">
-            <div className="max-w-2xl">
-              <p>{t("contributePage.description1")}</p>
-              {/* <br /> */}
-              <br />
-              <p>{t("contributePage.description2")}</p>
-            </div>{" "}
-            <div className="flex gap-14">
-              <div className="flex flex-col gap-2">
-                <div className="flex items-center gap-2">
-                  <PiCurrencyBtcFill className="size-4" />
-                  <p className="max-w-[20rem] truncate xl:max-w-[13.75rem]">
-                    <small>
-                      9a1f3a322ff119def6f220fe2bb37297b4d87e09fb93905d70dc0cf049684789b
-                    </small>
-                  </p>
-                </div>
-                <QrCode />
-                {/* <img src="/svg/qrcode.svg" alt="QR Code" className="xl:w-60 xl:h-60  object-cover" /> */}
-              </div>
-              {/* <div className="flex  gap-2 flex-col">
+      <main className="flex-1">
+        <Wrapper>
+          <div className="flex flex-col gap-6 pt-5 pb-30 md:pt-10 md:pb-40 lg:gap-10">
+            <CustomBreadcrumb
+              items={[{ label: t("breadcrumb.home"), href: "/" }]}
+              currentPage={t("contributePage.title")}
+            />
+            <h1 className="text-4xl font-bold">{t("contributePage.title")}</h1>
+            <div className="flex flex-col gap-12 xl:flex-row">
+              <div className="flex flex-col justify-between gap-10">
+                <div className="max-w-2xl">
+                  <p>{t("contributePage.description1")}</p>
+                  {/* <br /> */}
+                  <br />
+                  <p>{t("contributePage.description2")}</p>
+                </div>{" "}
+                <div className="flex gap-14">
+                  <div className="flex flex-col gap-2">
+                    <div className="flex items-center gap-2">
+                      <PiCurrencyBtcFill className="size-4" />
+                      <p className="max-w-[20rem] truncate xl:max-w-[13.75rem]">
+                        <small>
+                          9a1f3a322ff119def6f220fe2bb37297b4d87e09fb93905d70dc0cf049684789b
+                        </small>
+                      </p>
+                    </div>
+                    <QrCode />
+                    {/* <img src="/svg/qrcode.svg" alt="QR Code" className="xl:w-60 xl:h-60  object-cover" /> */}
+                  </div>
+                  {/* <div className="flex  gap-2 flex-col">
                 <div className="flex items-center  gap-2">
                   <TbCoinMoneroFilled className="size-4" />
                   <p className="truncate max-w-[20rem] xl:max-w-[220px]">
@@ -186,12 +189,14 @@ export default async function ContributePage({
                 </div>
                 <QrCode />
               </div> */}
-            </div>
-          </div>
-          {/* <div className="max-xl:hidden">
+                </div>
+              </div>
+              {/* <div className="max-xl:hidden">
             <ImgSphere images={IMAGES} {...CONFIG} />
           </div> */}
-        </div>
+            </div>
+          </div>
+        </Wrapper>
       </main>
       <Footer />
     </>

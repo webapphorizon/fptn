@@ -54,7 +54,7 @@ export default async function RootLayout({ children, params }: Props) {
       className={`${roboto.variable} ${notoSans.variable} ${ubuntu.variable}`}
       suppressHydrationWarning
     >
-      <body className="mt-[4.5rem]">
+      <body className="mt-[4.5rem] flex flex-col min-h-screen ">
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider
             attribute="class"

@@ -1,3 +1,4 @@
+import Wrapper from "~/components/block/wrapper";
 import FAQSection from "~/components/sections/faq-section";
 import Footer from "~/components/sections/footer";
 import Header from "~/components/sections/header";
@@ -8,10 +9,12 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <main className="mx-auto flex max-w-[94rem] flex-col gap-20 px-4 pt-5 pb-30 md:pt-10 md:pb-40 lg:gap-10 lg:px-8">
-        <HeroSection />
-        <StepsSection />
-        <FAQSection />
+      <main className="gap-6 pt-5 pb-30 md:pt-10 md:pb-40 lg:gap-10">
+        <Wrapper>
+          <HeroSection />
+          <StepsSection />
+          <FAQSection />
+        </Wrapper>
       </main>
       <Footer />
     </>
