@@ -1,16 +1,63 @@
-"command-line-tools": "Инструменты командной строки"
-,
-  {
-    id: "command-line-tools",
-    icon: <Terminal className="h-4 w-4" />,
-    url: "<https://github.com/batchar2/fptn/releases/download/0.3.23/fptn-client-0.3.23-command-line-tools.zip>",
-  },
-,
-      "android-direct": "Android напрямую с сайта",
+# fptn
 
+Лендинг на Next.js 15 с мультиязычностью (next-intl).
 
-  {
-    id: "android-direct",
-    icon: <Smartphone className="h-4 w-4" />,
-    url: "/downloads/app-android.apk",
-  },
+## Требования
+
+- Node.js 20+
+- npm
+
+## Как запустить
+
+### 1. Установка зависимостей
+
+```bash
+npm install
+```
+
+### 2. Переменные окружения (опционально)
+
+Файл `.env` не обязателен для локального запуска. Если нужен свой базовый URL для sitemap/robots:
+
+```bash
+cp .env.example .env
+# Отредактируйте .env при необходимости (NEXT_PUBLIC_BASE_URL и т.д.)
+```
+
+Для сборки без валидации env (например, в Docker):
+
+```bash
+SKIP_ENV_VALIDATION=1 npm run build
+```
+
+### 3. Режим разработки
+
+```bash
+npm run dev
+```
+
+Приложение будет доступно по адресу [http://localhost:3000](http://localhost:3000). Поддерживаются локали: en, ru, es, de, fr, it, pt, cn, jp, kr.
+
+### 4. Продакшен-сборка и запуск
+
+```bash
+npm run build
+npm run start
+```
+
+Либо одной командой (сборка + старт):
+
+```bash
+npm run preview
+```
+
+## Полезные команды
+
+| Команда           | Описание                          |
+|-------------------|-----------------------------------|
+| `npm run dev`     | Сервер разработки с hot reload   |
+| `npm run build`   | Продакшен-сборка                 |
+| `npm run start`   | Запуск собранного приложения     |
+| `npm run lint`    | Проверка ESLint                  |
+| `npm run typecheck` | Проверка типов TypeScript      |
+| `npm run check`   | lint + typecheck                 |
