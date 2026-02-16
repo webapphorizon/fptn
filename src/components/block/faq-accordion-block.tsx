@@ -47,6 +47,7 @@ const FAQAccordionBlock = ({ questions }: FAQAccordionBlockProps) => {
             <AccordionContent>
               <p className="text-muted-foreground">
                 {t.rich(`questions.${index}.answer`, {
+                  br: () => <br />,
                   telegramBot: (chunks) => (
                     <CustomLink
                       href={tLinks("socials.telegramBotUrl")}
@@ -55,7 +56,6 @@ const FAQAccordionBlock = ({ questions }: FAQAccordionBlockProps) => {
                       {chunks}
                     </CustomLink>
                   ),
-                  br: () => <br />,
                   telegramChannel: (chunks) => (
                     <CustomLink
                       href={tLinks("socials.telegramChannelUrl")}

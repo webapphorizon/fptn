@@ -23,7 +23,7 @@ export async function generateMetadata({
   };
 }
 
-const roboto = Roboto({
+const roboto = Roboto({ 
   subsets: ["cyrillic", "latin"],
   variable: "--font-roboto-sans",
   weight: ["400", "600", "700", "900"],
